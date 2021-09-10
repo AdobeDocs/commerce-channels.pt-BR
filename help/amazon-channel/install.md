@@ -1,0 +1,93 @@
+---
+title: Instalar a extensão
+description: Para integrar seu  [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] e vender por meio do [!DNL Amazon Marketplace], baixe e instale a extensão do Amazon Sales Channel.
+exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
+source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 0%
+
+---
+
+# Instalar a extensão
+
+>[!IMPORTANT]
+>
+>Somente as versões [!DNL Amazon Sales Channel] da extensão 4.0+ são compatíveis com as versões Adobe Commerce e Magento Open Source 2.4.x. Se estiver executando uma versão 2.3.x, consulte a documentação do [canal de vendas compatível do Amazon release](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. Para obter mais informações sobre compatibilidade de versões, consulte a página [Disponibilidade](https://devdocs.magento.com/release/availability.html){target=&quot;_blank&quot;} na documentação do desenvolvedor.
+
+A extensão [!UICONTROL Amazon Sales Channel] instala e adiciona recursos para integrar seu catálogo do Commerce com [!DNL Amazon Seller Accounts] para vender por meio do [!DNL Amazon Marketplace]. Para revisar informações adicionais, consulte a página [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) em [!DNL Commerce Marketplace] e as [notas de versão](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) na documentação do desenvolvedor.
+
+## Requisitos
+
+- **Instância** de comércio: A  [!DNL Amazon Sales Channel] extensão pode ser instalada em instâncias com Magento Open Source, Adobe Commerce e Adobe Commerce na infraestrutura em nuvem versão 2.3.x ou posterior. Não é mais compatível com versões 2.1, 2.2 ou 1.x.
+- **Conta** Web de comércio: Você deve ter uma conta da Web do Commerce, usada para criar e rastrear uma chave de API.
+- **Chave** da API: Crie uma chave de API do canal de vendas da Amazon por meio de sua conta da Web do Commerce. As instruções a seguir incluem essas etapas.
+
+## Instalar
+
+Para obter informações mais detalhadas sobre o uso do Composer nesse processo, consulte as instruções [extension installation](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} na documentação do desenvolvedor.
+
+1. Faça logon no [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}.
+
+1. Clique na guia **[!UICONTROL Marketplace]** e depois em **[!UICONTROL My Purchases]**.
+
+1. Localize e selecione **[!UICONTROL Amazon Sales Channel]**.
+
+1. Na página de extensão, selecione a versão .
+
+1. Para o nome e a versão do componente, clique em **[!UICONTROL Technical Details]**.
+
+1. Use as informações de nome e versão para atualizar a entrada do conector de serviços em seu arquivo `composer.json`.
+
+   - Adicione o nome e a versão da extensão ao arquivo `composer.json`.
+
+   - Navegue até o diretório do projeto [!DNL Commerce] e atualize seu arquivo `composer.json`.
+
+   ```bash
+   composer require magento/services-connector:~1.0.3
+   ```
+
+   - Insira suas [chaves de autenticação](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}. Sua chave pública é seu nome de usuário; sua chave privada é sua senha.
+
+   - Aguarde até que o Composer conclua a atualização das dependências do projeto e verifique se não há erros.
+
+
+1. [Verifique a extensão](https://devdocs.magento.com/extensions/install/#verify-the-extension){target=&quot;_blank&quot;}.
+
+## Adicionar a chave da API do canal de vendas do Amazon
+
+Depois de instalar, insira uma [Chave da API](./amazon-verify-api-key.md) para concluir a configuração.
+
+## Definir as opções de configuração do canal Amazon
+
+Você tem as seguintes opções para configurar o canal de vendas da Amazon. Não é necessário modificar essas configurações para começar a integrar e vender no Amazon. Recomenda-se que os administradores avançados considerem essas opções.
+
+1. Faça logon em Admin.
+
+1. Na barra lateral _Admin_, vá para **Lojas** > _Definições_ > **Configuração**.
+
+1. Clique em **Sales Channel**, em seguida em **Definições Globais**.
+
+1. Para **Limpar Histórico de Log**, defina o intervalo para limpar os logs coletados.
+
+   As opções incluem `Once Daily`, `Once Weekly` e `Once Monthly` (padrão).
+
+1. (Opcional) Para **Tarefas em Segundo Plano (CRON) Fonte**, altere a configuração para `Command Line (CLI) CRON`.
+
+   Essa configuração é recomendada para **_usuários/administradores avançados_**.
+
+1. Clique em **[!UICONTROL Save Config]**.
+
+## Atualizar a extensão
+
+1. Faça logon no [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}.
+
+1. Clique na guia **[!UICONTROL Marketplace]** e depois em **[!UICONTROL My Purchases]**.
+
+1. Localize e selecione **[!UICONTROL Amazon Sales Channel]**.
+
+1. Na página de extensão, selecione a versão .
+
+1. Para o nome e a versão do componente, clique em **[!UICONTROL Technical Details]**.
+
+1. Conclua as [instruções de atualização da extensão](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target=&quot;_blank&quot;} na documentação do desenvolvedor.
