@@ -1,11 +1,11 @@
 ---
 title: Preço de Listagem
 description: Use as configurações de Preço de Listagem para determinar a fonte de preço e o valor de preço base (padrão) para suas listagens do Amazon.
-redirect_from: /sales-channels/asc/ob-listing-price.html: 
+redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 0
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---

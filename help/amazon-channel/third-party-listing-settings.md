@@ -1,11 +1,11 @@
 ---
 title: Listagens de terceiros
 description: Atualize as configurações de listagem de terceiros para determinar se seu catálogo de Comércio importa produtos de suas listagens existentes da Central de Vendas da Amazon.
-redirect_from: /sales-channels/asc/ob-third-party-listings.html: 
+redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 0
+source-wordcount: '519'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: Estoque/Quantidade
-description: 'Para controlar a sincronização dos detalhes da quantidade do produto da loja do Commerce com a conta  [!DNL Amazon Seller Central] , atualize as configurações de Estoque/Quantidade.'
-redirect_from: /sales-channels/asc/ob-stock-quantity.html: 
+description: Para controlar a sincronização dos detalhes da quantidade do produto da loja do Commerce com a conta  [!DNL Amazon Seller Central] , atualize as configurações de Estoque/Quantidade.
+redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: Configurações gerais da regra de preços
 description: Use as configurações gerais da regra de preço para definir as características principais de uma regra de preço de listagem.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 0
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Defina o nome, a descrição, as datas ativas e a prioridade da regra.
 
 1. Para **[!UICONTROL Discard Subsequent Rules]**, escolha uma opção:
 
-   - `Yes` - Escolha essa opção quando não quiser que outras regras de preços que possam se aplicar a um produto sejam aplicadas. Descartar regras subsequentes significa que, se várias regras de preços se aplicarem ao mesmo produto, somente a regra de preços com o valor de prioridade definido mais alto será aplicada ao produto. Essa opção impede que várias regras de preços sejam empilhadas e oferece descontos adicionais e não intencionais.
+   - `Yes` - Escolha essa opção quando não desejar que outras regras de preços que possam se aplicar a um produto sejam aplicadas. Descartar regras subsequentes significa que, se várias regras de preços se aplicarem ao mesmo produto, somente a regra de preços com o valor de prioridade definido mais alto será aplicada ao produto. Essa opção impede que várias regras de preços sejam empilhadas e oferece descontos adicionais e não intencionais.
 
    - `No` - Escolha essa opção quando quiser permitir que várias regras de preços sejam aplicadas ao mesmo produto. Essa opção pode resultar no empilhamento e no fornecimento de vários descontos a serem aplicados.
 
