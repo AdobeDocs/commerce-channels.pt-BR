@@ -4,7 +4,7 @@ description: A Análise de preço competitivo exibe suas listagens da Amazon por
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

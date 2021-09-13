@@ -4,7 +4,7 @@ description: Antes de concluir o processo de integração do canal de vendas da 
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

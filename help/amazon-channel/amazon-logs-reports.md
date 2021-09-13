@@ -4,7 +4,7 @@ description: Use os registros e relatórios de loja para ver o que está acontec
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

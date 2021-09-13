@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-business-pricing.html:
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: 0
 ht-degree: 0%
 
 ---

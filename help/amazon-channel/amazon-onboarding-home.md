@@ -5,7 +5,7 @@ redirect_from: /sales-channels/amazon/amazon-onboarding-home.html:
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 0
 ht-degree: 0%
 
 ---

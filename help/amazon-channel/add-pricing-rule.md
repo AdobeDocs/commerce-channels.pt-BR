@@ -4,7 +4,7 @@ description: Use as regras de preços para gerenciar os preços da listagem no A
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-catalog-search.html:
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: 0
 ht-degree: 0%
 
 ---

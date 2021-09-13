@@ -4,7 +4,7 @@ description: Após concluir o processo de integração do canal de vendas da Ama
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

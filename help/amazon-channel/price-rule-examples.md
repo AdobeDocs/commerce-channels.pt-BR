@@ -4,8 +4,8 @@ description: Para ajudar você a projetar suas regras de preços para listagens 
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -4,7 +4,7 @@ description: Use as configurações de preço mínimo para determinar o preço m
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ Neste exemplo, o preço mínimo é definido como 3% acima do custo do item.
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Floor Price Source] | Escolha o atributo [!DNL Commerce] que indica o limite mínimo relativo (preço mais baixo). Por exemplo, se você não quiser que o preço da listagem do Amazon fique abaixo do custo do item, escolha o atributo `Cost`. |
-| [!UICONTROL Floor Price Action] | Escolha uma ação de ajuste de preço. Opções:<ul><li>**[!UICONTROL Decrease By]** - Escolha quando deseja que o  _[!UICONTROL Floor Price Source]_valor definido seja ajustado para baixo, criando um preço mínimo para a regra, antes de listar para a Amazon.</li><li>**[!UICONTROL Increase By]** - Escolha quando deseja ajustar o  _[!UICONTROL Floor Price Source]_valor definido, criando um preço mínimo mais alto para a regra, antes de listar para a Amazon.</li><li>**[!UICONTROL Match]** - Escolha quando você não deseja que o preço da listagem flutue abaixo do  _[!UICONTROL Floor Price Source]_valor definido. Quando escolhidos, os campos_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_são desativados.</li></ul> |
+| [!UICONTROL Floor Price Action] | Escolha uma ação de ajuste de preço. Opções:<ul><li>**[!UICONTROL Decrease By]** - Escolha quando deseja ajustar o  _[!UICONTROL Floor Price Source]_valor definido, criando um preço mínimo para a regra, antes de listar para a Amazon.</li><li>**[!UICONTROL Increase By]** - Escolha quando deseja ajustar o  _[!UICONTROL Floor Price Source]_valor definido, criando um preço mínimo mais alto para a regra, antes de listar para a Amazon.</li><li>**[!UICONTROL Match]** - Escolha quando você não deseja que o preço da listagem flutue abaixo do  _[!UICONTROL Floor Price Source]_valor definido. Quando escolhidos, os campos_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_são desativados.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Um ajustamento percentual em relação ao  _[!UICONTROL Floor Price Source]_valor. |
 | [!UICONTROL Floor Adjustment Amount] | Insira o valor numérico da porcentagem para ajustar seu valor _[!UICONTROL Floor Price Source]_. |

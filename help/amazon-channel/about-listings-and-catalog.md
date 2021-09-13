@@ -4,7 +4,7 @@ description: O canal de vendas da Amazon importa suas listagens do Amazon para o
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

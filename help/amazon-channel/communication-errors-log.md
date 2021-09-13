@@ -4,7 +4,7 @@ description: O Log de erros de comunicação exibe todos os erros de comunicaç�
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

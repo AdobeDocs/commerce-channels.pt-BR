@@ -4,7 +4,7 @@ description: Veja os detalhes dos seus pedidos do Amazon Marketplace no Adobe Co
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

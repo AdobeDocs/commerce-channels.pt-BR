@@ -4,7 +4,7 @@ description: À medida que você gerencia as listas do Amazon, pode aplicar uma 
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

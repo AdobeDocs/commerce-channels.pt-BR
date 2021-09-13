@@ -4,7 +4,7 @@ description: Verifique os valores dos atributos do Commerce vinculados para sinc
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

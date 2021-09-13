@@ -4,7 +4,7 @@ description: O canal de vendas da Amazon fornece a guia Ativo para monitorar as 
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

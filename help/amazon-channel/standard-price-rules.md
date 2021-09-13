@@ -4,7 +4,7 @@ description: Use as ações de regra de preço padrão para aumentar ou diminuir
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

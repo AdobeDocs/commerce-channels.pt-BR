@@ -4,7 +4,7 @@ user-guide-description: Gere vendas por meio do Amazon, integrando o Adobe Comme
 breadcrumb-title: Gerente de canal para comércio
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

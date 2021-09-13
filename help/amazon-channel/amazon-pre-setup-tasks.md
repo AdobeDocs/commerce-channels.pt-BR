@@ -4,7 +4,7 @@ description: Revise as tarefas necessárias a serem concluídas antes de integra
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

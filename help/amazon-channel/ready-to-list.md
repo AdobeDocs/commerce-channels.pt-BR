@@ -4,7 +4,7 @@ description: O canal de vendas Amazon fornece a guia Ready to List para ajudar v
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

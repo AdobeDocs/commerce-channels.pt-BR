@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-product-listing-actions.html:
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 0
 ht-degree: 0%
 
 ---

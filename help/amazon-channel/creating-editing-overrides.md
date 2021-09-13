@@ -4,7 +4,7 @@ description: Use as substituições do Sales Channel do Amazon para aplicar suas
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

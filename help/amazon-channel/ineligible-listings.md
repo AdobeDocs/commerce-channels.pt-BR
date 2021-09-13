@@ -4,7 +4,7 @@ description: O canal de vendas do Amazon fornece a guia [!UICONTROL Ineligible] 
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ description: Antes de iniciar o processo de integração, você deve criar (adic
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

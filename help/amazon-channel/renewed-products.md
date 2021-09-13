@@ -4,7 +4,7 @@ description: Se sua conta do Seller Central estiver registrada para o Programa R
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ description: Gerencie novas listagens do Amazon ao vinculá-las a um produto em 
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

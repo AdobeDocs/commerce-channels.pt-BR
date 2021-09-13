@@ -4,7 +4,7 @@ description: Veja seus pedidos do Amazon Marketplace no Adobe Commerce ou no Mag
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

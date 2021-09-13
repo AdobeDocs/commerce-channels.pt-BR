@@ -4,7 +4,7 @@ description: O Amazon Sales Channel fornece o Log de alterações de listagem pa
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

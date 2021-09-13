@@ -4,7 +4,7 @@ description: Ao criar suas regras de listagem, defina as condições para identi
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

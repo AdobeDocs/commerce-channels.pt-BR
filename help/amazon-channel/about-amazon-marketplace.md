@@ -4,7 +4,7 @@ description: Amplie o alcance da sua loja de Adobe Commerce ou Magento Open Sour
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -4,8 +4,8 @@ description: O canal de vendas da Amazon aplica priorização ao determinar o pr
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

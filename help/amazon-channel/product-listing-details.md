@@ -4,7 +4,7 @@ description: Para entender métricas competitivas em suas listas do Amazon e em 
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

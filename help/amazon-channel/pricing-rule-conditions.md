@@ -5,7 +5,7 @@ redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html:
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 0
 ht-degree: 0%
 
 ---

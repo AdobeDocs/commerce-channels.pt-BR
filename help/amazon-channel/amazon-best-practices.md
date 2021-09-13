@@ -4,7 +4,7 @@ description: Revise as práticas recomendadas e limitações ao usar o canal de 
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ description: Você pode gerenciar o mapeamento dos atributos de produto do Comme
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
