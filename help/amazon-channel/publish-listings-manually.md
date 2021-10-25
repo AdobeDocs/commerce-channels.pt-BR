@@ -4,7 +4,7 @@ description: Quando necessário, você pode publicar manualmente as listagens do
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Você pode publicar manualmente uma ou mais listagens do Amazon que foram encerradas.
 
-1. Exiba uma ou mais listagens na guia _[!UICONTROL Ended]_na página [Listagens de Produtos](./managing-product-listings.md) (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou_[!UICONTROL Ineligible]_ guia).
+1. Exibir uma ou mais listagens na _[!UICONTROL Ended]_na guia [Listas de produtos](./managing-product-listings.md) página (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou_[!UICONTROL Ineligible]_ ).
 
 1. Na coluna à esquerda, clique em para verificar cada uma das listagens que deseja republicar.
 
@@ -23,4 +23,4 @@ Você pode publicar manualmente uma ou mais listagens do Amazon que foram encerr
 
    Uma mensagem é exibida para confirmar que as listagens selecionadas estão sendo processadas para publicação no Amazon.
 
-   As informações de listagem são publicadas no Amazon com base nas configurações de cron. As informações de listagem são enviadas ao Amazon na próxima sincronização de dados. Até que o Amazon responda com a confirmação da listagem, as listagens publicadas manualmente permanecem na guia _Pronto para listar_ com um status `List in Progress`. Quando a confirmação da listagem é recebida do Amazon, as listagens são movidas para a guia _Ative_ com um status `Active`.
+   As informações de listagem são publicadas no Amazon com base nas configurações de cron. As informações de listagem são enviadas ao Amazon na próxima sincronização de dados. Até que a Amazon responda com a confirmação da listagem, as listagens publicadas manualmente permanecem no _Pronto para listar_ com uma `List in Progress` status. Quando a confirmação da listagem é recebida do Amazon, as listagens são movidas para o _Ativo_ com uma `Active` status.

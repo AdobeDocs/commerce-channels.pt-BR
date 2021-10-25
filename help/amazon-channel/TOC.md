@@ -1,10 +1,10 @@
 ---
 user-guide-title: Guia do usuário do Amazon Sales Channel
-user-guide-description: Gere vendas por meio do Amazon, integrando o Adobe Commerce ou o Magento Open Source com sua conta  [!DNL Amazon Seller Central] .
+user-guide-description: Gere vendas por meio da Amazon, integrando o Adobe Commerce ou o Magento Open Source com seu [!DNL Amazon Seller Central] conta.
 breadcrumb-title: Gerente de canal para comércio
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 - Integração {#onboarding}
    - [Canal de vendas integrado da Amazon](amazon-onboarding-home.md)
    - [Tarefas de pré-configuração](amazon-pre-setup-tasks.md)
-   - [Criar  [!DNL Commerce] atributos para Amazon](ob-creating-magento-attributes.md)
+   - [Criar [!DNL Commerce] atributos para Amazon](ob-creating-magento-attributes.md)
    - [Verificar a chave da API do Amazon](amazon-verify-api-key.md)
    - [Integração de loja](store-integration.md)
    - [Criar regra de listagem](ob-create-listing-rule.md)
@@ -76,13 +76,13 @@ ht-degree: 0%
       - [Exemplos de regras de preço](price-rule-examples.md)
 - Relatórios e logs {#reports-logs}
    - [Registra e armazena relatórios](amazon-logs-reports.md)
-   - Armazenar relatórios {#store-reports}
+   - Relatórios de armazenamento {#store-reports}
       - [Análise de preços competitiva](competitive-price-analysis.md)
       - [Melhorias na listagem](listing-improvements.md)
-   - Registra {#logs}
+   - Logs {#logs}
       - [Log de alterações de listagem](listing-changes-log.md)
       - [Log de erros de comunicação](communication-errors-log.md)
-- Gerenciar listagens {#admin-listings}
+- Gerenciar listas {#admin-listings}
    - [Gerenciar listas do Amazon](managing-product-listings.md)
    - Por status/guia {#status-tab}
       - [Gerenciar por status/guia](managing-listings-by-tab.md)

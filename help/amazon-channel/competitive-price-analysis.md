@@ -4,14 +4,14 @@ description: A Análise de preço competitivo exibe suas listagens da Amazon por
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # Análise de preços competitiva
 
-O relatório de Análise de preço competitivo mostra suas listagens da Amazon por marketplace com o respectivo preço [Buy Box](./buy-box-competitor-pricing.md) e os valores de preço do [concorrente mais baixo](./lowest-competitor-pricing.md). Nenhuma ação está disponível para o log. É um recurso somente para revisão.
+O relatório Análise de preço competitiva mostra suas listagens da Amazon por mercado com os respectivos [Buy Box](./buy-box-competitor-pricing.md) preço e [concorrente mais baixo](./lowest-competitor-pricing.md) valores de preço. Nenhuma ação está disponível para o log. É um recurso somente para revisão.
 
 ![Relatório de análise de preço competitivo](assets/amazon-competitive-price-analysis.png)
 
@@ -25,6 +25,6 @@ O relatório de Análise de preço competitivo mostra suas listagens da Amazon p
 | [!UICONTROL Your Landed Price] | Seu preço de listagem do produto mais seu preço de frete. |
 | [!UICONTROL Lowest Landed Price] | O menor preço de venda (listando o preço mais o preço de frete) dos concorrentes da Amazon. |
 | [!UICONTROL Condition (lowest price)] | A condição do produto listada ao preço mais baixo. |
-| [!UICONTROL Buy Box Landed Price] | O preço desembarcado (listando o preço mais o preço de frete) da listagem de [Buy Box](./buy-box-competitor-pricing.md) posição. |
+| [!UICONTROL Buy Box Landed Price] | O preço desembarcado (preço de cotação mais o preço de expedição) da [Buy Box](./buy-box-competitor-pricing.md) listagem de posições. |
 | [!UICONTROL Is Seller (Buy Box)] | Indica se você ganhou a posição de Buy Box para a listagem (NA significa que não há preço de Buy Box para a listagem). |
 | Condição (Buy Box) | A condição da listagem de Buy Box. |

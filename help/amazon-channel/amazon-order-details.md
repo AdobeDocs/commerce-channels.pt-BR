@@ -1,10 +1,10 @@
 ---
 title: Detalhes do pedido Amazon
-description: Veja os detalhes dos seus pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
+description: Veja os detalhes dos pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Exibir detalhes do pedido da Amazon
 
-1. Clique em **[!UICONTROL View Store]** no cartão de armazenamento.
+1. Clique em **[!UICONTROL View Store]** no cartão da loja.
 
-1. Na seção _[!UICONTROL Recent Orders]_, clique em um número de pedido.
+1. No _[!UICONTROL Recent Orders]_clique em um número de pedido.
 
-   A página _[!UICONTROL Amazon Order Details]_é aberta.
+   O _[!UICONTROL Amazon Order Details]_será aberta.
 
 >[!NOTE]
 >
->Se a importação de pedidos estiver ativada em [Order Settings](./order-settings.md) e o pedido for [realizado pelo Amazon (FBA)](./fulfilled-by.md), você poderá ver dados fictícios para alguns campos nos detalhes do pedido. A Amazon não envia os seguintes dados para pedidos FBA.
+>Se a importação de pedidos estiver ativada na [Configurações da ordem](./order-settings.md) e a ordem é [realizado pela Amazon (FBA)](./fulfilled-by.md), você pode ver dados de teste para alguns campos nos detalhes do pedido. A Amazon não envia os seguintes dados para pedidos FBA.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Guia Detalhes da Ordem e Entrega
 
-A guia _[!UICONTROL Order and Shipping Details]_mostra as informações detalhadas do pedido, conforme recebidas do Amazon.
+O _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pedido, conforme recebido da Amazon.
 
 >[!IMPORTANT]
 >
@@ -54,18 +54,18 @@ A guia _[!UICONTROL Order and Shipping Details]_mostra as informações detalhad
 >- `Shipping country`
 
 >
->Não se esqueça de clicar em **Salvar pedido** depois de fazer edições.
+>Não se esqueça de clicar em **Salvar pedido** após fazer edições.
 
 ![Detalhes da Ordem e Entrega](assets/amazon-order-details.png)
 
 ### Guia Itens da Ordem
 
-A guia _[!UICONTROL Order Items]_mostra todos os itens associados ao pedido do Amazon, conforme recebido do Amazon.
+O _[!UICONTROL Order Items]_mostra todos os itens associados ao pedido da Amazon, conforme recebido da Amazon.
 
 ![Detalhes do Item da Ordem](assets/amazon-order-item-details.png)
 
 ### Guia Tracking
 
-A guia _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
+O _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
 
 ![Detalhes do rastreamento](assets/amazon-order-tracking-details.png)

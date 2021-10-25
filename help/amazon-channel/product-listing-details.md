@@ -4,21 +4,21 @@ description: Para entender métricas competitivas em suas listas do Amazon e em 
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Exibir detalhes da listagem
 
-A página _[!UICONTROL Product Listing Details]_mostra informações adicionais sobre suas listas de produtos ativas, incluindo o Log de atividades de listagem , que mostra as alterações em um SKU/Produto individual. Essas informações podem ajudá-lo a entender métricas competitivas em seus produtos e sobre alterações de SKU/produto. Informações adicionais nesta página incluem:
+O _[!UICONTROL Product Listing Details]_A página mostra informações adicionais sobre as listagens de produtos ativas, incluindo o Log de atividades de listagem , que mostra as alterações em um SKU/Produto individual. Essas informações podem ajudá-lo a entender métricas competitivas em seus produtos e sobre alterações de SKU/produto. Informações adicionais nesta página incluem:
 
 - **[!UICONTROL Listing Details]** - Detalhes do produto, incluindo o SKU Nome e o vendedor da Amazon
 - **[!UICONTROL Listing Activity Log]** - Registro histórico de todas as alterações verificadas para esta listagem, tais como preços e alterações de quantidade/existências. Não são necessárias mais ações. Esse log é fornecido para análise para entender o histórico de alterações.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Dados sobre o  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) status da Amazon e os preços dos concorrentes
+- **[!UICONTROL Buy Box Competitor Pricing]** - Dados para Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preços do status e do concorrente
 - **[!UICONTROL Lowest Competitor Pricing]** - Informações sobre os preços e as informações de feedback do menor concorrente da Amazon
 
-As home pages do canal de vendas do Amazon compartilham alguns [controles do espaço de trabalho](./workspace-controls.md) comuns que permitem personalizar os dados exibidos.
+As home pages do canal de vendas da Amazon compartilham algumas informações comuns [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 
 ## Detalhes da listagem
 
@@ -45,10 +45,10 @@ __
 
 ## Preços do concorrente do Buy Box {#buy-box-competitor-pricing}
 
-Esta guia exibe informações sobre o comerciante do Amazon que mantém a posição [[!DNL Buy Box]](./buy-box-competitor-pricing.md) para a listagem. Essas informações podem ser usadas para entender o posicionamento de preços de seus concorrentes no Amazon. As informações mostradas incluem:
+Essa guia exibe informações sobre o comerciante do Amazon que detém a variável [[!DNL Buy Box]](./buy-box-competitor-pricing.md) posição para a listagem. Essas informações podem ser usadas para entender o posicionamento de preços de seus concorrentes no Amazon. As informações mostradas incluem:
 
 - ASIN: O identificador de produto Amazon de 10 dígitos.
-- É Vendedor: Identifica se você é o vendedor [!DNL Buy Box]. Opções Sim / Não.
+- É Vendedor: Identifica se você é o [!DNL Buy Box] vendedor. Opções Sim / Não.
 - Condição: Identifica a condição definida para a listagem.
 - Preço de Listagem: Identifica o preço a que a lista foi publicada.
 - Preço de Remessa: Identifica o preço de envio adicionado à lista.
@@ -59,7 +59,7 @@ Esta guia exibe informações sobre o comerciante do Amazon que mantém a posiç
 
 ## Preços dos Concorrentes Mais Baixos {#lowest-competitor-pricing}
 
-Esta guia exibe informações sobre concorrentes do Amazon para a mesma listagem. Essas informações podem ser usadas para entender o posicionamento de preços e [os preços mais baixos do concorrente](./lowest-competitor-pricing.md). As informações mostradas incluem:
+Esta guia exibe informações sobre concorrentes do Amazon para a mesma listagem. Esta informação pode ser utilizada para compreender o posicionamento dos preços e [preços mais baixos do concorrente](./lowest-competitor-pricing.md). As informações mostradas incluem:
 
 - ASIN: O identificador de produto Amazon de 10 dígitos.
 - Condição: Identifica a condição definida para a listagem.

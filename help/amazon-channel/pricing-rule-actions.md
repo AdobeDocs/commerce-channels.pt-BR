@@ -16,7 +16,7 @@ As ações de Regra de Preço definem os cálculos de ajuste que são aplicados 
 
 ## Regra de preço padrão
 
-Uma [regra de preço padrão](./standard-price-rules.md) permite aumentar ou diminuir um preço de listagem da Amazon em uma porcentagem específica ou valor fixo em dólar em relação ao preço do catálogo [!DNL Commerce] (ou fonte de preço).
+A [regra de preço padrão](./standard-price-rules.md) permite aumentar ou diminuir um preço de listagem da Amazon em uma porcentagem específica ou valor fixo do dólar em relação à variável [!DNL Commerce] preço do catálogo (ou fonte de preço).
 
 | Seção | Descrição |
 |--- |--- |
@@ -25,11 +25,11 @@ Uma [regra de preço padrão](./standard-price-rules.md) permite aumentar ou dim
 
 ## Regra de reprecificação inteligente
 
-Uma [regra de reprecificação inteligente](./intelligent-repricing-rules.md) usa os preços dos concorrentes da Amazon para determinar o preço da listagem. Os concorrentes são outros vendedores que listam os mesmos produtos que você está listando no Amazon.
+Um [regra de reprecificação inteligente](./intelligent-repricing-rules.md) O usa os preços dos concorrentes da Amazon para determinar o preço da listagem. Os concorrentes são outros vendedores que listam os mesmos produtos que você está listando no Amazon.
 
 | Seção | Descrição |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Defina o tipo de regra como `Intelligent repricing rule` juntamente com seus requisitos de Fonte de preço do concorrente e Feedback. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Defina o tipo de regra como `Intelligent repricing rule` juntamente com seus requisitos de Fonte de preço da concorrência e Feedback. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definir variações para condições do mesmo produto vendido por concorrentes. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Defina os cálculos de ajuste que são aplicados à fonte de preço para determinar o preço da listagem |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Defina seu preço mais baixo para um produto para impedir que várias regras de preços definam um preço de listagem muito baixo. |
