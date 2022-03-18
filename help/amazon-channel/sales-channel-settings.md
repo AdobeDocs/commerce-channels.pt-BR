@@ -4,7 +4,7 @@ description: Para gerenciar o registro, a fonte de cron e a sincronização das 
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
 source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---

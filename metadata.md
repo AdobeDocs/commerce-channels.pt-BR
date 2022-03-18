@@ -1,15 +1,15 @@
 ---
-solution: Adobe Commerce
+solution: Commerce,Adobe Commerce
 product: magento
 type: Documentation
 audience: end-user
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/commerce-channels.pt-BR
+git-repo: https://github.com/AdobeDocs/commerce-channels.pt-BR
 role: User
 index: true
-source-git-commit: 40eddad0931e87f917838a5feea60bfc4ef624b7
+source-git-commit: 5b113dde76327ca6b28453e33e585ee157b51f25
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Metadados para uso interno
 
-O arquivo `metadata.md` inclui metadados de nível de acordo de recompra que passam para arquivos `TOC.md` do guia do usuário no acordo de recompra. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo `TOC.md`.
+O `metadata.md` arquivo inclui metadados de nível de acordo de recompra que passam para o guia do usuário `TOC.md` arquivos no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer `TOC.md` arquivo.
 
 | metadados | o que ele faz |
 |--- |--- |

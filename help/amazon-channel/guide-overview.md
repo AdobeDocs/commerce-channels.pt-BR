@@ -6,7 +6,7 @@ seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Com
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
 source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---

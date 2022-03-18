@@ -4,7 +4,7 @@ description: Revise as notas de versão para obter informações sobre todas as 
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
 source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2090'
 ht-degree: 0%
 
 ---

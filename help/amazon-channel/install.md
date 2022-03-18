@@ -4,7 +4,7 @@ description: Para integrar a [!DNL Commerce] catálogo com [!DNL Amazon Seller A
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
 source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---

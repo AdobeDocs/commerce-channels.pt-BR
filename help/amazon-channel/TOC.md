@@ -4,8 +4,8 @@ user-guide-description: Gere vendas por meio da Amazon, integrando o Adobe Comme
 breadcrumb-title: Canal de vendas da Amazon
 source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
