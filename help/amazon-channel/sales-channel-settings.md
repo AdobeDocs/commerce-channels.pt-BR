@@ -2,9 +2,9 @@
 title: Configurações do Sales Channel
 description: Para gerenciar o registro, a fonte de cron e a sincronização das funções do canal de vendas do Amazon, atualize a configuração do Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,16 @@ Quando a variável [!DNL Amazon Sales Channel] estiver instalada, os valores pad
 1. Para **[!UICONTROL Enable Debug Logging]**, escolha `Enabled` para coletar dados de sincronização adicionais quando a solução de problemas for necessária.
 
    O registro do canal de vendas da Amazon é gravado no `{Commerce Root}/var/log/channel_amazon.log` e pode ser visualizado em [modo desenvolvedor](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. O registro só deve ser `Enabled` durante a solução de problemas e deve ser `Disabled` quando a solução de problemas for concluída.
+
+1. Para **[!UICONTROL Read-Only Mode]**, selecione `Enabled` para bloquear todas as solicitações de API de alteração de estado de saída.
+
+   Com essa configuração, as possíveis alterações são salvas, mas não enviadas, até [!UICONTROL Read-Only Mode] está desativado. O cache de configuração deve ser limpo para o Modo somente leitura para habilitar. Para reiniciar as transferências de dados, selecione `Disabled`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Read-Only Mode] O foi projetado para cópias da instância de produção, como armazenamento temporário ou controle de qualidade, e não deve ser usado na instância de produção.
+   >
+   >Quando um banco de dados é migrado para uma nova cópia da instância (detectada quando o URL de um armazenamento muda na configuração), [!UICONTROL Read-Only Mode] é ativado automaticamente.
 
 1. Clique em **[!UICONTROL Save Config]**.
 

@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Amazon Sales Channel] Guia do usuário'
-description: '[!DNL Channel manager] for Adobe Commerce provides the Amazon sales channel extension to enable merchants to seamlessly sell products in the [!DNL Amazon Marketplace].'
+title: '"[!DNL Amazon Sales Channel] Guia do usuário"'
+description: '"[!DNL Channel manager] O para Adobe Commerce fornece a extensão de canal de vendas da Amazon para permitir que os comerciantes vendam produtos sem interrupções no [!DNL Amazon Marketplace]."'
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
