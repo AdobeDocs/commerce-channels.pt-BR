@@ -1,13 +1,13 @@
 ---
 title: Instalar [!DNL Channel Manager]
 description: Instale a extensão do Gerenciador de canais.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Instalar o Gerenciador de Canais
 
@@ -15,7 +15,7 @@ Revise o [pré-requisitos](onboard.md#prerequisites) e reúna as informações n
 
 ## Atualizar configuração de estabilidade mínima
 
-Antes de instalar a extensão, você deve atualizar o `minimum-stability` no seu `composer.json` para que você possa instalar versões anteriores do Gerenciador de canais usando o Composer.
+Antes de instalar a extensão, atualize o `minimum-stability` no seu `composer.json` para que você possa instalar versões anteriores do Gerenciador de canais usando o Composer.
 
 Para atualizar a configuração, adicione as seguintes linhas na `composer.json` arquivo.
 
@@ -28,7 +28,7 @@ Para atualizar a configuração, adicione as seguintes linhas na `composer.json`
 
 ## Instalar a extensão
 
-As instruções de instalação dependem se você está instalando o Gerenciador de Canais em uma instância do Commerce local ou na nuvem:
+As instruções de instalação do Gerenciador de canais dependem do Adobe Commerce ou Magento Open Source ser implantado no local ou na infraestrutura de nuvem.
 
 - Instalar em um [Instância no local](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Trabalhe em uma ramificação de desenvolvimento ao adicionar uma extensão à i
 
 Para obter ajuda com o uso de ramificações, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} na documentação do desenvolvedor do Adobe Commerce.
 
-Ao instalar uma extensão, o nome da extensão (&lt;vendorname>\_&lt;componentname>) é inserido automaticamente no [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)Arquivo {target=&quot;_blank&quot;}. Não é necessário editar o arquivo diretamente.
+Durante a instalação, o nome da extensão (`&lt;VendorName>\_&lt;ComponentName>`) é inserido automaticamente no [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)Arquivo {target=&quot;_blank&quot;}. Não é necessário editar o arquivo diretamente.
 
 1. Na estação de trabalho local, altere para o diretório raiz do projeto Cloud.
 
-1. Crie ou faça check-out de uma ramificação de desenvolvimento. Consulte [ramificação](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. Com o nome do Composer, adicione a extensão ao `require` seção do arquivo composer.json.
+1. Criar ou fazer check-out de um desenvolvimento [ramificação](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. Com o nome do Composer, adicione a extensão ao `require` da seção `composer.json` arquivo.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ Ao instalar uma extensão, o nome da extensão (&lt;vendorname>\_&lt;componentna
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. Depois que a build e a implantação forem concluídas, use o SSH para fazer logon no ambiente remoto e verificar se a extensão foi instalada corretamente.
@@ -197,7 +198,7 @@ Verifique a configuração da chave:
    $ cat /path/to/auth.json
    ```
 
-1. Verifique se as credenciais no auth.json correspondem[ as chaves associadas à MAGE ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} usado para registrar-se no serviço Gerenciador de Canais.
+1. Verifique se as credenciais no auth.json correspondem [as chaves associadas à MAGE ID](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} usado para registrar-se no serviço Gerenciador de Canais.
 
 ### Memória insuficiente para PHP
 
@@ -223,6 +224,14 @@ Use qualquer um dos métodos a seguir para resolver o problema de memória:
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Vista ausente
+
+Se você receber um erro sobre um ausente `process_catalog_exporter_view` durante a instalação do Gerenciador de canais, tente [atualizar os indexadores](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Erros de implantação na nuvem
 
-Para problemas ao implantar a extensão na nuvem, consulte[falha na implantação de extensão](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Para problemas ao implantar a extensão na nuvem, consulte [falha na implantação de extensão](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
