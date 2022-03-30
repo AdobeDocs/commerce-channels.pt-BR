@@ -75,8 +75,8 @@ Você precisa das seguintes informações do Walmart para integrar o Commerce ao
 
    * Defina as permissões conforme mostrado na tabela a seguir. Para obter detalhes, consulte [Credenciais da API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) no *Ajuda do vendedor do Walmart*.
 
-|    **Configuração de chave de API do Adobe para Walmart**
-| **Permissão** | **Configuração** | |—|—| | Conteúdo | Acesso total | | Obter feeds | Somente visualização | | Inventário | Acesso total | | Rubricas | Acesso total | | Atraso | Acesso total | | Ordem | Acesso total | | Preço | Acesso total | | Relatórios | Somente visualização | | Devoluções | Acesso total | | Regras | Acesso total | | Transporte | Acesso total |
+&#x200B;|    **Configuração de chave de API do Adobe para Walmart**
+&#x200B;| **Permissão** | **Configuração** | |—|—| | Conteúdo | Acesso total | | Obter feeds | Somente visualização | | Inventário | Acesso total | | Rubricas | Acesso total | | Atraso | Acesso total | | Ordem | Acesso total | | Preço | Acesso total | | Relatórios | Somente visualização | | Devoluções | Acesso total | | Regras | Acesso total | | Transporte | Acesso total |
 
 ## Status da loja no Walmart Marketplace
 
