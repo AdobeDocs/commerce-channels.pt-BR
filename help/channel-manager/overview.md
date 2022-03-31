@@ -4,9 +4,9 @@ description: Saiba como instalar e usar o [!DNL Channel Manager] para integrar A
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ Você precisa das seguintes informações do Walmart para integrar o Commerce ao
 
    * Defina as permissões conforme mostrado na tabela a seguir. Para obter detalhes, consulte [Credenciais da API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) no *Ajuda do vendedor do Walmart*.
 
-&#x200B;|    **Configuração de chave de API do Adobe para Walmart**
-&#x200B;| **Permissão** | **Configuração** | |—|—| | Conteúdo | Acesso total | | Obter feeds | Somente visualização | | Inventário | Acesso total | | Rubricas | Acesso total | | Atraso | Acesso total | | Ordem | Acesso total | | Preço | Acesso total | | Relatórios | Somente visualização | | Devoluções | Acesso total | | Regras | Acesso total | | Transporte | Acesso total |
+   **Configuração de chave de API do Adobe para Walmart**
+
+   | **Permissão** | **Configuração** |
+   |----------------|-------------|
+   | Conteúdo | Acesso completo |
+   | Obter feeds | Exibir somente |
+   | Inventário | Acesso completo |
+   | Itens | Acesso completo |
+   | Tempo de atraso | Acesso completo |
+   | Pedido | Acesso completo |
+   | Preço | Acesso completo |
+   | Relatórios | Exibir somente |
+   | Devoluções | Acesso completo |
+   | Regras | Acesso completo |
+   | Envio | Acesso completo |
 
 ## Status da loja no Walmart Marketplace
 
