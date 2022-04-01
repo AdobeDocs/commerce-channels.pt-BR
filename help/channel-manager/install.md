@@ -2,7 +2,7 @@
 title: Instalar [!DNL Channel Manager]
 description: Instale a extensão do Gerenciador de canais.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -178,7 +178,6 @@ Use as informações a seguir para resolver erros que ocorrem durante o processo
 ### Chaves do Composer Incorretas
 
 Se a variável [chaves de acesso](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} usado para autenticar no repositório do Composer são inválidos ou não estão vinculados ao [!DNL MAGE ID] usado para se inscrever na [!DNL Channel Manager] , o seguinte erro é exibido.
-
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
