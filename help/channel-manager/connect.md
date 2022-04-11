@@ -1,17 +1,18 @@
 ---
-title: Conectar-se aos Commerce Services
-description: Conecte a instância do Gerenciador de Canais a [!DNL Commerce services] para permitir a sincronização e a comunicação de dados entre a instância do Commerce, o Gerenciador de Canais e outros serviços de suporte.
+title: Conectar-se a [!DNL Commerce] serviços
+description: Conectar o Gerenciador de Canais ao [!DNL Commerce] para permitir a sincronização e a comunicação de dados entre a [!DNL Commerce] instância, Gerenciador de canais e outros serviços de suporte.
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Conectar-se aos Commerce Services
+
+# Conectar-se a [!DNL Commerce] serviços
 
 O Commerce Services Connector integra o serviço Channel Manager às instâncias do Adobe Commerce e do Magento Open Source. O conector permite a sincronização de dados e a comunicação entre a [!DNL Commerce] instância, [!DNL Channel Manager]e outros serviços de apoio.
 
@@ -21,12 +22,13 @@ A configuração do Commerce Services Connector é um processo único necessári
 
 - **Conta comercial**-Para instalar o software nas instâncias do Commerce, você deve ter uma conta com acesso de Proprietário ou Administrador à plataforma do Commerce.
 
-   Os proprietários da conta e os usuários administradores podem criar novas contas de administrador a partir da instância de Comércio ou da linha de comando usando a [!DNL Commerce] comando CLI `admin:user:create`.
+   Os proprietários da conta e os usuários administradores podem criar contas de administrador a partir da instância de Comércio ou da linha de comando usando a [!DNL Commerce] comando CLI `admin:user:create`.
 
 - **Chave da API de produção do Adobe Commerce**-Este [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} habilita o acesso da API a serviços exigidos pelo Gerenciador de canais. Você precisa das credenciais públicas e privadas para essa chave.
 
-   Para fornecer as credenciais, um titular de licença do Commerce ou um proprietário de conta tem opções para
-   [compartilhar acesso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, ou dar a variável [Chave da API](https://docs.magento.com/user-guide/system/saas.html#apikey)Credenciais do {target=&quot;_blank&quot;} para um desenvolvedor confiável.
+>[!TIP]
+>
+>Para fornecer as credenciais, um titular de licença do Commerce ou um proprietário de conta tem opções para [compartilhar acesso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, ou dar a variável [Chave da API](https://docs.magento.com/user-guide/system/saas.html#apikey)Credenciais do {target=&quot;_blank&quot;} para um desenvolvedor confiável.
 
 ## Configurar o Conector de serviços do Commerce
 
@@ -34,7 +36,7 @@ A configuração do Commerce Services Connector é um processo único necessári
 
    - Em Admin, selecione **[!UICONTROL Stores]**.
 
-   - Em *Configurações*, selecione **[!UICONTROL Configuration]**.
+   - Em *[!UICONTROL Settings]*, selecione **[!UICONTROL Configuration]**.
 
    - Expandir **[!UICONTROL Services]** e selecione **[!UICONTROL Commerce Services Connector]**.
 

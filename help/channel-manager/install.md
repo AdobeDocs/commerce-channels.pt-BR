@@ -2,14 +2,15 @@
 title: Instalar [!DNL Channel Manager]
 description: Instale a extensão do Gerenciador de canais.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Instalar o Gerenciador de Canais
+
+# Instalar [!DNL Channel Manager]
 
 Revise o [pré-requisitos](onboard.md#prerequisites) e reúna as informações necessárias antes de instalar o Gerenciador de canais.
 
@@ -42,7 +43,7 @@ Ambos os métodos exigem o uso da CLI (Command Line Interface, interface de linh
 
 ### Instalar em uma instância local
 
-Use estas instruções para instalar nas plataformas Adobe Commerce e Magento Open Source.
+Use estas instruções para instalar [!DNL Channel Manager] no Adobe Commerce e no Magento Open Source para uma instância no local.
 
 1. Faça logon no [!DNL Commerce] como um [usuário com permissões](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} para gravar no [!DNL Commerce] sistema de arquivos.
 
@@ -126,7 +127,7 @@ Trabalhe em uma ramificação de desenvolvimento ao adicionar uma extensão à i
 
 Para obter ajuda com o uso de ramificações, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} na documentação do desenvolvedor do Adobe Commerce.
 
-Durante a instalação, o nome da extensão (`&lt;VendorName>\_&lt;ComponentName>`) é inserido automaticamente no [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)Arquivo {target=&quot;_blank&quot;}. Não é necessário editar o arquivo diretamente.
+Durante a instalação, o nome da extensão (`magento\channel-manager`) é inserido automaticamente no [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data)Arquivo {target=&quot;_blank&quot;}. Não é necessário editar o arquivo diretamente.
 
 1. Na estação de trabalho local, altere para o diretório raiz do projeto Cloud.
 
@@ -158,7 +159,7 @@ Durante a instalação, o nome da extensão (`&lt;VendorName>\_&lt;ComponentName
    $ git push origin <branch-name>
    ```
 
-1. Depois que a build e a implantação forem concluídas, use o SSH para fazer logon no ambiente remoto e verificar se a extensão foi instalada corretamente.
+1. Depois que o processo de criação e implantação for concluído, use o SSH para fazer logon no ambiente remoto e verificar se a extensão foi instalada corretamente.
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Durante a instalação, o nome da extensão (`&lt;VendorName>\_&lt;ComponentName
    Module is enabled
    ```
 
-1. Depois que a instalação for concluída com êxito, faça logon no [!UICONTROL Admin] para [configurar o Conector de serviços do Commerce](connect.md).
+1. Depois de instalar a extensão com êxito, faça logon no [!UICONTROL Admin] para [configurar o Conector de serviços do Commerce](connect.md).
 
    >[!NOTE]
    >

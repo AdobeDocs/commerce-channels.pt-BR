@@ -1,15 +1,16 @@
 ---
-title: Configurar correspondência de produto
+title: Configurar correspondência de produtos
 description: Mapear atributos para corresponder produtos do Commerce às listas existentes do Walmart
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 
-# Configurar correspondência de produto
+# Configurar correspondência de produtos
 
 Antes de publicar a listagem no Walmart Marketplace, mapeie pelo menos um identificador exclusivo dos atributos do catálogo de produtos para um dos identificadores de produtos Walmart necessários. Esta etapa é necessária para corresponder produtos no Walmart Marketplace.
 
@@ -28,7 +29,7 @@ Se você tiver um tipo diferente de atributo de ID de produto em seu catálogo, 
 
 ## Definir configurações de atributo do produto
 
-1. Na página de listagem de produtos do canal de vendas conectado, selecione um ou mais produtos em *Rascunho* status.
+1. No [!UICONTROL Listings] para o canal de vendas conectado, selecione um ou mais produtos em *Rascunho* status.
 
 1. Selecionar **[!UICONTROL Settings]**.
 
