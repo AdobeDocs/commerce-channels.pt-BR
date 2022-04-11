@@ -4,9 +4,9 @@ description: Conecte sua instância ao [!DNL Channel Manager] concluindo algumas
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Após concluir a integração, configure e gerencie as operações dos canais de
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [Composer 1.x ou posterior](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+- [[!DNL Amazon Sales Channel] versão 4.4.2 ou posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se você ativou [!DNL Amazon Sales Channel] para seu [!DNL Commerce] sites, verifique se seu [!DNL Commerce] a plataforma tem a versão 4.42 instalada antes da instalação [!DNL Channel Manager].
+- [!DNL Inventory Management]
 
 
 ### Plataformas compatíveis
