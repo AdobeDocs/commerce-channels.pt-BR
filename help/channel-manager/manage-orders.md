@@ -1,13 +1,13 @@
 ---
 title: Gerenciar pedidos do Walmart Marketplace
 description: Exibir e gerenciar [!DNL Walmart Marketplace] ordens com [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciar pedidos do Walmart Marketplace
 
@@ -44,8 +44,8 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 
 **Descrições das colunas**
 
-| **Campo** | **Descrição** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Campo | Descrição |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | O número da ordem de compra atribuído ao pedido na [!DNL Walmart Marketplace]. Quando um pedido é importado inicialmente para [!DNL Channel Manager], somente o número de pedido do Walmart é exibido. Quando a variável [!DNL Commerce] a ordem é criada, a variável [!DNL Walmart] o número do pedido é armazenado na variável [!UICONTROL External ID] atributo do produto. |
 | [!DNL Commerce]  Número do pedido | O número atribuído ao [!DNL Commerce]  pedido criado a partir do [!DNL Walmart Marketplace] ordem. |
 | Itens | Número de itens pedidos em [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 
    Depois que o cancelamento do pedido for concluído, a variável [!DNL Commerce] atualizações de quantidade de estoque para refletir os itens retornados. Então, [!DNL Channel Manager] sincroniza a atualização com o [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**-Pedidos reembolsados pela [!DNL Commerce] armazenar.
+* **[!UICONTROL Refunded]**-Pedidos reembolsados pela [!DNL Commerce] armazenar.
+
    Depois que a restituição for concluída, a [!DNL Commerce] atualizações de quantidade de estoque para refletir os itens reembolsados. Então, [!DNL Channel Manager] sincroniza a atualização com o [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Pedidos que não foram importados para o repositório de pedidos devido a informações ausentes ou outros problemas.
 
    Para ver os detalhes da mensagem de erro, passe o mouse sobre *[!UICONTROL Error]* indicador de status. Depois que você resolver o erro, a ordem é atualizada automaticamente para exibir as informações e o status atuais.
-
