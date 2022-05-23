@@ -2,9 +2,9 @@
 title: Publicar listas no Walmart
 description: Publique listas de produtos do Commerce no Walmart Marketplace para começar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Geralmente, as ofertas de produto com os preços mais baixos aparecem primeiro n
 
 ## Produtos correspondentes
 
-Quando você corresponde produtos, o Gerenciador de canais envia os dados do produto para o [!DNL Walmart Marketplace] para procurar listas existentes com valores de atributo que correspondam ao atributo de produto Comércio mapeado. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-product-attributes-for-matching.md) para o seu canal de loja.
+Quando você corresponde produtos, o Gerenciador de canais envia os dados do produto para o [!DNL Walmart Marketplace] para procurar listas existentes com valores de atributo que correspondam ao atributo de produto Comércio mapeado. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-catalog-attributes.md) para o seu canal de loja.
 
 Se uma correspondência for encontrada, a lista de produtos existente será atualizada para adicionar sua oferta.
 
 ### Pré-requisitos
 
-Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos. Consulte [Configurar correspondência de produtos](map-product-attributes-for-matching.md).
+Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos. Consulte [Mapear atributos do catálogo](map-catalog-attributes.md).
 
 #### Selecionar e combinar produtos
 
@@ -54,15 +54,15 @@ Após a conclusão da correspondência, o status pode ser *Corresponder* ou *Err
 
 * **[!UICONTROL Match]** indica que o produto foi correspondido com êxito. Sua oferta de produto foi publicada em uma lista existente do Walmart. Se a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* é exibido no *[!UICONTROL Status detail]* coluna.
 
-Se o seu [[!DNL Walmart Marketplace] o armazenamento não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), o *Detalhes do status* indica que o produto é *Preparado para correspondência*. Os produtos preparados são publicados automaticamente assim que a variável [!DNL Walmart Marketplace] a loja está ativada.
+Se o seu [[!DNL Walmart Marketplace] o armazenamento não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), o *Detalhes do status* indica que o produto é *Preparado para correspondência*. Os produtos preparados são publicados automaticamente quando a variável [!DNL Walmart Marketplace] a loja está ativada.
 
-* **[!UICONTROL Error]** indica uma das seguintes opções:
+* **[!UICONTROL Error]** indica que a operação de correspondência falhou devido a um dos seguintes problemas:
 
-   * Ocorreu um erro e a operação de correspondência falhou.
+   * [!DNL Channel Manager] não foi possível enviar para correspondência devido a um problema de conexão.
 
    * Nenhuma correspondência foi encontrada.
 
-   * Correspondência encontrada, mas a listagem não pode ser publicada devido a um erro retornado do Walmart Marketplace.  falta um atributo ou é publicado como preparado porque a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Correspondência encontrada, mas a listagem não pode ser publicada porque [!DNL Walmart Marketplace] retornou um código de erro. Consulte *Detalhes do status** para a descrição do erro.
 
 ### Verificar listagem no Walmart
 
@@ -116,7 +116,7 @@ Para obter novas listas de produtos, verifique seu catálogo de produtos para ga
 
 ### Pré-requisitos
 
-* Verifique se você atende à [Pré-requisitos Walmart](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Verifique se você atende à [Pré-requisitos Walmart](walmart-prerequisites.md).
 
 * No catálogo de produtos do Commerce, verifique se a configuração de catálogo dos produtos a serem listados no Walmart Marketplace tem todos os atributos necessários e cumpre as Diretrizes de Conteúdo do Walmart Marketplace .
 

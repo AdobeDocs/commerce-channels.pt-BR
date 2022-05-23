@@ -2,7 +2,7 @@
 title: Gerenciar Listagens
 description: Gerenciar listas de canais de vendas de um [!DNL Commerce] armazene com o Channel Manager para Adobe Commerce e Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -43,15 +43,15 @@ Você pode concluir as seguintes tarefas na exibição em Lista.
 
 Crie o sortimento de produto para o canal Walmart com as seguintes tarefas:
 
-* [Adicionar produtos do catálogo de produtos do Commerce ao Channel Manager](add-products-to-connected-channel.md)
+* [Adicionar produtos do catálogo de produtos do Commerce ao Channel Manager](add-products-to-channel-store.md)
 
-* [Configurar correspondência de produtos](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Mapear atributos do catálogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Publicar produtos no Walmart
 
 Você pode criar ofertas de produtos no Walmart usando a correspondência de produtos ou fazendo upload manual das listas de produtos para novos produtos. Para obter instruções, consulte [Publicar listagens no Walmart Marketplace](publish-listings-to-marketplace.md) conforme descrito nos seguintes tópicos:
 
-* **[Produtos correspondentes no Walmart](publish-listings-to-marketplace.md)**- Publique listas de produtos do seu canal para o [!DNL Walmart Marketplace] atualizando listas existentes que vendem o mesmo produto. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-product-attributes-for-matching.md) para o seu canal.
+* **[Produtos correspondentes no Walmart](publish-listings-to-marketplace.md)**- Publique listas de produtos do seu canal para o [!DNL Walmart Marketplace] atualizando listas existentes que vendem o mesmo produto. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-catalog-attributes.md) para o seu canal.
 
 * **[Fazer upload manual de novas listagens](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Para produtos que não correspondem a uma listagem existente no Walmart Marketplace, use um modelo Excel de categoria de produto Walmart para fazer upload em massa das listagens de produtos.
 
@@ -97,6 +97,8 @@ Na área de trabalho Listagem , o rótulo Status mostra onde um produto está na
 
 * **[!UICONTROL Match - Match in Stage]**-Identifica os produtos correspondentes em [!DNL Walmart] que não pode ser publicado até que a [!DNL Walmart Marketplace] loja está ativa. Os produtos com esse status são publicados automaticamente quando a função [!DNL Walmart Marketplace] a loja entra em funcionamento.
 
-* **[!UICONTROL Error]**-Identifica produtos que não correspondem a um [!DNL Walmart Marketplace] listagem. Visualize os detalhes do erro ao passar o mouse sobre a *Erro* rótulo do status.
+* **[!UICONTROL Error]**-Identifica produtos que não correspondem a um [!DNL Walmart Marketplace] listagem.
+
+* **[!UICONTROL Error description]**-Fornece informações detalhadas sobre o erro de listagem.
 
    Depois de resolver o erro, envie novamente o produto para correspondência. Consulte [Solução de problemas de erros de correspondência do produto](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

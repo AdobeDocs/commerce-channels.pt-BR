@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Guia"'
 user-guide-description: Aumente as vendas e expanda a base de clientes integrando o Adobe Commerce ou o Magento Open Source com seu [!DNL Walmart Marketplace Seller Central] conta.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,17 @@ ht-degree: 0%
    - [Conectar-se aos Commerce Services](connect.md)
    - [Conectar-se a [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Concluir configuração de canal](complete-store-setup.md)
+- Definir configurações {#configure-settings}
+   - [Visão geral das configurações](settings-overview.md)
+   - [Mapear atributos do catálogo](map-catalog-attributes.md)
+   - [Mapear operadoras de transporte](map-shipping-carriers.md)
 - Listar produtos {#list-products}
    - [Gerenciar Listagens](manage-listings.md)
-   - [Adicionar produtos à loja de canais](add-products-to-connected-channel.md)
-   - [Configurar correspondência de produto](map-product-attributes-for-matching.md)
+   - [Adicionar produtos à loja de canais](add-products-to-channel-store.md)
    - [Publicar listagens no Walmart](publish-listings-to-marketplace.md)
 - Inventário e preços {#inventory-pricing}
    - [Atualizar inventário e preços](inventory-and-price-updates.md)
-- [Gerenciar pedidos]{#manage-orders}
+- Gerenciar pedidos {#manage-orders}
    - [Exibir e rastrear pedidos](manage-orders.md)
+   - [Processar Ordens](process-orders.md)
 
