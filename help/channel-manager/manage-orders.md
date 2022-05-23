@@ -2,9 +2,9 @@
 title: Gerenciar pedidos do Walmart Marketplace
 description: Exibir e gerenciar [!DNL Walmart Marketplace] ordens com [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Depois que um pedido for recebido do marketplace e importado para a Adobe Commerce ou o Magento Open Source, use a [!DNL Commerce] ID do pedido para exibir o pedido no Adobe Commerce.
 
-De **[!UICONTROL Orders]**, selecione o [!UICONTROL Commerce Order Number] para abrir o [!DNL Commerce]  detalhes do pedido.
+De **[!UICONTROL Orders]**, selecione o **[!UICONTROL Commerce Order Number]** para abrir o [!DNL Commerce] detalhes do pedido.
 
 ![Exibição detalhada de Pedido de comércio para um pedido do Walmart](assets/order-detail-with-external-order-id.png)
 

@@ -1,30 +1,30 @@
 ---
-title: Completar configuração de canal
+title: Configuração completa do canal de vendas
 description: Navegue até um canal de vendas conectado para gerenciar a visualização e o gerenciamento de listas de produtos, atualizações de inventário e preços e rastrear pedidos
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Completar configuração de canal
+# Configuração completa do canal de vendas
 
-Depois de conectar uma loja do Commerce a [!DNL Walmart Marketplace], conclua a configuração de armazenamento do [!DNL Channel Manager Stores] exibir.
+Depois de conectar uma loja do Commerce a [!DNL Walmart Marketplace], conclua a configuração de armazenamento do [!DNL Channel Manager] página inicial.
 
 1. Em Admin, selecione **[!UICONTROL Marketing** > **Gerenciador de canais**].
 
-   ![[!DNL Walmart Marketplace API key] página de configuração](assets/connect-commerce-store-config.png)
+   ![Gerenciar armazenamentos do gerenciador de canais](assets/channel-manager-setup-first-store.png)
 
-1. Abra um canal de vendas conectado selecionando o ícone de lápis na linha de entrada da loja.
+1. Abra o armazenamento do canal de vendas selecionando o ícone de olho da loja.
 
 1. Iniciar operações de canal de vendas.
 
-   - [Adicionar produtos do seu Catálogo de Comércio ao Gerenciador de Canais](add-products-to-connected-channel.md)
+   - [Adicionar produtos da [!DNL Commerce Catalog] para o Gerenciador de Canais](add-products-to-connected-channel.md)
 
-   - [Publicar listas de produtos no Walmart usando a correspondência de produtos](publish-listings-to-marketplace.md)
+   - [Publicar listas de produtos em [!DNL Walmart] uso da correspondência de produtos](publish-listings-to-marketplace.md)
 
-   - [Saiba como o Channel Manager sincroniza atualizações de inventário e preço entre o Commerce e o Walmart](inventory-and-price-updates.md)
+   - [Saiba como [!DNL Channel Manager] sincroniza atualizações de inventário e preço entre o Commerce e o Walmart](inventory-and-price-updates.md)
 
-   - Exibir e gerenciar pedidos do Walmart pelo Administrador do Commerce
+   - [Exibir e gerenciar [!DNL Walmart] ordens da [!DNL Commerce Admin]](manage-orders.md)

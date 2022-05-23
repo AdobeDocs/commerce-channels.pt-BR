@@ -2,9 +2,9 @@
 title: Publicar listas no Walmart
 description: Publique listas de produtos do Commerce no Walmart Marketplace para começar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Se uma correspondência for encontrada, a lista de produtos existente será atua
 
 ### Pré-requisitos
 
-Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos. Consulte [Configurar correspondência de produtos](map-product-attributes-for-matching.md)
+Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos. Consulte [Configurar correspondência de produtos](map-product-attributes-for-matching.md).
 
 #### Selecionar e combinar produtos
 
@@ -40,27 +40,29 @@ Antes de corresponder produtos, verifique se os valores de atributos do catálog
 
    Uma mensagem indica o número de produtos enviados para correspondência.
 
-   ![Enviar produtos para o canal de vendas ligado](assets/products-submit-for-matching.png)
+   ![Enviar produtos para o canal de vendas ligado](assets/products-submitted-for-matching.png)
 
    O status dos produtos selecionados muda para [!UICONTROL *Processamento*] até que a operação de correspondência seja concluída. Pode levar até 30 minutos para o Walmart Marketplace concluir a operação de correspondência.
 
 ### Verificar status de correspondência
 
-1. Selecionar **Atualizar produtos** para atualizar o status de produto mais atual.
+1. Selecionar **Atualizar produtos** para visualizar o status atual do produto.
 
 1. Verifique o status do produto.
 
-   Após a conclusão da correspondência, o status pode ser *Corresponder* ou *Erro*.
+Após a conclusão da correspondência, o status pode ser *Corresponder* ou *Erro*.
 
-   * **[!UICONTROL Match]** indica que o produto foi correspondido com êxito. Sua oferta de produto foi publicada em uma lista existente do Walmart.
+* **[!UICONTROL Match]** indica que o produto foi correspondido com êxito. Sua oferta de produto foi publicada em uma lista existente do Walmart. Se a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* é exibido no *[!UICONTROL Status detail]* coluna.
 
-   * **[!UICONTROL Error]** indica uma das seguintes opções:
+Se o seu [[!DNL Walmart Marketplace] o armazenamento não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), o *Detalhes do status* indica que o produto é *Preparado para correspondência*. Os produtos preparados são publicados automaticamente assim que a variável [!DNL Walmart Marketplace] a loja está ativada.
 
-      * Ocorreu um erro e a operação de correspondência falhou.
+* **[!UICONTROL Error]** indica uma das seguintes opções:
 
-      * Nenhuma correspondência foi encontrada.
+   * Ocorreu um erro e a operação de correspondência falhou.
 
-      * Correspondência encontrada, mas produto publicado como preparado porque a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Nenhuma correspondência foi encontrada.
+
+   * Correspondência encontrada, mas a listagem não pode ser publicada devido a um erro retornado do Walmart Marketplace.  falta um atributo ou é publicado como preparado porque a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Verificar listagem no Walmart
 
@@ -68,9 +70,9 @@ Depois de combinar produtos, analise a lista de produtos atualizada e verifique 
 
 ### Solução de problemas de erros de correspondência do produto
 
-Se a operação de correspondência do produto falhar, o Walmart Marketplace retornará um código de erro e o Gerenciador de canais exibirá o status do erro nas informações da lista de produtos.
+Se a operação de correspondência do produto falhar com um erro, a mensagem de erro será exibida no *[!UICONTROL Status detail]* na coluna [!UICONTROL Channel Manager] lista de produtos.
 
-Exibir detalhes das mensagens de erro ao passar o mouse sobre **Erro** rótulo do status. Erros comuns retornados são valores de ID de produto formatados incorretamente ou atributos necessários ausentes.
+Erros comuns retornados são valores de ID de produto formatados incorretamente ou atributos necessários ausentes.
 
 #### Corrigir valores da ID do produto
 

@@ -2,14 +2,14 @@
 title: Atualizações de inventário e preço
 description: '''[!DNL Channel Manager] sincroniza atualizações de inventário e preço entre a loja do Commerce e [!DNL Walmart Marketplace] para que você possa gerenciar suas operações de canal de vendas com o administrador de comércio'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Atualizações de inventário e preço
+# Atualizar inventário e preços
 
 [!DNL Channel Manager] acompanha o inventário e os preços de produtos na [!DNL Commerce] catálogo de produtos e sincroniza atualizações ao canal de vendas conectado e [!DNL Walmart Marketplace]. A sincronização garante que as listas de produtos reflitam a quantidade e o preço atuais do estoque.
 

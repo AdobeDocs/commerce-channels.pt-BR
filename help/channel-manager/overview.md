@@ -4,9 +4,9 @@ description: Saiba como instalar e usar o [!DNL Channel Manager] para integrar a
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # Sobre [!DNL Channel Manager]
 
-O Channel Manager for Adobe Commerce e Magento Open Source oferece um espaço de trabalho conveniente no Admin para gerenciar vendas de canais em mercados de terceiros, como Walmart, Amazon e eBay. Aumente as vendas e expanda-se para novos mercados enquanto gerencia as operações dos canais de vendas com facilidade do seu Administrador de comércio.
+[!DNL Channel Manager] ajuda você a aumentar as vendas e alcançar novos clientes integrando seu catálogo de produtos Adobe Commerce ou Magento Open Source com o [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] visualização de administração de extensão](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] visualização de administração de extensão](assets/channel-manager-home.png)
 
-## Visão geral da versão beta
+Depois de instalar e configurar [!DNL Channel Manager], o [!DNL Commerce] O administrador é estendido para que você possa gerenciar [!DNL Walmart Marketplace] operações de vendas perfeitamente no seu ambiente de Comércio.
 
-A versão Beta do Channel Manager oferece suporte a vendedores de Magento Open Source ou Adobe Commerce que desejam vender no [!DNL Walmart Marketplace].
+* **Gerenciamento de listagem**-Publique facilmente as listas de produtos combinando produtos do catálogo do Commerce com as listas existentes do Walmart Marketplace .
 
-Esta versão é compatível com os seguintes recursos para gerenciar operações de canal de vendas:
+* **Inventory management**-Os itens na conta do vendedor do comerciante são sincronizados e atualizados automaticamente do Commerce para garantir níveis precisos de inventário.
 
-* Estabeleça uma conexão de API entre o Adobe Commerce ou o Magento Open Source e o Walmart Marketplace
+* **Atualizações de preços**- Mantenha preços precisos para listagens de marketplace com sincronização automática de preços. Quando um preço muda no Adobe Commerce, as alterações são refletidas no mercado em 10 minutos.
 
-* Publicar produtos do Gerenciador de canais no Walmart usando a correspondência de produtos
+* **Gerenciamento de pedidos**-Quando novos pedidos são criados em um marketplace, o Gerenciador de Canais sincroniza pedidos com a Adobe Commerce e envia confirmações de pedido ao marketplace para garantir que o inventário seja reservado para cada pedido.
 
-* Gerenciar listas de produtos e rastrear o status
+* **Gerenciamento de remessa**-Quando os pedidos são marcados como entregues na Adobe Commerce, a atualização de remessa é enviada para a [!DNL Walmart Marketplace]. Essa notificação garante que os vendedores atendam aos requisitos de SLA de cumprimento e que os clientes recebam notificações de atualização de envio para seus pedidos atuais.
 
-* Sincronizar quantidades de inventário para produtos correspondentes do Commerce para o Walmart
+* **Cancelamentos**-Quando os pedidos são cancelados no Adobe Commerce, o Gerenciador de Canais envia informações atualizadas do pedido ao marketplace para replicar a ação do pedido do marketplace correspondente.
 
-* Sincronizar preços de catálogo para produtos correspondentes do Commerce para o Walmart
+[!DNL Channel Manager] oferece suporte para Adobe Commerce ou Magento Open Source sellers que desejam vender [!DNL Walmart Marketplace].
 
-* Receba pedidos do Walmart Marketplace e visualize-os no [!DNL Commerce] painel de pedidos
-
-### Latência esperada para operações do Gerenciador de canal
+## Latência esperada para operações do Gerenciador de canal
 
 Os processos de sincronização de dados entre [!DNL Channel Manager] e um link [!DNL Walmart Marketplace] a loja requer algum tempo para ser concluída. Revise o tempo de processamento esperado para [!DNL Channel Manager] operações para ajudar a planejar o funcionamento das operações do canal de vendas.
 
