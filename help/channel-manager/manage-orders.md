@@ -2,9 +2,9 @@
 title: Gerenciar pedidos do Walmart Marketplace
 description: Exibir e gerenciar [!DNL Walmart Marketplace] ordens com [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 | [!UICONTROL Order Value] | Custo total dos itens solicitados. |
 | [!UICONTROL Date Created] | A data em que o pedido foi criado na [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Data em que o pedido deve ser enviado por para atender [!DNL Walmart Marketplace] requisitos. |
-| [!UICONTROL Order Status] | Indica o status atual do pedido na [!DNL Commerce] fluxo de trabalho do pedido. O status é atualizado quando você adiciona produtos ao [!DNL Channel Manager] e quando você combinar produtos na [!DNL Walmart Marketplace]. Se uma operação falhar, a listagem mostra um status de Erro. Depois de corrigir o erro, [!DNL Channel Manager] tenta novamente a operação e atualiza o status. |
-
-| [!UICONTROL Error description]    | Fornece informações mais detalhadas sobre pedidos com um *Erro* status.|
+| [!UICONTROL Deliver By Date] | Data em que o pedido deve ser entregue ao cliente para atender [!DNL Walmart Marketplace] requisitos. |
+| [!UICONTROL Last Update At] | Carimbo de data e hora que indica a última vez que os dados do pedido foram atualizados em [!DNL Channel Manager] |
+| [!UICONTROL Status] | Indica o status atual do pedido na [!DNL Commerce] fluxo de trabalho do pedido. O status é atualizado quando você adiciona produtos ao [!DNL Channel Manager] e quando você combinar produtos na [!DNL Walmart Marketplace]. Se uma operação falhar, a listagem mostra um status de Erro. Depois de corrigir o erro, [!DNL Channel Manager] tenta novamente a operação e atualiza o status. |
+| [!UICONTROL Error Description] | Fornece informações mais detalhadas sobre pedidos com um *Erro* status. |
 
 ### Sobre o status do pedido
 
