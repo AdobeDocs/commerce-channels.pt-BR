@@ -4,9 +4,9 @@ description: Saiba como instalar e usar o [!DNL Channel Manager] para integrar a
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
+source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Depois de instalar e configurar [!DNL Channel Manager], o [!DNL Commerce] O admi
 
 * **Gerenciamento de pedidos**-Quando novos pedidos são criados em um marketplace, o Gerenciador de Canais sincroniza pedidos com a Adobe Commerce e envia confirmações de pedido ao marketplace para garantir que o inventário seja reservado para cada pedido.
 
-* **Gerenciamento de remessa**-Quando os pedidos são marcados como entregues na Adobe Commerce, a atualização de remessa é enviada para a [!DNL Walmart Marketplace]. Essa notificação garante que os vendedores atendam aos requisitos de SLA de cumprimento e que os clientes recebam notificações de atualização de envio para seus pedidos atuais.
+* **Gestão de remessa**-Quando os pedidos são marcados como entregues na Adobe Commerce, a atualização de remessa é enviada para a [!DNL Walmart Marketplace]. Essa notificação garante que os vendedores atendam aos requisitos de SLA de cumprimento e que os clientes recebam notificações de atualização de envio para seus pedidos atuais.
 
 * **Cancelamentos**-Quando os pedidos são cancelados no Adobe Commerce, o Gerenciador de Canais envia informações atualizadas do pedido ao marketplace para replicar a ação do pedido do marketplace correspondente.
 
@@ -49,54 +49,3 @@ Os processos de sincronização de dados entre [!DNL Channel Manager] e um link 
 | Solicitar sincronizações do Walmart para o Commerce | O cliente solicita um produto comercial no Walmart Marketplace. O Walmart envia o pedido para o Gerenciador de Canais. A ordem é exibida no painel de ordem. | **Até 30 minutos** |
 | Ordem criada no Commerce Order Management | O Gerenciador de Canais cria o pedido de Comércio a partir do pedido Walmart e atualiza o painel de pedidos para incluir o número do pedido de Comércio. | **Até cinco minutos** |
 
-## Pré-requisitos Walmart
-
-Você precisa das seguintes informações do Walmart para integrar o Commerce ao Walmart Marketplace:
-
-* Aprovação para vender no Walmart e credenciais para iniciar sessão na conta registrada do vendedor do Marketplace
-
-* Uma chave de API para conectar o Adobe Commerce ou o Magento Open Source ao Walmart Marketplace
-
-   A chave de API do Walmart Marketplace permite a integração entre o Channel Manager para Adobe Commerce ou Magento Open Source e o Walmart Marketplace. Configure a chave da API no Seller Central antes de iniciar o processo de integração do Gerenciador de canais.
-
-### Configurar uma conta do vendedor do Marketplace
-
-1. [Envie seu aplicativo Walmart](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-2. Depois de obter a homologação da Walmart, [configurar sua conta do Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
-
-### Gerar uma chave de API do Walmart Marketplace
-
-1. Vá para o Walmart para gerar um [chave da API de produção do provedor de soluções para Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
-
-1. Crie a chave e configure as permissões:
-
-   * Selecione Adobe como o provedor de soluções.
-
-   * Defina as permissões conforme mostrado na tabela a seguir. Para obter detalhes, consulte [Credenciais da API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) no *[!DNL Walmart Marketplace]Ajuda do vendedor*.
-
-   **Configuração de chave de API do Adobe para Walmart**
-
-   | **Permissão** | **Configuração** |
-   |----------------|-------------|
-   | Conteúdo | Acesso completo |
-   | Obter feeds | Exibir somente |
-   | Inventário | Acesso completo |
-   | Itens | Acesso completo |
-   | Tempo de atraso | Acesso completo |
-   | Pedido | Acesso completo |
-   | Preço | Acesso completo |
-   | Relatórios | Exibir somente |
-   | Devoluções | Acesso completo |
-   | Regras | Acesso completo |
-   | Envio | Acesso completo |
-
-## Status da loja no Walmart Marketplace
-
-Ao publicar produtos no Walmart Marketplace, a listagem da disponibilidade depende do status das suas lojas do Walmart:
-
-* Para lojas ao vivo, suas ofertas de produto são listadas e disponibilizadas para venda quando a operação de correspondência for concluída.
-
-* Para lojas que não estão ativas, suas ofertas de produto são preparadas e não ficam visíveis para os clientes. Quando a loja entra em vigor, as listas preparadas são enviadas automaticamente para a loja ativa.
-
-
-![[!DNL Walmart Seller Central] produtos preparados](assets/walmart-seller-central-staged.png)
