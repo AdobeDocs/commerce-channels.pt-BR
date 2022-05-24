@@ -1,19 +1,19 @@
 ---
 title: Visão geral das configurações
 description: Saiba mais sobre o [!DNL Channel Manager settings] para configurar a autenticação e mapear os atributos do catálogo de produtos e as operadoras de remessa necessárias para coordenar as operações de vendas entre [!DNL Commerce] e [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # Visão geral das configurações
 
-As configurações de canal de vendas permitem a comunicação e a sincronização de dados entre [!DNL Commerce] e [!DNL Walmart Marketplace] para que você possa gerenciar as operações de vendas do Walmart [!DNL Commerce] Administrador:
+As configurações de canal de vendas permitem a comunicação e a sincronização de dados entre [!DNL Commerce] e [!DNL Walmart Marketplace] para que você possa gerenciar as operações de vendas do Walmart [!DNL Commerce] Administrador
 
-Em [!DNL Channel Manager], você configurará algumas configurações de canais de vendas durante o processo de integração. Após a integração, você pode exibir e gerenciar a configuração das Configurações na *Configurações* página.
+Em [!DNL Channel Manager], você configurará algumas configurações de canais de vendas durante o processo de integração. Após a integração, você pode exibir e gerenciar a configuração do *Configurações* página.
 
 * **[Mapear identificadores exclusivos](map-catalog-attributes.md)**- Antes de publicar listagens de [!DNL Commerce] para [!DNL Walmart Marketplace]mapeie pelo menos um identificador exclusivo de [!DNL Commerce] catálogo para o identificador correspondente do Walmart. Esta etapa é necessária para corresponder a [!DNL Commerce] aos produtos existentes [!DNL Walmart] e para sincronizar os dados do produto entre [!DNL Commerce] e [!DNL Walmart].
 
