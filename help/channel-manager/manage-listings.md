@@ -2,9 +2,9 @@
 title: Gerenciar Listagens
 description: Gerenciar listas de canais de vendas de um [!DNL Commerce] armazene com o Channel Manager para Adobe Commerce e Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ Você pode concluir as seguintes tarefas na exibição em Lista.
 
 ## Adicionar produtos do Commerce ao Channel Manager
 
-Crie o sortimento de produto para o canal Walmart com as seguintes tarefas:
+Crie a classificação do produto para a [!DNL Walmart Marketplace] , concluindo as seguintes tarefas:
 
-* [Adicionar produtos do catálogo de produtos do Commerce ao Channel Manager](add-products-to-channel-store.md)
+* [Adicionar produtos da [!DNL Commerce] catálogo de produtos para [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [Mapear atributos do catálogo](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Publicar produtos no Walmart
+## Publicar produtos no [!DNL Walmart]
 
-Você pode criar ofertas de produtos no Walmart usando a correspondência de produtos ou fazendo upload manual das listas de produtos para novos produtos.
+Você pode criar ofertas de produtos na [!DNL Walmart Marketplace] usando a correspondência de produtos ou fazendo upload manual das listagens de produtos para novos produtos.
 
 * **[Produtos correspondentes no Walmart](publish-listings-to-marketplace.md)**—Publique listas de produtos do seu canal para [!DNL Walmart Marketplace] atualizando listas existentes que vendem o mesmo produto. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-catalog-attributes.md) para o seu canal.
 
-* **[Fazer upload manual de novas listagens](publish-listings-to-marketplace.md#upload-new-product-listings)**—Para produtos que não correspondem a uma listagem existente no Walmart Marketplace, use um modelo Excel de categoria de produto Walmart para fazer upload em massa das listagens de produtos.
+* **[Fazer upload manual de novas listagens](publish-listings-to-marketplace.md#upload-new-product-listings)**—Para produtos que não correspondem a uma listagem existente em [!DNL Walmart Marketplace]use um [!DNL Walmart] categoria do produto modelo do Excel para fazer upload em massa das listas de produtos.
 
 ## Controles de listagem e Descrições de coluna
 
@@ -64,7 +64,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para [!UICONTR
 | **Controle** | **Descrição** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Abre a variável [!UICONTROL Admin Product Catalog] página para selecionar produtos para adicionar a sua [!DNL Walmart Marketplace] ou para atualizar atributos de produto para atender aos requisitos de listagem do Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Depois de selecionar um ou mais produtos no status Rascunho, selecione Corresponder produtos no Walmart para verificar se há ofertas de produtos que podem ser adicionadas a um [!DNL Walmart Marketplace] listagem. |
+| [!UICONTROL Match products on Walmart] | Após selecionar um ou mais produtos no status Rascunho, selecione Corresponder produtos em [!DNL Walmart] para verificar ofertas de produtos que podem ser adicionadas a um [!DNL Walmart Marketplace] listagem. |
 | [!UICONTROL Refresh products] | Atualize a exibição com a lista e o status mais atuais. Esse controle também redefine a exibição de listagem para a ordem de classificação padrão e remove quaisquer filtros. |
 | [!UICONTROL Filter by *Status*] | Mostrar somente listagens com um status específico selecionando um dos cartões de contagem de status acima da tabela Listagem. Use o *Atualizar produtos* para remover o filtro. |
 | [!UICONTROL Sort products] | Altere a ordem de classificação para listagem selecionando qualquer cabeçalho de coluna. |
@@ -91,7 +91,7 @@ Na área de trabalho Listagem , o rótulo Status mostra onde um produto está na
 
 * **[!UICONTROL Match]**-Identifica os produtos que foram correspondidos com êxito em [!DNL Walmart].
 
-   Uma correspondência ocorre quando o valor do atributo do produto (código UPC, por exemplo) corresponde ao valor UPC em um[!DNL Walmart Marketplace] listagem. Quando um produto corresponde, a oferta do Commerce é adicionada à lista Walmart existente.
+   Uma correspondência ocorre quando o valor do atributo do produto (código UPC, por exemplo) corresponde ao valor UPC em um[!DNL Walmart Marketplace] listagem. Quando um produto corresponde, a oferta do Commerce é adicionada ao produto existente [!DNL Walmart] listagem.
 
    Verifique a [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) painel para revisar a lista de produtos atualizada e verificar os detalhes do produto, o preço e a quantidade do inventário.
 

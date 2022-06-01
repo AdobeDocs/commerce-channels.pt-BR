@@ -1,12 +1,12 @@
 ---
-title: Sobre [!DNL Channel Manager]
-description: Saiba como instalar e usar o [!DNL Channel Manager] para integrar a Adobe Commerce e as Magento Open Source stores aos mercados de terceiros e criar um canal de vendas para gerenciar as listas, os preços, o inventário e as vendas do Marketplace de forma simples do seu administrador comercial.
+title: '"Sobre [!DNL Channel Manager]"'
+description: '"Saiba como instalar e usar o [!DNL Channel Manager] para integrar a Adobe Commerce e as Magento Open Source stores aos mercados de terceiros e criar um canal de vendas para gerenciar as listas, os preços, o inventário e as vendas do Marketplace de forma simples do seu administrador comercial."'
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ![[!DNL Channel Manager] visualização de administração de extensão](assets/channel-manager-home.png)
 
-O Channel Manager é compatível com Adobe Commerce ou Magento Open Source sellers que desejam vender no Walmart Marketplace.
+O Channel Manager oferece suporte para Adobe Commerce ou Magento Open Source seletores que desejam vender no [!DNL Walmart Marketplace].
 
 Depois de instalar e configurar [!DNL Channel Manager], o [!DNL Commerce] O administrador é estendido para que você possa gerenciar [!DNL Walmart Marketplace] operações de vendas perfeitamente no seu ambiente de Comércio.
 
-* **Gerenciamento de listagem**-Publique facilmente as listas de produtos combinando produtos do catálogo do Commerce com as listas existentes do Walmart Marketplace .
+* **Gerenciamento de listagem**-Publique facilmente as listas de produtos ao combinar produtos de seu [!DNL Commerce] catálogo para existente [!DNL Walmart Marketplace] listagens.
 
 * **Inventory management**-Os itens na conta do vendedor do comerciante são sincronizados e atualizados automaticamente do Commerce para garantir níveis precisos de inventário.
 
@@ -41,9 +41,9 @@ Os processos de sincronização de dados entre [!DNL Channel Manager] e um link 
 **Latência estimada para operações do Gerenciador de canal**
 
 | **Operação** | **Descrição** | **Atraso esperado** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Adicionar produtos ao Gerenciador de canais | Selecione produtos do catálogo de produtos Commerce e importe-os para o Channel Manager. | **Até cinco minutos**-Se você selecionar muitos produtos, por exemplo, um catálogo de produtos inteiro, o processo de importação leva mais tempo. |
-| Produtos correspondentes no Walmart Marketplace | Selecione listas de produtos no Gerenciador de canais e envie para o Walmart para correspondência. | **Até 30 minutos**-Se você selecionar muitos produtos, o processo correspondente demorará mais, dependendo da quantidade selecionada. |
+| Corresponder produtos em[!DNL Walmart Marketplace] | Selecione listas de produtos no Gerenciador de canais e envie para o Walmart para correspondência. | **Até 30 minutos**-Se você selecionar muitos produtos, o processo correspondente demorará mais, dependendo da quantidade selecionada. |
 | Atualizações de inventário | Quando a quantidade do estoque for alterada no Commerce, [!DNL Channel Manager] sincroniza a atualização para o Walmart. | **Até 10 minutos** |
 | Atualizações de preço | Quando um preço de produto muda, o Channel Manager sincroniza a atualização com o Walmart. | **Até cinco minutos** |
 | Solicitar sincronizações do Walmart para o Commerce | O cliente solicita um produto comercial no Walmart Marketplace. O Walmart envia o pedido para o Gerenciador de Canais. A ordem é exibida no painel de ordem. | **Até 30 minutos** |

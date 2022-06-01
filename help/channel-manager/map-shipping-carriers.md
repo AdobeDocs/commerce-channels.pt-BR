@@ -2,9 +2,9 @@
 title: Mapear transportadoras
 description: Mapear atributos para correspondência [DNL! Comércio] produtos para produtos existentes [!DNL Walmart Marketplace] listagens e sincronização de dados entre [!DNL Channel Manager] e [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: aff38e59771fb973b789450b1a7b9552a7a809ff
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Antes de [transferências de ordem de processo](process-orders.md#ship-an-order) para [!DNL Walmart Marketplace] encomendas, mapear as transportadoras marítimas preferenciais da Walmart para a transportadora correspondente em [!DNL Commerce] para que os dados de envio possam ser sincronizados entre [!DNL Walmart] e [!DNL Commerce].
 
-Operadoras de comércio que não mapeiam para uma operadora preferencial são rotuladas como *[!UICONTROL Other Carrier]* na Walmart.
+Operadoras de comércio que não mapeiam para uma operadora preferencial são rotuladas como *[!UICONTROL Other Carrier]* on [!DNL Walmart].
 
 **Pré-requisitos**
 
 Antes de mapear as transportadoras de envio, realize as seguintes tarefas:
 
-1. Revise o [Métodos de operadora e práticas recomendadas de envio para entrega em tempo](https://sellerhelp.walmart.com/s/guide?article=000009473) para Walmart Marketplace.
+1. Revise o [Métodos de operadora e práticas recomendadas de envio para entrega em tempo](https://sellerhelp.walmart.com/s/guide?article=000009473) para [!DNL Walmart Marketplace].
 
-1. Verifique o [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) e [!UICONTROL Shipping Settings] na configuração do [!DNL Commerce] armazenar para garantir que você otimizou a configuração de [!DNL Walmart Marketplace sales].
+1. Verifique o [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) e [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) na configuração do [!DNL Commerce] armazenar para garantir que você otimizou a configuração de [!DNL Walmart Marketplace sales].
 
 ## Mapear transportadoras
 
