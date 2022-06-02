@@ -2,9 +2,9 @@
 title: Publicar listas no Walmart
 description: Publicar listas de produtos do Commerce no [!DNL Walmart Marketplace]para começar a vender.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Se uma correspondência for encontrada, a lista de produtos existente será atua
 
 ### Pré-requisitos
 
-Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos. Consulte [Mapear atributos do catálogo](map-catalog-attributes.md).
+Antes de corresponder produtos, verifique se os valores de atributos do catálogo de produtos atendem aos requisitos do Walmart e defina as configurações de atributos do produto. Consulte [Mapear atributos do catálogo](map-catalog-attributes.md).
 
 #### Selecionar e combinar produtos
 
@@ -52,9 +52,7 @@ Antes de corresponder produtos, verifique se os valores de atributos do catálog
 
 Após a conclusão da correspondência, o status pode ser *Corresponder* ou *Erro*.
 
-* **[!UICONTROL Match]** indica que o produto foi correspondido com êxito. Sua oferta de produto foi publicada em uma lista existente do Walmart. Se a variável [O armazenamento do Marketplace não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* é exibido no *[!UICONTROL Status detail]* coluna.
-
-Se o seu [[!DNL Walmart Marketplace] o armazenamento não está ativo](walmart-prerequisites.md#walmart-marketplace-store-status), o *Detalhes do status* indica que o produto é *Preparado para correspondência*. Os produtos preparados são publicados automaticamente quando a variável [!DNL Walmart Marketplace] a loja está ativada.
+* **[!UICONTROL Match]** indica que o produto foi correspondido com êxito. Sua oferta de produto foi publicada em uma lista existente do Walmart. Se a variável [O armazenamento do Marketplace não está ativo](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* é exibido no *[!UICONTROL Status detail]* coluna. Os produtos preparados são publicados automaticamente quando a variável [!DNL Walmart Marketplace] a loja está ativada.
 
 * **[!UICONTROL Error]** indica que a operação de correspondência falhou devido a um dos seguintes problemas:
 
@@ -116,7 +114,7 @@ Para obter novas listas de produtos, verifique seu catálogo de produtos para ga
 
 ### Pré-requisitos
 
-* Verifique se você atende à [Pré-requisitos Walmart](walmart-prerequisites.md).
+* Verifique se você atende à [Requisitos do Walmart](walmart-requirements.md).
 
 * No catálogo de produtos do Commerce, verifique se a configuração de catálogo dos produtos a serem listados no Walmart Marketplace tem todos os atributos necessários e cumpre as Diretrizes de Conteúdo do Walmart Marketplace .
 

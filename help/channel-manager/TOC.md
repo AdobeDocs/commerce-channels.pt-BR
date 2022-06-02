@@ -3,7 +3,7 @@ user-guide-title: '"[!DNL Channel Manager] Guia"'
 user-guide-description: Aumente as vendas e expanda a base de clientes integrando o Adobe Commerce ou o Magento Open Source com seu [!DNL Walmart Marketplace]Seller Central] conta.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 - [Visão geral do guia](guide-overview.md)
 - Introdução ao [!DNL Channel Manager] {#intro-to-channel-manager}
    - [Sobre o Gerenciador de canais](overview.md)
-   - [Pré-requisitos do Walmart](walmart-prerequisites.md)
+   - [Requisitos do Walmart](walmart-requirements.md)
 - Integrado [!DNL Channel Manager] {#on-boarding}
    - [Integração](onboard.md)
    - [Instale o [!DNL Channel Manager] Extensão](install.md)
