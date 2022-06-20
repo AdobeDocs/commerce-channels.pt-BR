@@ -2,9 +2,9 @@
 title: Processar ordens
 description: Instruções de expedição e cancelamento [!DNL Walmart Marketplace] pedidos do Adobe Commerce e do Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,15 @@ O Gerenciador de canais sincroniza atualizações para [!DNL Walmart Marketplace
 
 * **Encomendar entregas**-Walmart requer um número de rastreamento para todas as remessas. Se alguns itens estiverem em falta, é possível criar entregas parciais para enviar itens que estão disponíveis no momento. Após submeter a entrega, as atualizações de pedido serão sincronizadas com o [!DNL Walmart Marketplace]. Em seguida, o Walmart notifica os clientes sobre o status do pedido e os detalhes de envio.
 
-* **Cancelamentos de pedido**-Ao cancelar um [!DNL Walmart Marketplace] pedido, o Walmart requer um motivo de cancelamento que é incluído no aviso de cancelamento do pedido enviado ao cliente. O motivo do cancelamento também é exibido na variável [!DNL Commerce] informações sobre pagamentos de pedidos.
+* **Cancelamentos de pedido**-Ao cancelar um [!DNL Walmart Marketplace] pedido, o Walmart requer um motivo de cancelamento que é incluído no aviso de cancelamento do pedido enviado ao cliente. O motivo do cancelamento também é exibido na variável [!DNL Commerce] informações sobre pagamentos de pedidos. Após enviar o cancelamento, as atualizações de inventário são sincronizadas com [!DNL Walmart Marketplace]. Em seguida, o Walmart notifica os clientes sobre o status do pedido e os detalhes de envio.
+
+   Na loja, você deve cancelar o pedido inteiro. O Commerce não permite cancelamentos parciais.
+
+Quando os pedidos de comércio são processados e [!DNL Channel Manager] sincroniza com êxito atualizações de entrega, entrega parcial e cancelamento para a [!DNL Walmart Marketplace], o processamento do pedido é concluído.
 
 >[!NOTE]
 >
-> Pode ser de até cinco minutos para que as atualizações de pedido sejam sincronizadas com o [!DNL Walmart Marketplace]. Para verificar o status do pedido, retorne para o [!DNL Channel Manager] Página Pedidos .
+> Pode levar até cinco minutos para que as atualizações de pedido sejam sincronizadas com o [!DNL Walmart Marketplace]. Para verificar o status do pedido, retorne para o [!DNL Channel Manager] Página Pedidos .
 
 ## Enviar uma ordem
 
@@ -69,3 +73,11 @@ O Gerenciador de canais sincroniza atualizações para [!DNL Walmart Marketplace
 
 
 1. Depois de enviar o cancelamento, rastreie o [status do pedido](manage-orders.md#about-order-status) em [!DNL Channel Manager] para verificar se as atualizações foram enviadas para [!DNL Walmart Marketplace].
+
+## Corrigir erros de ordem
+
+Erros podem ocorrer durante o processo de sincronização de pedidos a partir de [!DNL Walmart Marketplace]ou durante o processo de atualização de ordem de entregas, entregas parciais e cancelamentos.
+
+Se a operação de sincronização de uma entrega, entrega parcial ou atualização de cancelamento falhar, a [!DNL Channel Manager] A página Pedidos mostra um _Erro_ status do pedido. Para garantir que as informações de entrega e cancelamento de pedido sejam refletidas com precisão na conta do Walmart Marketplace, atualize manualmente a ordem em seu [!DNL Walmart Marketplace] armazenar.
+
+

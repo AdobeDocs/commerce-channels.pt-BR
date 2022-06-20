@@ -4,9 +4,9 @@ description: Conecte sua instância ao [!DNL Channel Manager] concluindo algumas
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Após concluir a integração, configure e gerencie as operações dos canais de
 
 - **Informações da conta comercial**-Download e instalação [!DNL Channel Manager] exige um [Conta comercial](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Você precisa de uma ID de conta e credenciais com acesso de Proprietário ou Administrador ao [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instância.
 
-   - **ID DA MAGEM**-[Fazer logon](https://account.magento.com/customer/account/login/) para a conta comercial do para obter a ID do **[!UICONTROL My Account - Magento settings]**. Você precisa dessa ID para se registrar na [!DNL Channel Manager] programa beta de serviço.
+   - **ID DA MAGEM**-[Fazer logon](https://account.magento.com/customer/account/login/) para a conta comercial do para obter a ID do **[!UICONTROL My Account - Magento settings]**.
 
       ![[!DNL MAGEID] nas configurações da conta do Commerce](assets/mageid-my-commerce-account.png)
 
@@ -53,20 +53,23 @@ Após concluir a integração, configure e gerencie as operações dos canais de
       Consulte [Gerenciar o acesso do usuário](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Autorização para baixar o pacote do Channel Manager Composer**-Forneça o coordenador Beta para o Canal do Adobe com a ID da MAGE do [!DNL Commerce] conta usada para gerenciar o serviço de sua organização.
 - **Experiência usando o Composer e a[!DNL Commerce CLI]** -Consulte [Instalação geral da CLI](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} para obter informações sobre o uso dessas ferramentas para instalar e gerenciar extensões no [!DNL Adobe Commerce] ou [!DNL Magento Open Source] plataformas.
-- [[!DNL Amazon Sales Channel] versão 4.4.2 ou posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se você ativou [!DNL Amazon Sales Channel] para seu [!DNL Commerce] sites, verifique se seu [!DNL Commerce] a plataforma tem a versão 4.42 instalada antes da instalação [!DNL Channel Manager].
+
+- [[!DNL Amazon Sales Channel] versão 4.4.2 ou posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se você ativou [!DNL Amazon Sales Channel] para seu [!DNL Commerce] sites, verifique se seu [!DNL Commerce] a plataforma tem a versão 4.4.2 instalada antes da instalação [!DNL Channel Manager].
+
 - [!DNL Inventory Management] extensão para Adobe Commerce e Magento Open Source
 
-   Se você planeja usar o Gerenciador de canais para inventário e gerenciamento de pedidos, é necessário ter a extensão Inventory management instalada e ativada na sua instância do Adobe Commerce e do Magento Open Source. Normalmente, essa extensão é instalada e ativada por padrão no Adobe Commerce e Magento Open Source 2.3.x e posterior. Para obter mais informações, consulte [Instalar o Inventory management](https://devdocs.magento.com/extensions/inventory-management/) na documentação do desenvolvedor do Adobe Commerce.
+   Se você planeja usar o Gerenciador de canais para inventário e gerenciamento de pedidos, é necessário ter a extensão Inventory management instalada e ativada na sua instância do Adobe Commerce e do Magento Open Source. Normalmente, essa extensão é instalada e ativada por padrão no Adobe Commerce e Magento Open Source 2.3.x e posterior.
+
+   Se você atualizou o Commerce a partir da 2.2.x ou se desabilitou o Inventory management, será necessário atualizar sua instalação para incluir os módulos necessários. Para obter mais informações, consulte [Instalar o Inventory management](https://devdocs.magento.com/extensions/inventory-management/) na documentação do desenvolvedor do Adobe Commerce.
 
 ### Requisitos do sistema
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [Composer 1.x ou posterior](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
-- [[!DNL Amazon Sales Channel] versão 4.4.2 ou posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se você ativou [!DNL Amazon Sales Channel] para seu [!DNL Commerce] sites, verifique se seu [!DNL Commerce] a plataforma tem a versão 4.42 instalada antes da instalação [!DNL Channel Manager].
-- [!DNL Inventory Management]
+- [[!DNL Amazon Sales Channel] versão 4.4.2 ou posterior](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Se você ativou [!DNL Amazon Sales Channel] para seu [!DNL Commerce] sites, verifique se seu [!DNL Commerce] a plataforma tem a versão 4.4.2 instalada antes da instalação [!DNL Channel Manager].
+- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
 
 ### Plataformas compatíveis
 

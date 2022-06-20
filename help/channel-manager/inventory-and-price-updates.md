@@ -2,20 +2,26 @@
 title: Atualizações de inventário e preço
 description: '''[!DNL Channel Manager] sincroniza atualizações de inventário e preço entre a loja do Commerce e [!DNL Walmart Marketplace] para que você possa gerenciar suas operações de canal de vendas com o administrador de comércio'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Atualizar inventário e preços
 
-[!DNL Channel Manager] acompanha o inventário e os preços de produtos na [!DNL Commerce] catálogo de produtos e sincroniza atualizações ao canal de vendas conectado e [!DNL Walmart Marketplace]. A sincronização garante que as listas de produtos reflitam a quantidade e o preço atuais do estoque.
+[!DNL Channel Manager] acompanha o inventário e os preços de produtos na [!DNL Commerce] catálogo de produtos e sincroniza atualizações ao canal de vendas conectado e [!DNL Walmart Marketplace]. A operação de sincronização garante que as listas de produtos reflitam a quantidade e o preço atuais do estoque.
+
+
+>[!IMPORTANT]
+>
+>Depois [!DNL Channel Manager] estiver instalado e configurado, todas as atualizações de inventário, preço e pedido serão sincronizadas automaticamente. Se você já vende no Walmart diretamente ou por meio de outra integração, desative a integração anterior e verifique se os níveis de estoque de inventário e os preços na loja do Commerce são precisos e correspondem aos dados em [!DNL Walmart Marketplace] antes de se conectar [!DNL Channel Manager] para a loja de mercados em tempo real.
+
 
 ## Atualizações de inventário
 
-Quando os níveis de estoque do produto mudam em [!DNL Commerce], [!DNL Channel Manager] sincroniza atualizações no canal de vendas e no [!DNL Walmart Marketplace]. Pode levar até 10 minutos para que as atualizações de inventário sejam sincronizadas no canal de vendas com a [!DNL Walmart marketplace].
+Quando os níveis de estoque do produto mudam em [!DNL Commerce], [!DNL Channel Manager] sincroniza atualizações no [!DNL Walmart Marketplace]. Pode levar até 10 minutos para que as atualizações de inventário sejam sincronizadas no canal de vendas com a [!DNL Walmart marketplace].
 
 * **Atualizações da quantidade de estoque no catálogo de produtos**—Quando [!DNL Commerce] a quantidade de estoque é alterada devido a [alterações manuais na quantidade de estoque](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), reembolsos ou anulações, [!DNL Channel Manager] sincroniza a alteração em canais conectados e [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ Quando os níveis de estoque do produto mudam em [!DNL Commerce], [!DNL Channel 
 
 Quando o preço do produto muda em [!DNL Commerce], [!DNL Channel Manager] sincroniza a atualização com o [!DNL Walmart Marketplace]. Pode levar até cinco minutos para que a alteração de preço seja exibida na variável [!DNL Walmart Marketplace] listagem.
 
-### Gerenciar preços de um produto publicado
+### Gerenciar preços de um produto conectado
 
 1. No [!UICONTROL Admin], selecione **[!UICONTROL Catalog > Products]**.
 1. Na grade do produto, localize o produto a ser atualizado e selecione **[!UICONTROL Edit]**.
