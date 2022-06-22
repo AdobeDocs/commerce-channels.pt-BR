@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] Visão geral do guia"'
-description: Informações abrangentes sobre [!DNL Channel Manager] para administradores Adobe Commerce e Magento Open Source, incluindo instalação e integração
+description: '"Informações abrangentes sobre [!DNL Channel Manager] para administradores Adobe Commerce e Magento Open Source, incluindo instalação e integração."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Visão geral
 
-Este guia destina-se aos administradores do Adobe Commerce e do Magento Open Source. Ele inclui informações detalhadas sobre [!DNL Channel Manager] instalação, integração, configuração e gerenciamento. O guia assume uma compreensão básica da configuração e funcionalidade do Comércio principal.
+Este guia destina-se aos administradores do Adobe Commerce e do Magento Open Source. Ele inclui informações detalhadas sobre [!DNL Channel Manager] instalação, integração, configuração e gerenciamento. O guia assume uma compreensão básica do núcleo [!DNL Commerce] configuração e funcionalidade.
 
 [!DNL Channel Manager] tem duas áreas para administradores:
 
@@ -23,7 +23,7 @@ Este guia destina-se aos administradores do Adobe Commerce e do Magento Open Sou
 
 Este guia aborda:
 
-* Todos [!DNL Channel Manager]Tarefas específicas concluídas pelo Administrador do Commerce.
+* Todos [!DNL Channel Manager]tarefas específicas que são concluídas a partir do [!DNL Commerce] Administrador
 * Todos [!DNL Channel Manager]tarefas específicas do , concluídas a partir da linha de comando.
 
 Para obter detalhes sobre como gerenciar seu [!DNL Commerce] plataformas, projetos e sites, consulte os guias do usuário e desenvolvedor do Adobe Commerce e Magento Open Source.

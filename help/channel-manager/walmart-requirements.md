@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] Requisitos"'
-description: '"Verifique se você tem o[!DNL Walmart Marketplace]informações e recursos para integrar com o Gerenciador de canais."'
+title: '''[!DNL Walmart] Requisitos"'
+description: '"Verifique se você tem o [!DNL Walmart Marketplace]informações e recursos para integrar com o Gerenciador de Canais."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * Uma chave de API para conectar o Adobe Commerce ou o Magento Open Source ao [!DNL Walmart Marketplace]
 
-   O [!DNL Walmart Marketplace] A chave de API habilita a integração entre [!DNL Channel Manager] para Adobe Commerce ou Magento Open Source e o Walmart Marketplace. Configure a chave da API no Seller Central antes de iniciar o processo de integração do Gerenciador de canais.
+   O [!DNL Walmart Marketplace] A chave de API habilita a integração entre [!DNL Channel Manager] para Adobe [!DNL Commerce] ou o Magento Open Source e o Walmart Marketplace. Configure a chave da API no Seller Central antes de iniciar o processo de integração do Gerenciador de canais.
 
 ## Configure um [!DNL Walmart Seller] account
 
@@ -62,5 +62,5 @@ Quando você conecta produtos ao mercado, a listagem da disponibilidade depende 
 
 >[!IMPORTANT]
 >
->Depois [!DNL Channel Manager] estiver instalado e configurado, todas as atualizações de inventário, preço e pedido serão sincronizadas automaticamente. Não conecte o Gerenciador de Canais a uma loja Walmart ao vivo até que você tenha desabilitado quaisquer outras integrações que atualizam os dados do produto e do pedido e esteja pronto para que as atualizações do Commerce sejam sincronizadas com o [!DNL Walmart Marketplace].
+>Depois [!DNL Channel Manager] estiver instalado e configurado, todas as atualizações de inventário, preço e pedido serão sincronizadas automaticamente. Não conectar [!DNL Channel Manager] para uma loja Walmart ao vivo no Marketplace até você ter desativado quaisquer outras integrações que atualizam o produto e dados do pedido. Se você tiver outras integrações configuradas, verifique se a quantidade e os preços do item em [!DNL Commerce] corresponda às quantidades em [!DNL Walmart Marketplace] antes de se conectar a uma loja ao vivo.
 

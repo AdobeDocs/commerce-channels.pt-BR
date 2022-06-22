@@ -1,23 +1,23 @@
 ---
-title: '"Gerenciar [!DNL Walmart Marketplace] Pedidos"'
+title: '"Exibir e rastrear pedidos de [!DNL Channel Manager]'''
 description: '"Exibir e gerenciar [!DNL Walmart Marketplace] ordens com [!DNL Channel Manager] para Adobe Commerce e Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Gerenciar [!DNL Walmart Marketplace] ordens
+# Exibir e rastrear pedidos de [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] dados de pedido para [!DNL Commerce] os produtos sincronizam automaticamente com [!DNL Channel Manager] after [!DNL Walmart] processa o pedido.
 
-No lado do Commerce, uma sincronização bem-sucedida inicia as seguintes ações:
+No [!DNL Commerce] além disso, uma sincronização bem-sucedida inicia as seguintes ações:
 
 - [!DNL Channel Manager] envia uma confirmação de pedido para o Walmart.
 
-- Um pedido comercial correspondente é criado a partir do pedido Walmart.
+- Um [!DNL Commerce] A ordem é criada a partir da ordem Walmart.
 
 - As informações atualizadas do pedido são exibidas na [!DNL Channel Manager] Painel de pedidos.
 
@@ -40,7 +40,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 **Descrições das colunas**
 
 | Campo | Descrição |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | O número da ordem de compra atribuído ao pedido na [!DNL Walmart Marketplace]. Quando um pedido é importado inicialmente para [!DNL Channel Manager], somente o [!DNL Walmart] número do pedido é exibido. Quando a variável [!DNL Commerce] a ordem é criada, a variável [!DNL Walmart] o número do pedido é armazenado na variável [!UICONTROL External ID] atributo do produto. |
 | [!DNL Commerce] Número do pedido | O número atribuído ao [!DNL Commerce] pedido criado a partir do [!DNL Walmart Marketplace] ordem. |
 | Itens | Número de itens pedidos em [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 | [!UICONTROL Deliver By Date] | Data em que o pedido deve ser entregue ao cliente para atender [!DNL Walmart Marketplace] requisitos no formato UTC. |
 | [!UICONTROL Ship Method] | O [[!DNL Walmart Marketplace] Método de Entrega](https://sellerhelp.walmart.com/s/guide?article=000007893) selecionado para o pedido. |
 | [!UICONTROL Last Update At] | Carimbo de data e hora que indica a última vez que os dados do pedido foram atualizados em [!DNL Channel Manager] no formato UTC. |
-| [!UICONTROL Status] | Indica o status atual do pedido na [!DNL Commerce] fluxo de trabalho do pedido. O status inicial de um pedido importado de [!DNL Walmart Marketplace] é _Abrir_. Atualizações de status adicionais ocorrem quando pedidos de Comércio são processados e [!DNL Channel Manager] sincroniza com êxito atualizações de entrega, entrega parcial e cancelamento para a [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | Indica o status atual do pedido na [!DNL Commerce] fluxo de trabalho do pedido. O status inicial de um pedido importado de [!DNL Walmart Marketplace] é _Abrir_. Atualizações adicionais de status ocorrem quando [!DNL Commerce] os pedidos são processados e [!DNL Channel Manager] sincroniza com êxito atualizações de entrega, entrega parcial e cancelamento para a [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | Fornece informações mais detalhadas sobre pedidos com um _[!UICONTROL Error]_status. |
 
 ## Status do pedido
@@ -60,7 +60,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 
 - **[!UICONTROL Shipped]**-Pedidos enviados do [!DNL Commerce] armazenar. Quando a ordem for enviada, [!DNL Channel Manager] envia uma atualização para [!DNL Walmart Marketplace] para atualizar o status de entrega no Walmart e fornecer o número de rastreamento de pedido para a remessa.
 
-- **[!UICONTROL Partially Shipped]**—Pedidos que têm alguns itens marcados como enviados e outros aguardando para serem enviados. Quando os itens na ordem são enviados, [!DNL Channel Manager] envia uma atualização para [!DNL Walmart Marketplace] para atualizar o status de entrega para entrega parcial no Walmart e fornecer o número de rastreamento de pedido para a entrega.
+- **[!UICONTROL Partially Shipped]**—Pedidos que têm alguns itens marcados como enviados e outros aguardando para serem enviados. Quando os itens na ordem são enviados, [!DNL Channel Manager] envia uma atualização para [!DNL Walmart Marketplace] para atualizar o status de envio para _[!DNL Partially Shipped]_no Walmart e forneça o número de rastreamento do pedido para a remessa.
 
 - **[!UICONTROL Canceled]**- Pedidos que foram cancelados do [!DNL Commerce] armazenar.
 
@@ -72,7 +72,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 
 >[!NOTE]
 >
->Se os itens da ordem forem enviados em várias entregas, o status da ordem em [!DNL Channel Manager] reflete o último status de pedido disponível. Por exemplo, se o primeiro item é enviado e nenhum erro é retornado quando as atualizações de pedido são sincronizadas com o [!DNL Channel Manager] e [!DNL Walmart Marketplace], o [!DNL Channel Manager] status do pedido _[!UICONTROL Partially Shipped]_.  Se um segundo item for enviado e [!Cgerenciador de canais] retorna um erro, o status do pedido é atualizado para_[!UICONTROL Error]_.
+>Se os itens da ordem forem enviados em várias entregas, o status da ordem em [!DNL Channel Manager] reflete o último status de pedido disponível. Por exemplo, se o primeiro item é enviado e nenhum erro é retornado quando as atualizações de pedido são sincronizadas com o [!DNL Channel Manager] e [!DNL Walmart Marketplace], o [!DNL Channel Manager] status do pedido _[!UICONTROL Partially Shipped]_. Se um segundo item for enviado e [!DNL Channel Manager] retorna um erro, o status do pedido é atualizado para_[!UICONTROL Error]_.
 
 ## Revisar pedidos
 
@@ -82,7 +82,7 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para Pedidos.
 
 1. Para exibir informações do pedido, selecione *[!UICONTROL *Orders]**.
 
-1. Obtenha informações sobre o pedido e determine as próximas etapas verificando o **[Status](#about-order-status)** para obter informações sobre os pedidos.
+1. Obtenha informações sobre o pedido e determine as próximas etapas verificando o **[Status](#about-order-status)** coluna.
 
 ## Exibir detalhes da ordem
 

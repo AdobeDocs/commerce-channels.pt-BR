@@ -1,12 +1,12 @@
 ---
 title: Integrado [!DNL Channel Manager]
-description: Conecte sua instância ao [!DNL Channel Manager] concluindo algumas etapas de integração.
+description: '"Conecte sua instância ao [!DNL Channel Manager] , completando algumas etapas de integração."'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Após concluir a integração, configure e gerencie as operações dos canais de
 
 - **Informações da conta comercial**-Download e instalação [!DNL Channel Manager] exige um [Conta comercial](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Você precisa de uma ID de conta e credenciais com acesso de Proprietário ou Administrador ao [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instância.
 
-   - **ID DA MAGEM**-[Fazer logon](https://account.magento.com/customer/account/login/) para a conta comercial do para obter a ID do **[!UICONTROL My Account - Magento settings]**.
+   - **ID DA MAGEM**-[Fazer logon](https://account.magento.com/customer/account/login/) para [!DNL Commerce] conta para obter a ID do **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] nas configurações da conta do Commerce](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] on [!DNL Commerce] configurações da conta](assets/mageid-my-commerce-account.png)
 
-   - **Chaves de acesso -** Obter chaves de autenticação para baixar extensões do Commerce do repositório do Commerce Composer `([!DNL repo.magento.com]`).
+   - **Chaves de acesso -** Obter chaves de autenticação para transferência [!DNL Commerce] extensões do [!DNL Commerce] Repositório Composer `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

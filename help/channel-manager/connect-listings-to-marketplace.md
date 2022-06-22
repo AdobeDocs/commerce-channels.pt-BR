@@ -1,10 +1,10 @@
 ---
 title: Conecte listagens ao Walmart
-description: Conecte listagens de produtos do Commerce ao [!DNL Walmart Marketplace]para começar a vender.
+description: '''Conectar listas para [!DNL Commerce] produtos para [!DNL Walmart Marketplace]começar a vender."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Como outros mercados, [!DNL Walmart] permite que vendedores de terceiros listem 
 
 - [!DNL Walmart Marketplace] usa identificadores de produtos como UPC e GTIN para corresponder produtos aos existentes [!DNL Walmart Marketplace] listagens.
 
-- Para produtos correspondentes, a listagem do Walmart Marketplace é atualizada para incluir a oferta de produto do Commerce quando você conecta um produto do [!DNL Channel Manager].
+- Para produtos correspondentes, a lista do Walmart Marketplace é atualizada para incluir a variável [!DNL Commerce] oferta de produto ao conectar um produto de [!DNL Channel Manager].
 
 - Geralmente, as ofertas de produto com os preços mais baixos aparecem primeiro na [!DNL Walmart Marketplace] listagem, mas outros fatores como revisões também afetam a disposição.
 
 ## Produtos correspondentes
 
-Quando você corresponde produtos, o Gerenciador de canais envia os dados do produto para o [!DNL Walmart Marketplace] para procurar listas existentes com valores de atributo que correspondam ao atributo de produto Comércio mapeado. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-catalog-attributes.md) para o seu canal de loja.
+Quando você corresponde produtos, o Gerenciador de canais envia os dados do produto para o [!DNL Walmart Marketplace] para procurar listas existentes com valores de atributo que correspondam ao mapeado [!DNL Commerce] atributo do produto. Os critérios de correspondência são determinados pela variável [configuração de mapeamento de atributo](map-catalog-attributes.md) para o seu canal de loja.
 
 Se uma correspondência for encontrada, a lista de produtos existente será atualizada para adicionar sua oferta.
 
@@ -81,7 +81,7 @@ Para obter detalhes sobre os códigos de erro do Walmart Marketplace, consulte o
 
 ## Fazer upload de novas listas de produtos
 
-Para produtos que não têm correspondência no Walmart Marketplace, use um modelo Excel de categoria de produto Walmart para fazer upload em massa das listagens de produtos. Você preenche o modelo Walmart usando dados de catálogo de produtos exportados da sua instância do Commerce.
+Para produtos que não têm correspondência no Walmart Marketplace, use um modelo Excel de categoria de produto Walmart para fazer upload em massa das listagens de produtos. Você preenche o modelo Walmart usando dados de catálogo de produtos exportados de seu [!DNL Commerce] instância.
 
 Para obter novas listas de produtos, verifique seu catálogo de produtos para garantir que os produtos que você planeja vender no Walmart Marketplace tenham os atributos necessários para as listas de produtos do Walmart Marketplace .
 
@@ -113,7 +113,7 @@ Para obter novas listas de produtos, verifique seu catálogo de produtos para ga
 
 - Verifique se você atende à [Requisitos do Walmart](walmart-requirements.md).
 
-- No catálogo de produtos do Commerce, verifique se a configuração de catálogo dos produtos a serem listados no Walmart Marketplace tem todos os atributos necessários e cumpre as Diretrizes de Conteúdo do Walmart Marketplace .
+- Em seu [!DNL Commerce] catálogo de produtos, verifique se a configuração de catálogo dos produtos a serem listados no Walmart Marketplace tem todos os atributos necessários e cumpre as Diretrizes de Conteúdo do Walmart Marketplace .
 
 - Verifique se o trabalho cron está em execução para concluir a operação de exportação.
 
@@ -135,16 +135,16 @@ Para obter novas listas de produtos, verifique seu catálogo de produtos para ga
 
    - Verifique se o modelo inclui os atributos obrigatórios e recomendados para a lista de produtos.
 
-1. No [!DNL Commerce] Administrador, selecione os dados do produto para exportar do site do Adobe Commerce.
+1. No [!DNL Commerce] Administrador, selecione os dados do produto que serão exportados do seu Adobe [!DNL Commerce] site.
 
    - Em Admin, selecione [!UICONTROL **Sistema** > Transferência de dados > **Exportar**].
 
    - No [!UICONTROL Export] na página [!UICONTROL Entity Type] , selecione [!UICONTROL **Produtos**].
 
    - No [!UICONTROL Entity Attributes] , configure os critérios de seleção para a exportação de dados do produto.
-   ![Exporte a página de dados do produto no [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![Exporte a página de dados do produto no [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Use filtros para selecionar e configurar os valores do atributo que se aplicam às categorias de produto nas quais você vende. Certifique-se de incluir os atributos obrigatórios e recomendados do Walmart (Consulte [Exportar dados](https://docs.magento.com/user-guide/system/data-export.html) no Guia do usuário do Adobe Commerce para obter instruções detalhadas.)
+   Use filtros para selecionar e configurar os valores do atributo que se aplicam às categorias de produto nas quais você vende. Certifique-se de incluir os atributos obrigatórios e recomendados do Walmart (Consulte [Exportar dados](https://docs.magento.com/user-guide/system/data-export.html) na Adobe [!DNL Commerce] Guia do usuário para obter instruções detalhadas.)
 
    Para omitir um atributo da exportação, selecione o [!UICONTROL **Excluir**] caixa de seleção no início da linha.
 

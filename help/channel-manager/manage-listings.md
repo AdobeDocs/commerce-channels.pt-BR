@@ -1,10 +1,10 @@
 ---
-title: Gerenciar Listagens
-description: Gerenciar listas de canais de vendas de um [!DNL Commerce] armazene com o Channel Manager para Adobe Commerce e Magento Open Source.
+title: Gerenciar listas
+description: '"Gerenciar listas de canais de vendas de um [!DNL Commerce] armazenar com o Channel Manager para Adobe Commerce e Magento Open Source.'''
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Você pode concluir as seguintes tarefas na exibição em Lista.
 * Adicionar produtos
 * Produtos correspondentes
 * Rastrear o status da listagem
-* Descrição de erro para qualquer lista de produtos com um status de erro
+* Revisar a descrição do erro para listagens com um status de erro
 
 ## Exibir listas de produtos
 
@@ -40,7 +40,7 @@ Você pode concluir as seguintes tarefas na exibição em Lista.
 
 1. Redefina a ordem de classificação e remova os filtros selecionando **Atualizar produtos**.
 
-## Adicionar produtos do Commerce ao Channel Manager
+## Adicionar [!DNL Commerce] produtos para o Channel Manager
 
 Crie a classificação do produto para a [!DNL Walmart Marketplace] , concluindo as seguintes tarefas:
 
@@ -93,7 +93,7 @@ Na área de trabalho Listagem , o rótulo Status mostra onde um produto está na
 
 * **[!UICONTROL Match]**-Identifica os produtos que foram correspondidos com êxito em [!DNL Walmart].
 
-   Uma correspondência ocorre quando o valor do atributo do produto (código UPC, por exemplo) corresponde ao valor UPC em um [!DNL Walmart Marketplace] listagem. Quando um produto corresponde, a oferta do Commerce é adicionada ao produto existente [!DNL Walmart] listagem.
+   Uma correspondência ocorre quando o valor do atributo do produto (código UPC, por exemplo) corresponde ao valor UPC em um [!DNL Walmart Marketplace] listagem. Quando um produto corresponde, a oferta do Commerce é adicionada à lista existente.
 
    Verifique a [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) painel para revisar a lista de produtos atualizada e verificar os detalhes do produto, o preço e a quantidade do inventário.
 
