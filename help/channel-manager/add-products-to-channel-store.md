@@ -2,9 +2,9 @@
 title: Adicionar produtos ao Gerenciador de canais
 description: '"Criar um conjunto de produtos para [!DNL Walmart Marketplace] vendas adicionando produtos do catálogo ao canal de vendas configurado no Channel Manager.'' '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ O processo de importação pode levar até 30 minutos ou mais, dependendo de qua
 
 1. Após a conclusão da operação de importação, verifique os produtos adicionados, retornando para [!DNL Channel Manager] e seleção **[!UICONTROL Listings]**.
 
+   Inicialmente, os produtos estão em *Rascunho* status. Selecionar **[!UICONTROL Refresh products]** para atualizar a tabela.
+
+1. Atualize a exibição para mostrar os novos produtos adicionados ao Gerenciador de canais selecionando o **[!UICONTROL Draft]** cartão de status.
+
    ![Produtos importados para o canal de vendas conectado](assets/products-in-marketplace-sales-channel.png)
 
-   Inicialmente, os produtos estão em *Rascunho* status. Selecionar **[!UICONTROL Refresh products]** para atualizar a tabela.
 

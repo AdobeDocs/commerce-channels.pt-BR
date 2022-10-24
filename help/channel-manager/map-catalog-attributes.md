@@ -2,7 +2,7 @@
 title: Mapear atributos do catálogo
 description: '''Mapear atributos para correspondência [DNL! Comércio] produtos para produtos existentes [!DNL Walmart Marketplace] listagens e sincronização de dados entre [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -30,14 +30,15 @@ Se o catálogo não tiver um atributo correspondente, [adicionar ou converter um
 
 1. No **[!UICONTROL Listings]** ou **[!UICONTROL Orders]** para o armazenamento do canal de vendas, selecione **[!UICONTROL Channel Settings]**.
 
-1. Ligado **[!UICONTROL Channel Settings]**, selecione **[!UICONTROL Shipping Carriers]**.
+1. Ligado **[!UICONTROL Channel Settings]**, selecione **[!UICONTROL Map Attributes]**.
 
    - Encontre a [!DNL Walmart Marketplace] atributo a ser mapeado.
 
    - Selecione o atributo correspondente no [!DNL Commerce] catálogo de loja.
 
       O exemplo a seguir mapeia a variável [!UICONTROL Walmart Marketplace UPC] para o atributo UPC no catálogo de produtos.
-   ![Mapear atributos para critérios de correspondência do produto](assets/products-map-attributes-for-match.png)
+
+      ![Mapear atributos para critérios de correspondência do produto](assets/products-map-attributes-for-match.png)
 
    - Selecionar **[!UICONTROL Save]**.
 

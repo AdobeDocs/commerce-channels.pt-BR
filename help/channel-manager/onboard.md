@@ -1,10 +1,10 @@
 ---
 title: Integrado [!DNL Channel Manager]
-description: '"Conecte sua instância ao [!DNL Channel Manager] , completando algumas etapas de integração."'
+description: "Conecte sua instância ao [!DNL Channel Manager] , completando algumas etapas de integração."
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Após concluir a integração, configure e gerencie as operações dos canais de
 
 1. [Conecte seu [!DNL Commerce] armazenar para [!DNL Walmart Marketplace]](connect.md).
 
-1. [Configuração completa da loja](complete-store-setup.md).
+1. [Configuração completa da loja](complete-sales-channel-store-setup.md).
 
 ## Requisitos
 

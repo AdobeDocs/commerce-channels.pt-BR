@@ -2,9 +2,9 @@
 title: Gerenciar listas
 description: '"Gerenciar listas de canais de vendas de um [!DNL Commerce] armazenar com o Channel Manager para Adobe Commerce e Magento Open Source.'''
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para [!UICONTR
 **Controles para[!UICONTROL Listings]**
 
 | **Controle** | **Descrição** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Abre a variável [!UICONTROL Admin Product Catalog] página para selecionar produtos para adicionar a sua [!DNL Walmart Marketplace] ou para atualizar atributos de produto para atender aos requisitos de listagem do Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Após selecionar um ou mais produtos no status Rascunho, selecione Corresponder produtos em [!DNL Walmart] para verificar ofertas de produtos que podem ser adicionadas a um [!DNL Walmart Marketplace] listagem. |
+| [!UICONTROL Match products on Walmart] | Após selecionar um ou mais produtos em [!UICONTROL Draft] status, selecione [!UICONTROL Match products on Walmart] para verificar ofertas de produtos que podem ser adicionadas a um [!DNL Walmart Marketplace] listagem. |
 | [!UICONTROL Refresh products] | Atualize a exibição com a lista e o status mais atuais. Esse controle também redefine a exibição de listagem para a ordem de classificação padrão e remove quaisquer filtros. |
-| [!UICONTROL Filter by *Status*] | Mostrar somente listagens com um status específico selecionando um dos cartões de contagem de status acima da tabela Listagem. Use o *Atualizar produtos* para remover o filtro. |
+| [!UICONTROL Filter by *Status*] | Mostrar somente listagens com um status específico selecionando um dos cartões de status acima da tabela Listagem. Remova o filtro selecionando **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Altere a ordem de classificação para listagem selecionando qualquer cabeçalho de coluna. |
 
 
@@ -81,7 +81,6 @@ As tabelas a seguir descrevem os controles e colunas disponíveis para [!UICONTR
 | [!UICONTROL Price] | O preço do produto da [!DNL Commerce] catálogo de loja. As atualizações de preço do catálogo são sincronizadas com o Gerenciador de canais e enviadas para [!DNL Walmart Marketplace]  para que os itens listados mostrem o preço atual. |
 | [!UICONTROL Status] | Indica o status atual do pedido na [!DNL Commerce] fluxo de trabalho do pedido. O status é atualizado quando você adiciona produtos ao [!DNL Channel Manager] e quando você combinar produtos no mercado. Se uma operação falhar, a listagem mostra um status de erro. Depois de corrigir o erro, [!DNL Channel Manager] tenta novamente a operação e atualiza o status. |
 | [!UICONTROL Error Description] | Fornece informações de erro adicionais para produtos com uma `[!DNL Error]` status. |
-| [!UICONTROL Status Detail] | Fornece informações adicionais para produtos com *Erro* ou *Corresponder* status. |
 
 ### Sobre o status da listagem
 

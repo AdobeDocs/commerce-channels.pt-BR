@@ -1,8 +1,8 @@
 ---
-title: '''Conectar [!DNL Channel Manager] para [!DNL Walmart Marketplace]'''
-description: '"Conectar uma exibição de loja do Commerce a [!DNL Walmart Marketplace] para criar o canal de vendas para gerenciar listas de produtos, inventário, preço e pedidos do Commerce para vendas do Walmart Marketplace."'
+title: 'Conectar [!DNL Channel Manager] para [!DNL Walmart Marketplace]'
+description: "Conectar uma exibição de loja do Commerce a [!DNL Walmart Marketplace] para criar o canal de vendas para gerenciar listas de produtos, inventário, preço e pedidos do Commerce para vendas do Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Depois de instalar o Gerenciador de canais em seu [!DNL Commerce] criar um canal
 
 1. [Conecte o canal ao [!DNL Walmart Marketplace] adicionando [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Configuração completa do canal de vendas](#complete-store-setup) para gerenciar listas, inventário, preços e pedidos de sua [!DNL Walmart Marketplace] sortimento de produto.
+1. [Configuração completa do canal de vendas](#complete-sales-channel-store-setup) para gerenciar listas, inventário, preços e pedidos de sua [!DNL Walmart Marketplace] sortimento de produto.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Depois de instalar o Gerenciador de canais em seu [!DNL Commerce] criar um canal
 
 1. Selecionar **[!UICONTROL Save Store]** para aplicar a configuração e conectar-se ao [!DNL Walmart marketplace].
 
-1. Após a conexão bem-sucedida, [configuração completa do armazenamento](complete-store-setup.md) do **[!UICONTROL Channel Manager]** página de armazenamento.
+1. Após a conexão bem-sucedida, [configuração completa do armazenamento](complete-sales-channel-store-setup.md) do **[!UICONTROL Channel Manager]** página de armazenamento.
 
 ![Configurar primeira loja](assets/channel-manager-setup-first-store.png)
 

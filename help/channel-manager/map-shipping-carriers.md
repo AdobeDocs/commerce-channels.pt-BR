@@ -2,7 +2,7 @@
 title: Mapear transportadoras
 description: '''Mapear atributos para correspondência [DNL! Comércio] produtos para produtos existentes [!DNL Walmart Marketplace] listagens e sincronização de dados entre [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -35,3 +35,4 @@ Antes de mapear as transportadoras de envio, realize as seguintes tarefas:
 1. Para cada [!DNL Walmart] a operadora preferida listada, selecione a [!DNL Commerce] nome da operadora na lista suspensa, se a operadora estiver disponível.
 
 1. Selecionar **[!UICONTROL Save]** para aplicar a configuração.
+
