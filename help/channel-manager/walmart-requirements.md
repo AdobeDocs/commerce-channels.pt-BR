@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Walmart] Requisitos"'
-description: '"Verifique se você tem o [!DNL Walmart Marketplace]informações e recursos para integrar com o Gerenciador de Canais."'
+description: "Verifique se você tem o [!DNL Walmart Marketplace]informações e recursos para integrar com o Gerenciador de Canais."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## Configure um [!DNL Walmart Seller] account
 
 1. [Envie seu aplicativo Walmart](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Depois de obter a homologação de [!DNL Walmart], [configurar sua conta do Walmart](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Depois de obter a homologação de [!DNL Walmart], [configurar sua conta do Walmart](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Gerar um [!DNL Walmart Marketplace] Chave da API de produção
 
