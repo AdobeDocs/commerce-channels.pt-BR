@@ -1,7 +1,8 @@
 ---
 title: Devoluções e pedidos de reembolso
-description: "Instruções para a concessão de restituições totais ou parciais para os pedidos de regresso recebidos de [!DNL Walmart Marketplace] from [!DNL Channel Manager] para Adobe Commerce e Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Instruções para a concessão de restituições totais ou parciais para os pedidos de devolução recebidos do [!DNL Walmart Marketplace] from [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -189,5 +190,3 @@ Você pode visualizar informações sobre solicitações de retorno e processame
 Erros podem ocorrer quando as informações de retorno são recebidas de [!DNL Walmart Marketplace]ou quando [!DNL Channel Manager] sincroniza atualizações de status de [!DNL Commerce] para [!DNL Walmart Marketplace].
 
 Se a operação de sincronização de uma atualização de retorno falhar, a variável [!DNL Channel Manager] O painel de retornos mostra um *[!UICONTROL Error]* status da entrada de retorno. Para garantir que as informações de devolução e reembolso sejam refletidas com precisão na conta do Walmart Marketplace, atualize manualmente o pedido em seu [!DNL Walmart Marketplace] armazenar.
-
-

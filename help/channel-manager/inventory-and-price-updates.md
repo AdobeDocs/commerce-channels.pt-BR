@@ -1,10 +1,10 @@
 ---
 title: Atualizações de inventário e preço
-description: '''[!DNL Channel Manager] sincroniza atualizações de inventário e preço entre o [!DNL Commerce] armazenar e [!DNL Walmart Marketplace] para que você possa gerenciar suas operações de canal de vendas na [!DNL Commerce] Admin'''
+description: '[!DNL Channel Manager] sincroniza atualizações de inventário e preço entre o [!DNL Commerce] armazenar e [!DNL Walmart Marketplace] para que você possa gerenciar suas operações de canal de vendas na [!DNL Commerce] Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Quando o preço do produto muda em [!DNL Commerce], [!DNL Channel Manager] sincr
 1. Revise e atualize o preço conforme necessário.
 1. **[!UICONTROL Save]** a mudança.
 
-Para obter ajuda com o gerenciamento da configuração de preço do produto em [!DNL Commerce], consulte [Gerenciar Preços](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Para obter ajuda com o gerenciamento da configuração de preço do produto em [!DNL Commerce], consulte [Gerenciar Preços](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.

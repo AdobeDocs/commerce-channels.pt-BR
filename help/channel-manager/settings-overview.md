@@ -1,8 +1,8 @@
 ---
 title: Visão geral das configurações
-description: '"Saiba mais sobre o [!DNL Channel Manager settings] para configurar a autenticação e mapear os atributos do catálogo de produtos e as operadoras de remessa necessárias para coordenar as operações de vendas entre [!DNL Commerce] e [!DNL Walmart Marketplace]."'
+description: "Saiba mais sobre o [!DNL Channel Manager settings] para configurar a autenticação e mapear os atributos do catálogo de produtos e as operadoras de remessa necessárias para coordenar as operações de vendas entre [!DNL Commerce] e [!DNL Walmart Marketplace]."
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

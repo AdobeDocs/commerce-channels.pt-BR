@@ -2,9 +2,9 @@
 title: Mapear atributos do catálogo
 description: '''Mapear atributos para correspondência [DNL! Comércio] produtos para produtos existentes [!DNL Walmart Marketplace] listagens e sincronização de dados entre [!DNL Channel Manager] e [!DNL Walmart]."'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,3 @@ Se o catálogo não tiver um atributo correspondente, [adicionar ou converter um
       ![Mapear atributos para critérios de correspondência do produto](assets/products-map-attributes-for-match.png)
 
    - Selecionar **[!UICONTROL Save]**.
-
-

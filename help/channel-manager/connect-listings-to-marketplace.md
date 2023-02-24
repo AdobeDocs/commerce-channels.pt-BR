@@ -1,15 +1,15 @@
 ---
-title: Conecte listagens ao Walmart
+title: Conectar listagens ao Walmart
 description: '''Conectar listas para [!DNL Commerce] produtos para [!DNL Walmart Marketplace]começar a vender."'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-# Conecte listagens ao Walmart
+# Conectar listagens ao Walmart
 
 Como outros mercados, [!DNL Walmart] permite que vendedores de terceiros listem itens vendidos por outros.
 

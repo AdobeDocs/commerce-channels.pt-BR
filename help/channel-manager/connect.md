@@ -1,22 +1,22 @@
 ---
-title: '''Conectar-se a [!DNL Commerce] serviços"'
+title: '''Conectar-se a [!DNL Commerce] Serviços"'
 description: '"Conecte o Gerenciador de Canais ao [!DNL Commerce] para permitir a sincronização e a comunicação de dados entre a [!DNL Commerce] instância, Gerenciador de canal e outros serviços de suporte.'''
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 7e7a3e854bbc6062e2d15c1962ddf787451e7275
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 
-# Conectar-se a [!DNL Commerce] serviços
+# Conectar-se a [!DNL Commerce] Serviços
 
 O [!DNL Commerce Services Connector] integra o serviço Gerenciador de canais às instâncias do Adobe Commerce e do Magento Open Source. O conector permite a sincronização de dados e a comunicação entre a [!DNL Commerce] instância, [!DNL Channel Manager]e outros serviços de apoio.
 
-[!DNL Commerce Services Connector] configuração é um processo único necessário para usar [Serviços SaaS da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;} como [!DNL Channel Manager], [!DNL Live Search]e [!DNL Product Recommendations]. Se você já tiver configurado o conector para outro serviço, pule esta etapa.
+[!DNL Commerce Services Connector] configuração é um processo único necessário para usar [Serviços SaaS da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target="_blank"} como [!DNL Channel Manager], [!DNL Live Search]e [!DNL Product Recommendations]. Se você já tiver configurado o conector para outro serviço, pule esta etapa.
 
 ## Requisitos
 
@@ -24,11 +24,11 @@ O [!DNL Commerce Services Connector] integra o serviço Gerenciador de canais à
 
    Proprietários da conta e Superusuários podem criar contas de administrador a partir do [!DNL Commerce] ou da linha de comando usando o [!DNL Commerce] comando CLI `admin:user:create`.
 
-- **Chave da API de produção do Adobe Commerce**-Este [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} habilita o acesso da API a serviços exigidos pelo Gerenciador de canais. Você precisa das credenciais públicas e privadas para essa chave.
+- **Chave da API de produção do Adobe Commerce**-Este [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} habilita o acesso da API aos serviços exigidos pelo Gerenciador de canais. Você precisa das credenciais públicas e privadas para essa chave.
 
 >[!TIP]
 >
->Para fornecer as credenciais, uma [!DNL Commerce] o titular da licença ou o proprietário da conta tem opções para [compartilhar acesso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}, ou dar a variável [Chave da API](https://docs.magento.com/user-guide/system/saas.html#apikey)Credenciais do {target=&quot;_blank&quot;} para um desenvolvedor confiável.
+>Para fornecer as credenciais, uma [!DNL Commerce] o titular da licença ou o proprietário da conta tem opções para [compartilhar acesso](https://docs.magento.com/user-guide/magento/magento-account-share.html){target="_blank"}, or give the [API Key](https://docs.magento.com/user-guide/system/saas.html#apikey){target="_blank"} credenciais para um desenvolvedor confiável.
 
 ## Configure o [!DNL Commerce Services Connector]
 

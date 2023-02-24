@@ -1,15 +1,15 @@
 ---
-title: '"Exibir e gerenciar pedidos de [!DNL Channel Manager]'''
+title: '"Exibir e gerenciar pedidos a partir de [!DNL Channel Manager]'''
 description: "Exibir e gerenciar [!DNL Walmart Marketplace] ordens com [!DNL Channel Manager] para Adobe Commerce e Magento Open Source."
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Exibir e rastrear pedidos de [!DNL Channel Manager]
+# Exibir e rastrear pedidos a partir de [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] dados de pedido para [!DNL Commerce] os produtos sincronizam automaticamente com [!DNL Channel Manager] after [!DNL Walmart] processa o pedido.
 
@@ -175,6 +175,3 @@ Na loja do Commerce, pedidos importados de [!DNL Walmart Marketplace] ter as seg
    ![Histórico de status do item de ordem Detalhado da Ordem [!DNL Walmart Marketplace] ordens](assets/order-detail-status-history.png)
 
 Exibir a fatura do item e os detalhes da restituição selecionando o [!UICONTROL Invoice] e [!UICONTROL Credit Memo] no menu de navegação. Você também pode acessar o Aviso de crédito diretamente da [[!UICONTROL Returns]](return-refund-orders.md) painel na loja de canais de vendas.
-
-
-
