@@ -1,32 +1,32 @@
 ---
-title: Produtos Renovados
-description: Se sua conta do Seller Central estiver registrada para o Programa Renovado, você poderá gerenciar suas listas renovadas no Amazon Sales Channel.
+title: Produtos renovados
+description: Se sua conta da Central de vendas estiver registrada para o Programa renovado, você poderá gerenciar suas listas renovadas no Amazon Sales Channel.
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Produtos renovados
 
-Antes de listar seus produtos novos e de alta qualidade (recondicionados, de propriedade anterior e de caixa aberta) no Amazon, você deve primeiro se registrar e ser aprovado para a [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}.
+Antes de listar seus produtos de alta qualidade (recondicionados, pré-fabricados e de caixa aberta) no Amazon, você deve primeiro se registrar e ser aprovado para o [[!DNL Amazon Renewed Program]](https://sell.amazon.com/programs/renewed.html){target="_blank"}.
 
-Depois de aprovar e [!DNL Seller Central] Se for atualizada, você poderá gerenciar suas listas renovadas no canal de vendas da Amazon. As listagens renovadas exigem as seguintes etapas em [!DNL Commerce]:
+Depois de ser aprovado e seu [!DNL Seller Central] conta for atualizada, você poderá gerenciar suas listas renovadas no canal de vendas do Amazon. As listas renovadas exigem as seguintes etapas no [!DNL Commerce]:
 
-- Defina as _Refurbado_ nas suas [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
+- Defina o seu _Recondicionado_ configurações no seu [!UICONTROL Listing Settings] > [[!UICONTROL Product Listing Condition]](./product-listing-condition.md).
 
 - Incluir `Renewed` no título do produto (exigido pela Amazon).
 
 >[!IMPORTANT]
 >
->As listas de produtos renovadas que não atendem aos requisitos definidos pela Amazon mudam para `Inactive` e sair do *[[!UICONTROL Active Listings]](./active-listings.md)* para *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* guia . Além disso, a variável [[!UICONTROL Listings Changes] log](./listing-changes-log.md) exibe um `Refurbished` mensagem de erro.
+>Suas listas de produtos renovadas que não atendem aos requisitos definidos pela Amazon são alteradas para `Inactive` status e mover de *[[!UICONTROL Active Listings]](./active-listings.md)* para a guia *[[!UICONTROL Inactive Listings]](./inactive-listings.md)* guia. Além disso, a variável [[!UICONTROL Listings Changes] log](./listing-changes-log.md) exibe um `Refurbished` mensagem de erro.
 
 Para obter mais informações, consulte a documentação relacionada do Amazon:
 
-- [Programa Amazon Renovado](https://sell.amazon.com/programs/renewed.html){target=&quot;_blank&quot;}
+- [Programa renovado do Amazon](https://sell.amazon.com/programs/renewed.html){target="_blank"}
 
-- [Renovado - Introdução](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target=&quot;_blank&quot;} (é necessário o logon da Central do vendedor)
+- [Renovado - Introdução](https://sellercentral.amazon.com/gp/help/help.html/?itemID=201648580){target="_blank"} (logon na Central do vendedor necessário)
 
-- [Perguntas frequentes sobre a renovação do Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target=&quot;_blank&quot;} (é necessário o logon da Central do vendedor)
+- [Perguntas frequentes renovadas sobre o Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=202190060){target="_blank"} (logon na Central do vendedor necessário)

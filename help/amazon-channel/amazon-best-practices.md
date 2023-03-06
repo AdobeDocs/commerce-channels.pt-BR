@@ -1,35 +1,35 @@
 ---
-title: Práticas recomendadas e limitações do canal de vendas da Amazon
-description: Revise as práticas recomendadas e limitações ao usar o canal de vendas da Amazon para Adobe Commerce e Magento Open Source.
+title: Práticas recomendadas e limitações para o canal de vendas da Amazon
+description: Examine as práticas recomendadas e limitações ao usar o canal de vendas da Amazon para Adobe Commerce e Magento Open Source.
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Práticas recomendadas e limitações do canal de vendas da Amazon
+# Práticas recomendadas e limitações para o Amazon Sales Channel
 
 As práticas recomendadas incluem:
 
-- O canal de vendas da Amazon pode afetar suas listagens do Amazon aumentando ou diminuindo preços, sincronizando informações do produto (incluindo estoque disponível) e adicionando, atualizando e terminando (excluindo) as listagens. Revise suas listas por status durante a configuração e ajuste as configurações ([listar configurações](./listing-settings.md), [regras de listagem](./listing-rules.md), [regras de preços](./pricing-products.md), [substituições](./overrides.md)e assim por diante) antes de concluir a configuração da loja. Essas configurações também podem ser modificadas após a configuração, conforme necessário.
+- O canal de vendas da Amazon pode afetar suas listagens do Amazon aumentando ou diminuindo os preços, sincronizando informações de produtos (incluindo estoque disponível) e adicionando, atualizando e encerrando (excluindo) as listagens. Revise suas listas por status durante a configuração e ajuste suas configurações ([configurações de listagem](./listing-settings.md), [regras de listagem](./listing-rules.md), [regras de preços](./pricing-products.md), [sobreposições](./overrides.md)e assim por diante) antes de concluir a configuração da loja. Essas configurações também podem ser modificadas após a configuração, conforme necessário.
 
-- O canal de vendas da Amazon pode definir suas regras de preços para ajustar automaticamente seu preço de listagem. As proteções automatizadas de preços incluem o [preço mínimo](./floor-price.md) e [preço máximo opcional](./optional-ceiling-price.md) recursos de [Regras inteligentes de redefinição de preços](./intelligent-repricing-rules.md). O uso dessas salvaguardas ajuda a garantir que seus preços de listagem não fiquem abaixo de seu custo ou acima de um preço definido.
+- O canal de vendas da Amazon pode definir suas regras de preços para ajustar automaticamente o preço da lista. As salvaguardas automatizadas de preços incluem [preço mínimo](./floor-price.md) e [preço máximo opcional](./optional-ceiling-price.md) recursos do [Regras inteligentes de reprecificação](./intelligent-repricing-rules.md). O uso dessas proteções ajuda a garantir que os preços de sua lista não fiquem abaixo do seu custo ou acima de um preço definido.
 
-- A sincronização de dados entre o canal de vendas da Amazon e a Amazon é controlada pelo seu [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html)Configurações {target=&quot;_blank&quot;}. Limitação integrada entre [!DNL Commerce] O e o Amazon ajudam a garantir a transmissão de dados tranquila e eficiente, mas durante os tempos de alto tráfego do eCommerce (como Black Friday), os sistemas da Amazon poderiam demorar mais do que o normal para serem atualizados. Defina seu [!DNL Commerce] cron para ser executado uma vez a cada cinco minutos.
+- A sincronização de dados entre o canal de vendas da Amazon e o Amazon é controlada pelo seu [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} configurações. Limitação interna entre [!DNL Commerce] O e o Amazon ajudam a garantir uma transmissão de dados tranquila e eficiente, mas durante tempos de tráfego intenso de comércio eletrônico (como Black Friday), os sistemas da Amazon podem levar mais tempo do que o normal para serem atualizados. Defina seu [!DNL Commerce] cron para ser executado uma vez a cada cinco minutos.
 
-- O canal de vendas da Amazon importa suas informações de pedido da Amazon. Para gerenciar seus pedidos da Amazon no canal de vendas da Amazon, você deve garantir que [configurações de ordem](./order-settings.md) são definidas para importar e criar um [!DNL Commerce] para cada pedido do Amazon. Se não estiver definido, você só poderá exibir suas informações de pedido do Amazon. Todos os impostos para vendas por meio da Amazon ainda são gerenciados e enviados por meio de seu [!DNL Amazon Seller Central] conta. Em alguns estados, a Amazon é obrigada a coletar e enviar impostos automaticamente. Para outros estados, os vendedores têm a opção de calcular impostos manual ou automaticamente. Consulte [Amazon: Políticas Fiscais](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target=&quot;_blank&quot;}. Talvez seja necessário fazer logon no [!DNL Amazon Seller Central] para exibir a documentação da política de impostos do Amazon.
+- O canal de vendas da Amazon importa as informações de pedido da Amazon. Para gerenciar seus pedidos do Amazon no canal de vendas do Amazon, você deve garantir que seus [configurações do pedido](./order-settings.md) são definidos para importar e criar um correspondente [!DNL Commerce] para cada pedido do Amazon. Se não estiver definido, você só poderá exibir as informações do pedido Amazon. Todos os impostos sobre vendas através do Amazon ainda são gerenciados e remetidos através do seu [!DNL Amazon Seller Central] conta. Em alguns estados, a Amazon é obrigada a cobrar e remeter impostos automaticamente. Para outros estados, os vendedores têm a opção de calcular impostos manual ou automaticamente. Consulte [Amazon: Políticas de Impostos](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Talvez seja necessário fazer logon na [!DNL Amazon Seller Central] conta para exibir a documentação da política fiscal do Amazon.
 
-- Para as regiões do Reino Unido, é prática recomendada inscrever-se no [Serviço de Cálculo de IVA Amazon](https://sell.amazon.co.uk/learn/vat-resources/){target=&quot;_blank&quot;} antes de integrar o canal de vendas da Amazon.
+- Para as regiões do Reino Unido, é prática recomendada se inscrever no [Serviço de Cálculo de IVA da Amazon](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} antes da integração do canal de vendas do Amazon.
 
 
    >[!NOTE]
    >
-   >Pode levar de 10 a 14 dias para a Amazon verificar e ativar sua conta do Serviço de Cálculo de IVA.
+   >Pode levar de 10 a 14 dias para que a Amazon verifique e ative sua conta do Serviço de Cálculo de IVA.
 
 As limitações incluem:
 
-- Pacote, cartão-presente e tipos de produto agrupados que fazem parte de seu [!DNL Commerce] O canal de vendas da Amazon não oferece suporte a catálogos para listagem no Amazon.
+- Tipos de pacote, cartão-presente e produto agrupados que fazem parte do seu [!DNL Commerce] catálogo não são compatíveis com o canal de vendas da Amazon para listagem na Amazon.
 
-- O canal de vendas da Amazon não pode criar uma listagem para um produto que não tenha uma listagem Amazon existente ou anterior. Se um produto não existir em [!DNL Amazon Seller Central] com um ASIN, ele deve ser adicionado em [!DNL Amazon Seller Central] para que a Amazon possa atribuir um ASIN ao produto. Depois que um produto é adicionado no Amazon e uma listagem é criada, a listagem pode ser correspondida com seu catálogo no canal de vendas da Amazon e sincronizada.
+- O canal de vendas do Amazon não pode criar uma lista para um produto que não tenha uma lista do Amazon existente ou anterior. Se um produto não existir no [!DNL Amazon Seller Central] com uma ASIN, ela deve ser adicionada em [!DNL Amazon Seller Central] para que a Amazon possa atribuir um ASIN ao produto. Depois que um produto é adicionado ao Amazon e uma lista é criada, a lista pode corresponder ao catálogo no canal de vendas do Amazon e ser sincronizada.

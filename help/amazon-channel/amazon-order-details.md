@@ -1,8 +1,8 @@
 ---
 title: Detalhes do pedido Amazon
-description: Veja os detalhes dos pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
+description: Veja os detalhes dos seus pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ![Detalhes do pedido Amazon](assets/amazon-order-details-header.png)
 
-## Exibir detalhes do pedido da Amazon
+## Exibir detalhes do pedido Amazon
 
-1. Clique em **[!UICONTROL View Store]** no cartão da loja.
+1. Clique em **[!UICONTROL View Store]** no cartão de loja.
 
 1. No _[!UICONTROL Recent Orders]_clique em um número de pedido.
 
-   O _[!UICONTROL Amazon Order Details]_será aberta.
+   A variável _[!UICONTROL Amazon Order Details]_é aberta.
 
 >[!NOTE]
 >
->Se a importação de pedidos estiver ativada na [Configurações da ordem](./order-settings.md) e a ordem é [realizado pela Amazon (FBA)](./fulfilled-by.md), você pode ver dados de teste para alguns campos nos detalhes do pedido. A Amazon não envia os seguintes dados para pedidos FBA.
+>Se você tiver a importação de pedidos ativada no seu [Configurações do pedido](./order-settings.md) e a ordem for [cumprido pela Amazon (FBA)](./fulfilled-by.md), você pode ver dados de teste para alguns campos nos detalhes do pedido. A Amazon não envia os dados a seguir para pedidos FBA.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,13 +37,13 @@ ht-degree: 0%
 > - `GiftMessageText`
 
 
-### Guia Detalhes da Ordem e Entrega
+### Guia Detalhes da Ordem e da Entrega
 
-O _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pedido, conforme recebido da Amazon.
+A variável _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pedido, conforme recebidas do Amazon.
 
 >[!IMPORTANT]
 >
->A Amazon aceita informações de endereço não padrão que não podem ser importadas para o canal de vendas da Amazon, impedindo assim que os códigos de estado/país sejam atualizados corretamente para alguns pedidos. Para corrigir erros de endereço, os seguintes campos são editáveis nos detalhes do pedido:
+>O Amazon aceita informações de endereço não padrão que não podem ser importadas para o canal de vendas do Amazon, impedindo assim que os códigos de estado/país sejam atualizados corretamente para alguns pedidos. Para corrigir erros de endereço, os seguintes campos são editáveis nos detalhes do pedido:
 >
 >- `Shipping address 1`
 >- `Shipping address 2`
@@ -52,20 +52,19 @@ O _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pe
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
->Não se esqueça de clicar em **Salvar pedido** após fazer edições.
+>Não se esqueça de clicar **Salvar pedido** depois de fazer edições.
 
-![Detalhes da Ordem e Entrega](assets/amazon-order-details.png)
+![Detalhes do pedido e do envio](assets/amazon-order-details.png)
 
-### Guia Itens da Ordem
+### Guia Itens de pedido
 
-O _[!UICONTROL Order Items]_mostra todos os itens associados ao pedido da Amazon, conforme recebido da Amazon.
+A variável _[!UICONTROL Order Items]_A guia mostra todos os itens associados ao pedido do Amazon, conforme recebido do Amazon.
 
-![Detalhes do Item da Ordem](assets/amazon-order-item-details.png)
+![Detalhes do item do pedido](assets/amazon-order-item-details.png)
 
 ### Guia Tracking
 
-O _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
+A variável _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
 
-![Detalhes do rastreamento](assets/amazon-order-tracking-details.png)
+![Detalhes de rastreamento](assets/amazon-order-tracking-details.png)

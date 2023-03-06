@@ -1,54 +1,54 @@
 ---
 title: Configurações do Sales Channel
-description: Para gerenciar o registro, a fonte de cron e a sincronização das funções do canal de vendas do Amazon, atualize a configuração do Commerce.
+description: Para gerenciar o registro, a origem do cron e a sincronização das funções de canal de vendas do Amazon, atualize a configuração do Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-# Configurações de Sales Channel
+# Configurações do Sales Channel
 
-Quando a variável [!DNL Amazon Sales Channel] estiver instalada, os valores padrão serão definidos no canal Admin for Amazon de vendas . Essas configurações podem ser modificadas nas configurações da loja da Amazon. Essas configurações incluem:
+Quando a variável [!DNL Amazon Sales Channel] for instalada, os valores padrão serão definidos no Admin para o canal de vendas do Amazon. Essas configurações podem ser modificadas nas configurações da loja da Amazon. Essas configurações incluem:
 
-- Intervalos para limpar o histórico do Log de atividades
-- Seleção de fonte de cron
+- Intervalos para limpar o histórico do log de atividades
+- Seleção da origem do Cron
 - Opções de sincronização de log
 
-## Modificar as configurações dos canais do Commerce
+## Modificar as configurações de canais do Commerce
 
-1. No _Administrador_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. No _Admin_ barra lateral, vá para **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. No painel esquerdo, expanda **[!UICONTROL Sales Channels]** e escolha **[!UICONTROL Global Settings]**.
 
 1. Para **[!UICONTROL Clear Log History]**, escolha uma opção:
 
-   - `Once Daily` - Escolha limpar o histórico de atividades da loja uma vez por dia.
+   - `Once Daily` - Opte por limpar o histórico de atividades da loja uma vez por dia.
 
-   - `Once Weekly` - Escolha limpar o histórico de atividades da loja uma vez por semana.
+   - `Once Weekly` - Opte por limpar o histórico de atividades da loja uma vez por semana.
 
-   - `Once Monthly` - (Padrão) Escolha limpar o histórico de atividades da loja uma vez por mês.
+   - `Once Monthly` - (Padrão) Opte por limpar o histórico de atividades da loja uma vez por mês.
 
 1. Para **[!UICONTROL Background Tasks (CRON) Source]**, escolha `Magento CRON`.
 
-   Essa opção permite que o canal de vendas da Amazon use seu [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) configurações para determinar a comunicação e os intervalos de sincronização de dados com [!DNL Amazon Seller Central].
+   Essa opção permite que o canal de vendas da Amazon use sua [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) configurações para determinar intervalos de comunicação e sincronização de dados com [!DNL Amazon Seller Central].
 
-1. Para **[!UICONTROL Enable Debug Logging]**, escolha `Enabled` para coletar dados de sincronização adicionais quando a solução de problemas for necessária.
+1. Para **[!UICONTROL Enable Debug Logging]**, escolha `Enabled` para coletar dados adicionais de sincronização quando a solução de problemas for necessária.
 
-   O registro do canal de vendas da Amazon é gravado no `{Commerce Root}/var/log/channel_amazon.log` e pode ser visualizado em [modo desenvolvedor](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. O registro só deve ser `Enabled` durante a solução de problemas e deve ser `Disabled` quando a solução de problemas for concluída.
+   O registro do canal de vendas da Amazon é gravado no `{Commerce Root}/var/log/channel_amazon.log` arquivo e pode ser visualizado em [modo de desenvolvedor](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. O registro só deve ser `Enabled` durante a solução de problemas e deve ser `Disabled` quando a solução de problemas estiver concluída.
 
-1. Para **[!UICONTROL Read-Only Mode]**, selecione `Enabled` para bloquear todas as solicitações de API de alteração de estado de saída.
+1. Para **[!UICONTROL Read-Only Mode]**, selecione `Enabled` para bloquear todas as solicitações de API que mudam de estado de saída.
 
-   Com essa configuração, as possíveis alterações são salvas, mas não enviadas, até [!UICONTROL Read-Only Mode] está desativado. O cache de configuração deve ser limpo para o Modo somente leitura para habilitar. Para reiniciar as transferências de dados, selecione `Disabled`.
+   Com essa configuração, as alterações potenciais são salvas, mas não enviadas, até [!UICONTROL Read-Only Mode] está desativado. O cache de configuração deve ser limpo para que o Modo Somente Leitura seja habilitado. Para iniciar as transferências de dados novamente, selecione `Disabled`.
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Read-Only Mode] O foi projetado para cópias da instância de produção, como armazenamento temporário ou controle de qualidade, e não deve ser usado na instância de produção.
+   >[!UICONTROL Read-Only Mode] O foi projetado para cópias da instância de Produção, como preparo ou controle de qualidade, e não deve ser usado na instância de produção.
    >
-   >Quando um banco de dados é migrado para uma nova cópia da instância (detectada quando o URL de um armazenamento muda na configuração), [!UICONTROL Read-Only Mode] é ativado automaticamente.
+   >Quando um banco de dados é migrado para uma nova cópia da instância (detectado quando o URL de um armazenamento muda na configuração), [!UICONTROL Read-Only Mode] O é ativado automaticamente.
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-![Definições de configuração do Sales Channel](assets/config-sales-channel-global-settings.png)
+![definições de configuração de Sales Channel](assets/config-sales-channel-global-settings.png)
