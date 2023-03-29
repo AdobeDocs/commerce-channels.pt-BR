@@ -2,9 +2,9 @@
 title: '[!DNL Channel Manager] Notas de versão'
 description: As últimas informações da versão para [!DNL Channel Manager] do Adobe Commerce.
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
+source-git-commit: d3acde7aa297ba33dffa7854aa7578985ad12c9b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,19 @@ Essas notas de versão descrevem a versão inicial do [!DNL Channel Manager] e i
 ![Problema conhecido](../assets/bug.svg) Problemas conhecidos
 
 
+## v2.0.0
+
+*20 de março de 2023*
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+![Novo](../assets/new.svg)<!--CHAN-5893--> O Gerenciador de canais agora é compatível com a versão 2.4.6 do Adobe Commerce.
+
 ## v1.1.0
+
+*23 de novembro de 2022*
+
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
 
 ![Novo](../assets/new.svg)<!--CHAN-5204--> **Devoluções e reembolsos**—Agora você pode processar o processo de devoluções e reembolsos do Walmart para pedidos enviados por meio de uma loja Adobe Commerce e Magento Open Source Channel Manager. As informações e atualizações sobre devoluções e reembolsos são sincronizadas entre o Walmart e o Adobe Commerce para que os dados atuais estejam disponíveis no [!DNL Commerce] vitrine e [!DNL Walmart Marketplace]. Consulte [Devoluções e pedidos de reembolso](return-refund-orders.md).
 
@@ -26,9 +38,9 @@ Essas notas de versão descrevem a versão inicial do [!DNL Channel Manager] e i
 
 ## v1.0.0
 
-Versão inicial, compatível com as seguintes versões do Commerce:
+*14 de janeiro de 2022*
 
-* Fonte aberta (CE): 2.4.x
-* Adobe Commerce (EE): 2.4.x
-* Adobe Commerce para nuvem (ECE): 2.4.x
-* Estabilidade: Estável
+[!BADGE Compatibilidade]{type=Informative tooltip="Compatibilidade"}
+
+![Novo](../assets/new.svg) Versão inicial do Gerenciador de canais para disponibilidade geral
+
