@@ -1,6 +1,6 @@
 ---
-title: Concluir configuração de canal
-description: "Depois de criar o canal de vendas que conecta um [!DNL Commerce] Armazenar exibição para [!DNL Walmart Marketplace], abra o canal e conclua a configuração do canal. Em seguida, inicie o processo para adicionar produtos, gerenciar listas, inventário, preços e pedidos de [!DNL Channel Manager]."
+title: Concluir configuração do canal
+description: "Depois de criar o canal de vendas que conecta um [!DNL Commerce] Armazenar exibição para [!DNL Walmart Marketplace], abra o canal e conclua a configuração dele. Em seguida, inicie o processo para adicionar produtos, gerenciar listas, inventário, preços e pedidos no [!DNL Channel Manager]."
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -11,30 +11,30 @@ ht-degree: 0%
 
 # Concluir configuração do Sales Channel
 
-Depois de conectar um [!DNL Commerce] armazenar para [!DNL Walmart Marketplace], conclua a configuração de armazenamento do [!DNL Channel Manager] página inicial.
+Depois de conectar um [!DNL Commerce] armazenar em [!DNL Walmart Marketplace], conclua a configuração da loja na [!DNL Channel Manager] página inicial.
 
 1. Em Admin, selecione **[!UICONTROL Marketing** > **Gerenciador de canais**].
 
-   ![Gerenciar armazenamentos do gerenciador de canais](assets/channel-manager-setup-first-store.png)
+   ![Gerenciar lojas do Gerenciador de canais](assets/channel-manager-setup-first-store.png)
 
-1. Abra o armazenamento do canal de vendas selecionando o ícone de olho da loja.
+1. Abra a loja de canal de vendas selecionando o ícone de olho da loja.
 
-1. Iniciar operações de canal de vendas.
+1. Iniciar operações do canal de vendas.
 
-   - [Definir configurações de canal para identificadores de produtos e transportadoras de remessa](settings-overview.md)
+   - [Definir configurações de canal para identificadores de produtos e transportadoras](settings-overview.md)
 
-   - [Adicionar produtos da [!DNL Commerce Catalog] para o Gerenciador de Canais](add-products-to-channel-store.md)
+   - [Adicione produtos do seu [!DNL Commerce Catalog] para o Gerenciador de canais](add-products-to-channel-store.md)
 
-   - [Conecte as listas de produtos ao [!DNL Walmart] uso da correspondência de produtos](connect-listings-to-marketplace.md)
+   - [Conectar listas de produtos a [!DNL Walmart] uso da correspondência de produtos](connect-listings-to-marketplace.md)
 
    - [Saiba como [!DNL Channel Manager] sincroniza atualizações de inventário e preço entre [!DNL Commerce] e [!DNL Walmart]](inventory-and-price-updates.md)
 
-   - [Exibir e gerenciar [!DNL Walmart Marketplace] ordens da [!DNL Commerce Admin]](manage-orders.md)
+   - [Exibir e gerenciar [!DNL Walmart Marketplace] pedidos de [!DNL Commerce Admin]](manage-orders.md)
 
    - [Gerenciar devoluções e reembolsos de pedidos](return-refund-orders.md)
 
-Após criar o canal de vendas e corresponder produtos ao [!DNL Walmart Marketplace], você pode gerenciar todas as operações de listagem de produtos, inventário, preço, pedido, remessa, cancelamento, devolução e reembolso de [!DNL Commerce]. A listagem, o inventário, os preços e os dados do pedido são sincronizados automaticamente de [!DNL Commerce] para [!DNL Walmart Marketplace]. Para evitar conflitos ou discrepâncias entre [!DNL Commerce] e [!DNL Walmart Marketplace] atualizações, não atualize dados do produto ou pedido para [!DNL Commerce] produtos da [!DNL Walmart Marketplace] conta.
+Depois de criar o canal de vendas e corresponder produtos a [!DNL Walmart Marketplace], é possível gerenciar todas as operações de listagem de produtos, inventário, preço, pedido, envio, cancelamento, devolução e reembolso no [!DNL Commerce]. Os dados de listagem, inventário, preço e pedido são sincronizados automaticamente a partir de [!DNL Commerce] para [!DNL Walmart Marketplace]. Para evitar conflitos ou discrepâncias entre [!DNL Commerce] e [!DNL Walmart Marketplace] atualizações, não atualize os dados do produto ou do pedido para [!DNL Commerce] produtos da [!DNL Walmart Marketplace] conta.
 
 >[!IMPORTANT]
 >
->If [!DNL Channel Manager] retorna erros durante o processamento da ordem; você pode concluir as operações de pedido, envio ou cancelamento da [!DNL Walmart Marketplace]. Consulte [Corrigir erros de ordem](process-orders.md#fix-order-errors).
+>Se [!DNL Channel Manager] devolve erros durante o processamento da ordem; você pode concluir as operações de ordem, entrega ou cancelamento a partir do [!DNL Walmart Marketplace]. Consulte [Corrigir erros de pedido](process-orders.md#fix-order-errors).

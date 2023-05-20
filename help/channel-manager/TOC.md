@@ -1,10 +1,10 @@
 ---
 user-guide-title: '[!DNL Channel Manager] Guia'
-user-guide-description: "Aumente as vendas e expanda a base de clientes integrando o Adobe Commerce ou o Magento Open Source com seu [!DNL Walmart Marketplace] Conta Central do Vendedor."
+user-guide-description: '"Aumente as vendas e expanda sua base de clientes integrando o Adobe Commerce ou o Magento Open Source com sua [!DNL Walmart Marketplace] Conta da Central de Vendas.'''
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 source-git-commit: d43c4760246f38caa5f944025e8d701c79a15ee4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,23 @@ ht-degree: 0%
 - Integrado [!DNL Channel Manager] {#on-boarding}
    - [Integração](onboard.md)
    - [Instale o [!DNL Channel Manager] extensão](install.md)
-   - [Conectar-se aos Commerce Services](connect.md)
-   - [Conectar-se a [!DNL Walmart Marketplace]](connect-marketplace.md)
-   - [Completar configuração de canal](complete-sales-channel-store-setup.md)
+   - [Conectar-se a Commerce Services](connect.md)
+   - [Conectar a [!DNL Walmart Marketplace]](connect-marketplace.md)
+   - [Concluir configuração do canal](complete-sales-channel-store-setup.md)
 - Definir configurações {#configure-settings}
    - [Visão geral das configurações de canal](settings-overview.md)
    - [Mapear atributos do catálogo](map-catalog-attributes.md)
    - [Mapear transportadoras](map-shipping-carriers.md)
-   - [Gerenciar conexão Walmart](manage-wmt-connection.md)
+   - [Gerenciar conexão do Walmart](manage-wmt-connection.md)
 - Listar produtos {#list-products}
-   - [Gerenciar listas](manage-listings.md)
-   - [Adicionar produtos à loja de canais](add-products-to-channel-store.md)
-   - [Conecte listagens ao Walmart](connect-listings-to-marketplace.md)
-- Inventário e preços {#inventory-pricing}
-   - [Atualizar inventário e preços](inventory-and-price-updates.md)
+   - [Gerenciar listagens](manage-listings.md)
+   - [Adicionar produtos à loja de canal](add-products-to-channel-store.md)
+   - [Conectar listas ao Walmart](connect-listings-to-marketplace.md)
+- Estoque e preços {#inventory-pricing}
+   - [Atualizar estoque e preço](inventory-and-price-updates.md)
 - Gerenciar pedidos {#manage-orders}
    - [Exibir e rastrear](manage-orders.md)
    - [Processo](process-orders.md)
-- [Devoluções e pedidos de reembolso](return-refund-orders.md)
+- [Ordens de devolução e de reembolso](return-refund-orders.md)
 
 

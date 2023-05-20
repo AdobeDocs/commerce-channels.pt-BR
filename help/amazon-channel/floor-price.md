@@ -51,7 +51,7 @@ Neste exemplo, o preço mínimo está definido como 3% acima do custo do item.
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Floor Price Source] | Escolha o [!DNL Commerce] atributo que indica seu limite mínimo relativo (preço mais baixo). Por exemplo, se você não quiser que o preço de tabela do Amazon fique abaixo do custo do seu item, escolha a opção `Cost` atributo. |
+| [!UICONTROL Floor Price Source] | Escolha o [!DNL Commerce] atributo que indica seu limite mínimo relativo (preço mais baixo). Por exemplo, se você não quiser que o preço de tabela do Amazon fique abaixo do custo do item, escolha a opção `Cost` atributo. |
 | [!UICONTROL Floor Price Action] | Escolha uma ação de ajuste de preço. Opções:<ul><li>**[!UICONTROL Decrease By]** - Escolha quando deseja definir o _[!UICONTROL Floor Price Source]_valor a ser ajustado para baixo, criando um preço mínimo mais baixo para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Increase By]** - Escolha quando deseja definir o _[!UICONTROL Floor Price Source]_valor a ser ajustado, criando um preço mínimo mais alto para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Match]** - Escolha quando não deseja que o preço de tabela flutue abaixo do valor definido _[!UICONTROL Floor Price Source]_valor. Quando escolhido, o_[!UICONTROL Apply]_ e _[!UICONTROL Floor Adjustment Amount]_Os campos do estão desativados.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Um ajuste percentual em relação ao _[!UICONTROL Floor Price Source]_valor. |
 | [!UICONTROL Floor Adjustment Amount] | Insira o valor numérico para o percentual a ser ajustado _[!UICONTROL Floor Price Source]_valor. |
