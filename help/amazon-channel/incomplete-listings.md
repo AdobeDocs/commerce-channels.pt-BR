@@ -1,15 +1,15 @@
 ---
-title: Listagens Incompletas
+title: Listagens incompletas do Amazon
 description: O canal de vendas da Amazon fornece o [!UICONTROL Incomplete] para ajudar a identificar e atender aos requisitos de qualificação para suas listagens incompletas do Amazon.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Listagens Incompletas
+# Listagens incompletas do Amazon
 
 A variável _[!UICONTROL Incomplete]_A guia lista as [!DNL Commerce] produtos de catálogo que atendem aos requisitos de qualificação da Amazon (definidos no [regras de listagem](./listing-rules.md)), mas faltam informações exigidas pelo Amazon (como a Amazon ASIN ou uma condição de produto definida).
 
@@ -41,7 +41,7 @@ Em **[!UICONTROL Select]** no _[!UICONTROL Action]_coluna:
 >
 >Se você tiver listagens em andamento, o número de listagens aparecerá em uma mensagem acima das guias.
 
-![Listagens incompletas do Amazon](assets/amazon-incomplete-listings.png)
+![Listagens incompletas do Amazon](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 

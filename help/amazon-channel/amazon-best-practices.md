@@ -1,15 +1,15 @@
 ---
-title: Práticas recomendadas e limitações para o canal de vendas da Amazon
+title: Práticas recomendadas e limitações para [!DNL Amazon sales channel]
 description: Examine as práticas recomendadas e limitações ao usar o canal de vendas da Amazon para Adobe Commerce e Magento Open Source.
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Práticas recomendadas e limitações para o Amazon Sales Channel
+# Práticas recomendadas e limitações para [!DNL Amazon sales channel]
 
 As práticas recomendadas incluem:
 
@@ -17,7 +17,7 @@ As práticas recomendadas incluem:
 
 - O canal de vendas da Amazon pode definir suas regras de preços para ajustar automaticamente o preço da lista. As salvaguardas automatizadas de preços incluem [preço mínimo](./floor-price.md) e [preço máximo opcional](./optional-ceiling-price.md) recursos do [Regras inteligentes de reprecificação](./intelligent-repricing-rules.md). O uso dessas proteções ajuda a garantir que os preços de sua lista não fiquem abaixo do seu custo ou acima de um preço definido.
 
-- A sincronização de dados entre o canal de vendas da Amazon e o Amazon é controlada pelo seu [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} configurações. Limitação interna entre [!DNL Commerce] O e o Amazon ajudam a garantir uma transmissão de dados tranquila e eficiente, mas durante tempos de tráfego intenso de comércio eletrônico (como Black Friday), os sistemas da Amazon podem levar mais tempo do que o normal para serem atualizados. Defina seu [!DNL Commerce] cron para ser executado uma vez a cada cinco minutos.
+- A sincronização de dados entre o canal de vendas da Amazon e o Amazon é controlada pelo seu [[!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) configurações. Limitação interna entre [!DNL Commerce] O e o Amazon ajudam a garantir uma transmissão de dados tranquila e eficiente, mas durante tempos de tráfego intenso de comércio eletrônico (como Black Friday), os sistemas da Amazon podem levar mais tempo do que o normal para serem atualizados. Defina seu [!DNL Commerce] cron para ser executado uma vez a cada cinco minutos.
 
 - O canal de vendas da Amazon importa as informações de pedido da Amazon. Para gerenciar seus pedidos do Amazon no canal de vendas do Amazon, você deve garantir que seus [configurações do pedido](./order-settings.md) são definidos para importar e criar um correspondente [!DNL Commerce] para cada pedido do Amazon. Se não estiver definido, você só poderá exibir as informações do pedido Amazon. Todos os impostos sobre vendas através do Amazon ainda são gerenciados e remetidos através do seu [!DNL Amazon Seller Central] conta. Em alguns estados, a Amazon é obrigada a cobrar e remeter impostos automaticamente. Para outros estados, os vendedores têm a opção de calcular impostos manual ou automaticamente. Consulte [Amazon: Políticas de Impostos](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Talvez seja necessário fazer logon na [!DNL Amazon Seller Central] conta para exibir a documentação da política fiscal do Amazon.
 

@@ -1,15 +1,15 @@
 ---
-title: Listagens Ativas
+title: Listagens ativas do Amazon
 description: O canal de vendas do Amazon fornece a guia Ativo para monitorar as listagens ativas do Amazon e que são correspondidas a um produto no catálogo do Adobe Commerce.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Listagens Ativas
+# Listagens ativas do Amazon
 
 A variável _[!UICONTROL Active]_mostra suas listagens do Amazon que estão ativas no [!DNL Amazon Marketplace] e que corresponderam a um produto na [!DNL Commerce] catálogo.
 
@@ -39,7 +39,7 @@ Em **[!UICONTROL Select]** no _[!UICONTROL Action]_coluna:
 >
 >Se você tiver listagens em andamento, o número de listagens será exibido em uma mensagem acima das guias.
 
-![Listagens Ativas](assets/amazon-active-listings.png)
+![Listagens Ativas](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 

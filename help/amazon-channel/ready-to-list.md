@@ -1,8 +1,8 @@
 ---
-title: Pronto para Listar
+title: Canal de vendas do Amazon - [!UICONTROL Ready to List]
 description: O canal de vendas do Amazon fornece a guia Pronto para listar para ajudar você a revisar os produtos do Commerce que atendem à qualificação, mas não são listados automaticamente.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Você tem algumas opções para fazer manualmente [publicar uma nova lista no Am
 >[!NOTE]
 >Se você tiver listagens em andamento, o número de listagens será exibido em uma mensagem acima das guias.
 
-![Pronto para listar](assets/amazon-ready-to-list.png)
+![Pronto para listar](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## Colunas padrão
 

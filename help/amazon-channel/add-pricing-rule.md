@@ -1,15 +1,15 @@
 ---
-title: Adicionar Regras de Preços
+title: Adicionar regras de preços do Amazon
 description: Use as regras de preços para gerenciar a listagem de preços no Amazon Marketplace para o catálogo de produtos do Commerce.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Adicionar Regras de Preços
+# Adicionar regras de preços do Amazon
 
 As regras de preços podem ser configuradas ou modificadas a qualquer momento após a integração da loja. As regras de preços fazem parte do [Configurações de listagem](./listing-settings.md) e podem ser acessados no [painel de armazenamento](./amazon-store-dashboard.md).
 

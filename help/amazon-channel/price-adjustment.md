@@ -1,15 +1,15 @@
 ---
-title: Ajuste de Preço
+title: Canal de vendas do Amazon - [!UICONTROL Price Adjustment]
 description: Configure ajustes de preço para definir o cálculo de preço quando tiver identificado a fonte de preço do concorrente do Amazon.
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Ajuste de Preço
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Defina o ajuste de preço no _[!UICONTROL Price Adjustment]_seção.
 
    - Quando **[!UICONTROL Apply]** está definida como `Apply as fixed amount`, insira o valor numérico para o valor fixo (exemplo: insira `25` para um ajuste fixo de US$ 25).
 
-![Regra inteligente de reavaliação de preços - Ajuste de preços](assets/amazon-price-adjustment.png)
+![Regra inteligente de reavaliação de preços - Ajuste de preços](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |---|---|

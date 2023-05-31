@@ -3,16 +3,16 @@ title: Gerenciar preços do Amazon
 description: Você pode definir os preços das suas listagens do Amazon para diferirem da sua loja de comércio usando as regras de preços.
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
 
 # Gerenciar preços do Amazon
 
-O canal de vendas do Amazon permite definir regras de preços, que permitem definir o preço de lista do Amazon diferente do definido **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md). Você também pode empilhar várias regras e até mesmo usar os preços inteligentes para ajustar o preço de sua lista do Amazon com base nos preços dos concorrentes [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço ou o [preço mais baixo do concorrente](./lowest-competitor-pricing.md).
+O canal de vendas do Amazon permite definir regras de preços, que permitem definir o preço de lista do Amazon de forma diferente da definida **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md). Você também pode empilhar várias regras e até mesmo usar os preços inteligentes para ajustar o preço de sua lista do Amazon com base nos preços dos concorrentes [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço ou o [preço mais baixo do concorrente](./lowest-competitor-pricing.md).
 
 Há dois tipos de regras de precificação:
 
@@ -23,9 +23,9 @@ Há dois tipos de regras de precificação:
    >
    >As regras de reprecificação inteligentes não funcionarão adequadamente se a região do Amazon estiver definida como `Inactive` status, como está durante a integração. Os cálculos de preço dependem das taxas de entrega e sua região deve estar em `Active` Status das taxas de envio para sincronização no Amazon.
    >
-   >Para atualizar o status da região na conta do Amazon, acesse Configurações > Informações da conta > Configurações de férias. Consulte [Amazon: Status de Listagem para Férias](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} (logon da Central de Vendedores necessário).
+   >Para atualizar o status da região na conta do Amazon, acesse Configurações > Informações da conta > Configurações de férias. Consulte [Amazon: Status de Listagem para Férias](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (logon da Central de Vendedores necessário).
 
-Esse recurso permite manipular os preços do Amazon de uma forma semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. Você pode criar regras complexas que permitem alterar os preços de produtos específicos, produtos dentro de categorias específicas ou até mesmo com atributos específicos.
+Esse recurso permite manipular os preços do Amazon de uma forma semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Você pode criar regras complexas que permitem alterar os preços de produtos específicos, produtos dentro de categorias específicas ou até mesmo com atributos específicos.
 
 Você pode adicionar regras de preços para suas listagens do Amazon. As regras de preços podem ser usadas para ajustar automaticamente os preços da lista, com base em um conjunto de condições definidas. As regras de preço são acionadas e calculam o preço ajustado antes que seu produto seja listado no Amazon.
 
@@ -33,7 +33,7 @@ Você pode adicionar regras de preços para suas listagens do Amazon. As regras 
 >
 >A origem de preço para suas listagens do Amazon é definida para **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md) configurações. Qualquer cálculo de ajuste definido na regra de precificação usa a origem de preço como o valor inicial.
 
-As regras de preços permitem definir um preço de lista do Amazon diferente do seu **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md) configurações. Você também pode empilhar várias regras que funcionam juntas para ajustar o preço.
+As regras de preços permitem que você defina o preço de sua lista do Amazon de forma diferente da **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md) configurações. Você também pode empilhar várias regras que funcionam juntas para ajustar o preço.
 
 Uma regra de precificação/reprecificação requer três conjuntos de informações durante sua configuração:
 
@@ -41,9 +41,9 @@ Uma regra de precificação/reprecificação requer três conjuntos de informaç
 - [Condições](./pricing-rule-conditions.md): determine quais produtos estão qualificados para a regra de preço.
 - [Ações](./pricing-rule-actions.md): Defina os cálculos de ajuste que são aplicados à origem de preço para determinar o preço da lista.
 
-Você pode criar [regras de preço padrão](./standard-price-rules.md) que ajustam automaticamente seu preço de listagem do Amazon em relação ao **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md) configurações. Esse recurso permite manipular os preços do Amazon de uma forma semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. Você pode criar regras complexas que alteram automaticamente os preços de produtos específicos, produtos dentro de categorias específicas ou produtos com atributos específicos. É possível concluir as configurações tradicionais e reavaliar o preço dos produtos para aumentar ou diminuir com base em uma quantidade fixa ou porcentagem.
+Você pode criar [regras de preço padrão](./standard-price-rules.md) que ajustam automaticamente seu preço de listagem do Amazon em relação ao **[!UICONTROL Magento Price Source]** no seu [preço de lista](./listing-price.md) configurações. Esse recurso permite manipular os preços do Amazon de uma forma semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). Você pode criar regras complexas que alteram automaticamente os preços de produtos específicos, produtos dentro de categorias específicas ou produtos com atributos específicos. É possível concluir as configurações tradicionais e reavaliar o preço dos produtos para aumentar ou diminuir com base em uma quantidade fixa ou porcentagem.
 
-Outra ferramenta poderosa é a [Reavaliação inteligente de preços](./intelligent-repricing-rules.md) recurso que ajusta o preço de sua lista do Amazon com base no concorrente [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço ou [Menor preço de concorrente](./lowest-competitor-pricing.md). Semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}, esse recurso avançado permite manipular os preços do Amazon criando regras complexas. As regras podem definir o escopo de uma alteração de preço para produtos específicos, produtos dentro de categorias específicas ou mesmo com atributos específicos do produto.
+Outra ferramenta poderosa é a [Reavaliação inteligente de preços](./intelligent-repricing-rules.md) recurso que ajusta o preço de sua lista do Amazon com base no concorrente [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço ou [Menor preço de concorrente](./lowest-competitor-pricing.md). Semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html), esse recurso avançado permite manipular os preços do Amazon criando regras complexas. As regras podem definir o escopo de uma alteração de preço para produtos específicos, produtos dentro de categorias específicas ou mesmo com atributos de produto específicos.
 
 Usar a reavaliação de preços inteligente para ajustar os preços de sua lista do Amazon, com base nos preços do concorrente. O canal de vendas da Amazon tem proteções integradas para que você configure o para proteger as margens ou evitar a correspondência dos preços de um comerciante com pouco feedback. Usar [regras inteligentes de reavaliação de preços](./intelligent-repricing-rules.md), os preços de listagem do Amazon podem ser manipulados automaticamente como uma quantia fixa ou de porcentagem (para cima ou para baixo) ou até mesmo sincronizados com o [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço ou [Menor preço de concorrente](./lowest-competitor-pricing.md) por item. As regras podem até ser empilhadas para fornecer flexibilidade ilimitada.
 
@@ -53,7 +53,7 @@ Por exemplo, você pode definir e definir as condições para uma regra de preç
 
 Outra opção de preço é uma [substituição de preço](./overrides.md), que é definido no nível de lista individual. A [substituição de preço](./overrides.md) O pode ser definido e uma substituição ignora/tem prioridade sobre todos os outros padrões, configurações e regras. Um [substituir](./overrides.md) pode ser definido para preço, tempo de manuseio, condição e notas do vendedor (com algumas exceções).
 
-![Regras de preços](assets/amazon-pricing-rules.png)
+![Regras de preços](assets/amazon-pricing-rules.png){width="600" zoomable="yes"}
 
 ## Colunas padrão
 

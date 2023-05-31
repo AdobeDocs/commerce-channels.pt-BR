@@ -1,10 +1,10 @@
 ---
-title: Sobre o Amazon Marketplace
+title: "Sobre [!DNL Amazon Marketplace]"
 description: Expanda o alcance da sua loja de Adobe Commerce ou Magento Open Source aproveitando seu catálogo de produtos como listagens no Amazon Marketplace.
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---

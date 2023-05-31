@@ -1,15 +1,15 @@
 ---
-title: Exemplos de Regra de Preço
+title: Canal de vendas da Amazon - Exemplos de regras de preço
 description: Para ajudá-lo a criar suas regras de precificação para as listagens do Amazon, analise esses exemplos com base em cenários comuns.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
 
-# Exemplos de Regra de Preço
+# Exemplos de regras de preço
 
 ## Exemplos de regras de preço padrão
 
@@ -231,7 +231,7 @@ Preço final após a aplicação da regra de preço padrão: US$ 13,75 + US$ 5,0
 
 Neste exemplo, o preço mais competitivo é definido observando o Amazon [preço mais baixo do concorrente](./lowest-competitor-pricing.md) com um feedback positivo de 95% e uma contagem mínima de feedback de 1.000 revisões do comerciante.
 
-![Exemplo de ajuste de preço](assets/amazon-price-adjustment-example.png)
+![Exemplo de ajuste de preço](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Depois de realizar essa pesquisa com base nesses parâmetros, o preço competitivo volta a US$ 25.
 

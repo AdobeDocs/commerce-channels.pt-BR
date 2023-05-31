@@ -1,19 +1,19 @@
 ---
-title: Visualização de lojas do Amazon
+title: "[!UICONTROL Amazon Stores] view"
 description: Acesse a visualização Amazon Stores para analisar rapidamente as estatísticas básicas de cada uma das lojas Amazon e acessar as opções de gerenciamento.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Visualização de lojas do Amazon
+# [!UICONTROL Amazon Stores] exibir
 
 Ao visualizar a página inicial do canal de vendas do Amazon, a variável _Lojas Amazon_ A visualização é aberta por padrão.
 
-![Visualização Amazon Stores](assets/amazon-sales-channel-home-tabs.png)
+![Visualização Amazon Stores](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 A variável _[!UICONTROL Amazon Stores]_A exibição do mostra um &quot;cartão de armazenamento&quot; para cada armazenamento do Amazon, juntamente com algumas opções básicas de estatística e gerenciamento. As informações resumidas mostradas em cada cartão incluem cada status de armazenamento, data de criação, data da última atualização, listagens que precisam de atenção (exemplo: Listagens incompletas) e as atribuídas [!DNL Commerce] site.
 

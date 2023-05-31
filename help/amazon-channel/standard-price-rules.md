@@ -1,15 +1,15 @@
 ---
-title: Ações da Regra de Preço Padrão
+title: Canal de vendas do Amazon - Ações de regra de preço padrão
 description: Use as ações da regra de preço padrão para aumentar ou diminuir um preço de lista do Amazon relativo ao preço do catálogo de Comércio (ou à origem de preço).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Ações da Regra de Preço Padrão
+# Ações de regra de preço padrão
 
 Uma ação de regra de preço padrão permite aumentar ou diminuir um preço de listagem do Amazon por uma porcentagem específica ou quantia fixa em dólar em relação ao [!DNL Commerce] preço de catálogo (ou origem de preço).
 
@@ -26,13 +26,13 @@ As seções de uma ação de regra de preço padrão incluem:
 
 1. Expanda a _[!UICONTROL Price Adjustment]_seção, se necessário.
 
-1. Para **[!UICONTROL Price Action]**, escolha uma opção para determinar como você deseja alterar a *[!UICONTROL Magento Price Source]* (definido em seu [Preço de Listagem](./listing-price.md)).
+1. Para **[!UICONTROL Price Action]**, escolha uma opção para determinar como deseja alterar a *[!UICONTROL Magento Price Source]* (definido em seu [Preço de Listagem](./listing-price.md)).
 
    - `Decrease By` - Escolha quando deseja que o valor seja diminuído antes de listar na Amazon.
 
    - `Increase By` - Escolha quando deseja que o valor seja aumentado antes de listar para o Amazon.
 
-1. Para **[!UICONTROL Apply]**, escolha uma opção e uma opção para determinar como você deseja definir a variável *[!UICONTROL Magento Price Source]* definido em seu [Preço de Listagem](./listing-price.md) valor a ser ajustado:
+1. Para **[!UICONTROL Apply]**, escolha uma opção para determinar como deseja definir a variável *[!UICONTROL Magento Price Source]* definido em seu [Preço de Listagem](./listing-price.md) valor a ser ajustado:
 
    - `Apply as percentage` - Escolha quando deseja definir o *[!UICONTROL Magento Price Source]* definido em seu [Preço de Listagem](./listing-price.md) valor ajustado por uma porcentagem
 
@@ -46,7 +46,7 @@ As seções de uma ação de regra de preço padrão incluem:
 
 1. Quando terminar, clique em **[!UICONTROL Save pricing rule]**.
 
-![Regra de preço padrão](assets/ob-price-rule-action-standard-example.png)
+![Regra de preço padrão](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |---|---|

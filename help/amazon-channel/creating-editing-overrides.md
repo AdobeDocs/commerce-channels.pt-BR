@@ -1,10 +1,10 @@
 ---
-title: Criar e editar sobreposições
+title: Criar e editar substituições de canal de vendas do Amazon
 description: Use substituições do Amazon Sales Channel para aplicar suas alterações a uma única lista do Amazon ou a várias listas.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ A variável _[!UICONTROL Create Override]_ação está disponível ao visualizar
 
 1. No _[!UICONTROL Action]_clique em **[!UICONTROL Select]**>**[!UICONTROL Create Override]**para abrir a página Sobreposições da Lista de Produtos.
 
-   ![criar substituição de listagem do Amazon](assets/amazon-select-create-override.png)
+   ![criar substituição de listagem do Amazon](assets/amazon-select-create-override.png){width="220"}
 
 1. Para garantir que você está visualizando a lista correta, verifique a _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ A variável _[!UICONTROL Create Override]_ação está disponível ao visualizar
 
 O exemplo a seguir mostra uma substituição que define um novo preço de `$55`, um novo tempo de manipulação de `1 day`, uma nova condição de `Used; Like New`e novo texto de Nota ao Vendedor.
 
-![Exemplo de substituição de listagem do Amazon](assets/amazon-overrides-edit.png)
+![Exemplo de substituição de listagem do Amazon](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Editar ou remover uma sobreposição de uma única lista {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ A variável _[!UICONTROL Edit Overrides]_ação está disponível ao visualizar 
 
    A variável _[!UICONTROL Product Listing Overrides]_é aberta.
 
-   ![Selecionar uma substituição de listagem do Amazon](assets/amazon-select-edit-overrides.png)
+   ![Selecionar uma substituição de listagem do Amazon](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Para garantir que você esteja substituindo a lista correta, verifique a _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ A variável _[!UICONTROL Edit Overrides]_ação está disponível ao visualizar 
 
 Acúmulo de lixo no _Criar uma sobreposição_ exemplo. O exemplo a seguir mostra uma edição da substituição criada anteriormente que define um novo preço de `$50`O remove a substituição de Tempo de manuseio e mantém as substituições anteriores de Condição e Notas do vendedor.
 
-![Editar ou remover uma sobreposição](assets/amazon-overrides-edit-2.png)
+![Editar ou remover uma sobreposição](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Editar ou remover uma substituição para várias listagens {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ A variável _[!UICONTROL Edit Listing Overrides]_a ação está disponível no_[
 
    A variável _[!UICONTROL Product Listing Overrides]_é aberta.
 
-   ![Selecionar uma substituição de listagem do Amazon](assets/amazon-actions-edit-listing-overrides.png)
+   ![Selecionar uma substituição de listagem do Amazon](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Para editar suas _[!UICONTROL Override]_defina as seções para o tipo que deseja alterar (Preço, Tempo de Manuseio, Condição, Notas do Vendedor).
 

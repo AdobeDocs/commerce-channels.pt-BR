@@ -1,15 +1,15 @@
 ---
-title: Gerenciar listas de produtos por status/guia
+title: Gerenciar listas de produtos do Amazon por status/guia
 description: Ao gerenciar as listagens do Amazon, você pode aplicar ações às suas listagens de acordo com o status.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Gerenciar listas de produtos por status/guia
+# Gerenciar listas de produtos do Amazon por status/guia
 
 A variável _[!UICONTROL Product Listings]_Esta página contém várias guias, nas quais você pode visualizar os status de todas as suas listas e corresponder seus produtos às listas do Amazon.
 
@@ -19,7 +19,7 @@ Opções em **[!UICONTROL Actions]** pode aplicar a ação a várias listagens, 
 
 Consulte também [Gerenciar Listas por Ação](./managing-listings-by-action.md).
 
-![Guias Listas de produtos](assets/amazon-product-listings-tabs.png)
+![Guias Listas de produtos](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Guia | Descrição | Ações |
 |--- |--- |--- |

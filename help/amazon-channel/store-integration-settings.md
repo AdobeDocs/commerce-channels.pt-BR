@@ -1,15 +1,15 @@
 ---
-title: Configurações de Integração da Loja
+title: Canal de vendas do Amazon - [!UICONTROL Store Integration Settings]
 description: Após concluir o processo de integração do canal de vendas da Amazon, revise e defina as configurações de integração da loja por meio do [!UICONTROL Amazon Store] painel
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Configurações de Integração da Loja
+# [!UICONTROL Store Integration Settings]
 
 Após integrar sua loja, revise e defina as configurações de integração da loja por meio da [!UICONTROL Amazon Store] painel. Essas configurações são exibidas para *Inativo* e *Ativo* lojas. Aqui você pode alterar o nome da sua loja do Amazon e o endereço de email associado à loja durante a integração da loja.
 
@@ -33,4 +33,4 @@ Após integrar sua loja, revise e defina as configurações de integração da l
 >
 >A variável _[!UICONTROL Amazon Marketplace Country]_configuração definida durante [integração de loja](./store-integration.md) não pode ser atualizado. Para editar a configuração de país, é necessário excluir o armazenamento (em_[!UICONTROL Action]_ no cartão de loja) e adicione uma loja para o diferente país.
 
-![Configurações de integração de loja](assets/amazon-store-settings.png)
+![Configurações de integração de loja](assets/amazon-store-settings.png){width="600" zoomable="yes"}

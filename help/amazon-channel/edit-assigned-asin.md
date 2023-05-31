@@ -2,7 +2,7 @@
 title: Editar uma ASIN atribuída
 description: Altere o valor ASIN de um produto do Commerce que correspondeu incorretamente a uma de suas listagens do Amazon.
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Quando uma ASIN atribuída é alterada:
 - Cria uma lista para o ASIN atualizado
 - Atualiza informações de lista no canal de vendas do Amazon
 
-Para editar um ASIN atribuído:
+**_Para editar um ASIN atribuído:_**
 
 1. Exibir a listagem no _[!UICONTROL Product Listings]_página (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou_[!UICONTROL Ineligible]_ guia ).
 
@@ -32,4 +32,4 @@ Para editar um ASIN atribuído:
 
 1. Para salvar as alterações, clique em **[!UICONTROL Save Listing Update]**.
 
-![Editar uma ASIN atribuída](assets/amazon-assigned-asin-edit.png)
+![Editar uma ASIN atribuída](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

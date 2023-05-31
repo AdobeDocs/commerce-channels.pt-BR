@@ -2,7 +2,7 @@
 title: "Regra de Reprecificação Inteligente: Selecionar Tipo de Regra"
 description: Determine o preço da lista do Amazon de acordo com os preços da concorrência criando uma regra de reavaliação inteligente.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Defina o tipo de regra no _[!UICONTROL Select Rule Type]_seção.
 >
 >Você pode usar essas opções de preço e feedback do concorrente para evitar basear seus preços em um concorrente que tenha feedback insatisfatório e esteja vendendo um produto de qualidade inferior.
 
-![Regra inteligente de reavaliação de preços - selecionar tipo de regra](assets/ob-intelligent-price-rule-type.png)
+![Regra inteligente de reavaliação de preços - selecionar tipo de regra](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

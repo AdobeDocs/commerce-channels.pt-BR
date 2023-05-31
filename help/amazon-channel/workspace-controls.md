@@ -1,10 +1,10 @@
 ---
-title: Controles do Workspace
+title: Canal de vendas do Amazon - Controles do Workspace
 description: O Amazon Sales Channel fornece controles de espaço de trabalho que ajudam a localizar listagens, exibir informações e facilmente e aplicar ações.
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 O canal de vendas da Amazon [home page](./amazon-sales-channel-home.md) O tem alguns controles comuns do espaço de trabalho, incluindo Filtros, Exibição padrão, Colunas e Exportar. Nem todas as páginas têm as mesmas opções de controle.
 
-![Exemplos de controle de espaço de trabalho do Amazon Sales Channel](assets/amazon-workspace-controls.png)
+![Exemplos de controle de espaço de trabalho do Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Ações
 
@@ -21,7 +21,7 @@ A variável _[!UICONTROL Actions]_seletor fornece uma lista de ações que estã
 
 Por exemplo, quando o seletor é exibido no _[!UICONTROL Attributes]_página, inclui a variável_[!UICONTROL Re-import Product Attribute Values]_ ação. Escolher esta ação faz o ping dos correspondentes [!DNL Amazon Seller Central] e atualiza a [!DNL Commerce] dados de cada um dos itens de armazenamento do Amazon marcados na coluna do lado esquerdo.
 
-![Exemplo do menu Ações](assets/amazon-sales-channel-home-actions-option.png)
+![Exemplo do menu Ações](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filtros
 
@@ -37,11 +37,11 @@ O exemplo a seguir mostra as configurações para filtrar a lista de pedidos par
 
 Quando tiver suas opções de filtragem definidas, clique em **[!UICONTROL Apply Filters]** para filtrar os dados listados. Clique em Cancelar para sair do controle Filtros sem aplicar.
 
-![Exemplo de controle de filtros](assets/workspace-controls-filters.png)
+![Exemplo de controle de filtros](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 Depois de aplicar filtros aos dados, **[!UICONTROL Active Filters]** informações serão exibidas. Você pode clicar no link ![Ícone Limpar filtros](assets/x-icon-clear-filters.png) ícone para limpar uma opção de filtro específica ou clique em **[!UICONTROL Clear All]** para limpar todos os filtros aplicados.
 
-![Exemplo de filtros ativos](assets/applied-filters-line.png)
+![Exemplo de filtros ativos](assets/applied-filters-line.png){width="700"}
 
 ## Exibir
 
@@ -72,7 +72,7 @@ O exemplo a seguir mostra um controle Colunas. As opções marcadas correspondem
 - Para adicionar uma coluna de dados à página, marque a caixa de seleção.
 - Para remover uma coluna de dados da página, não marque a caixa de seleção.
 
-![Exemplo de controle de colunas](assets/workspace-controls-columns.png)
+![Exemplo de controle de colunas](assets/workspace-controls-columns.png){width="400"}
 
 As alterações na caixa de seleção são exibidas imediatamente. Se você fizer alterações e sair da página, ela retornará à exibição de coluna padrão. Para alterações feitas regularmente, você pode salvar as alterações nas colunas como uma exibição personalizada no controle Exibição. Em seguida, você pode alternar no controle Exibição sem precisar adicionar ou remover colunas manualmente.
 
@@ -89,4 +89,4 @@ Quando estiver pronto para exportar os dados, escolha uma opção de formato de 
 
 O arquivo de dados gerado é salvo automaticamente na pasta designada para downloads.
 
-![Controle de exportação](assets/workspace-controls-export.png)
+![Controle de exportação](assets/workspace-controls-export.png){width="250"}

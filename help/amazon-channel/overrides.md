@@ -1,15 +1,15 @@
 ---
-title: Substituições
+title: Canal de vendas do Amazon - [!UICONTROL Overrides]
 description: O Amazon Sales Channel fornece a guia Sobreposições para ajudar você a identificar e gerenciar como está aplicando sobreposições nas listagens do Amazon.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Substituições
+# [!UICONTROL Overrides]
 
 A variável _[!UICONTROL Overrides]_mostra suas listagens do Amazon às quais você aplicou uma substituição. Uma substituição é uma configuração específica de uma lista que pode ser usada para definir um valor definido para uma lista. Uma substituição aplicada a uma listagem define a configuração da listagem, independentemente de outras configurações ou regras de listagem definidas para as quais a listagem é elegível. Quando uma substituição é aplicada a uma listagem, ela é exibida na_[!UICONTROL Overrides]_ guia. O valor definido na substituição aparece na coluna apropriada para a lista. Há quatro tipos de sobreposições que podem ser aplicadas: Preço, Tempo de Manuseio, Condição e Notas do Vendedor.
 
@@ -36,7 +36,7 @@ Consulte [Criar e editar sobreposições](./creating-editing-overrides.md).
 >
 >Se você tiver listagens em andamento, o número de listagens será exibido em uma mensagem acima das guias.
 
-![Guia Sobreposições](assets/amazon-overrides.png)
+![Guia Sobreposições](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 

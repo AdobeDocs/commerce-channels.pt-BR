@@ -1,10 +1,10 @@
 ---
-title: Criar e atribuir produtos
+title: Criar e atribuir produtos ao canal de vendas do Amazon
 description: O Sales Channel da Amazon fornece a [!UICONTROL New Third Party] para ajudar a criar e atribuir produtos de catálogo do Commerce correspondentes às listagens do Amazon.
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ao criar um produto de catálogo em uma lista do Amazon:
 - A variável **Nome da lista de produtos** torna-se o Nome da Listagem de Catálogos
 - A variável **Preço** e **Quantidade** são importados da Listagem do Amazon
 
-O restante das configurações necessárias é determinado pelo parâmetro [!DNL Commerce] configurações de produto selecionadas durante a criação.
+O restante das configurações necessárias é determinado pelo parâmetro [!DNL Commerce] configurações do produto selecionadas durante a criação.
 
 Quando criadas e correspondidas, as listagens são removidas da variável _[!UICONTROL New Third Party]_e aparecerão na guia_[!UICONTROL Active]_ guia.
 
@@ -59,11 +59,11 @@ Seu produto e sua lista agora são correspondidos. O canal de vendas da Amazon a
 
    - Para **[!UICONTROL Website Ids]**, escolha o site (loja) ao qual o produto será associado.
 
-      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configurações.
+      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
 
    - Para **[!UICONTROL Attribute Set Id]** (obrigatório), escolha uma opção.
 
-      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} você configurou o.
+      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
 
    - Para **[!UICONTROL Visibility]**, escolha uma opção para o novo produto.
 
@@ -71,7 +71,7 @@ Seu produto e sua lista agora são correspondidos. O canal de vendas da Amazon a
 
    - Para **[!UICONTROL Assign Tax Class]**, escolha uma opção para o produto.
 
-      As opções exibidas nessa lista dependem das [classes de imposto](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} você configurou o.
+      As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
 
    - Quando terminar, clique em **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ O produto de catálogo é criado no [!DNL Commerce] catálogo e atribuído à li
 
    - Para **[!UICONTROL Website Ids]**, escolha o site (loja) ao qual o produto será associado.
 
-      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configurações.
+      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
 
    - Para **[!UICONTROL Attribute Set Id]** (obrigatório), escolha uma opção.
 
-      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} você configurou o.
+      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
 
    - Para **[!UICONTROL Visibility]**, escolha uma opção para o novo produto.
 
@@ -116,19 +116,19 @@ O produto de catálogo é criado no [!DNL Commerce] catálogo e atribuído à li
 
    - Para **[!UICONTROL Assign Tax Class]**, escolha uma opção para o produto.
 
-      As opções exibidas nessa lista dependem das [classes de imposto](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} você configurou o.
+      As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
 
    - Quando terminar, clique em **[!UICONTROL Create Catalog Products]**.
 
 Os produtos do catálogo são criados no [!DNL Commerce] catálogo e atribuído à listagem do Amazon da qual foi criado. Com as listagens agora correspondidas às respectivas listagens do Amazon, as listagens são removidas da [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) e aparecerão na guia [_[!UICONTROL Active]_](./active-listings.md) guia.
 
-![Criar produto de catálogo do Commerce](assets/amazon-magento-catalog-product.png)
+![Criar produto de catálogo do Commerce](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | (Obrigatório) Se ativado, o produto fica visível no [!DNL Commerce] vitrine eletrônica. Se estiver desativado, o produto não será exibido no [!DNL Commerce] vitrine eletrônica. |
-| [!UICONTROL Categories] | É possível inserir o nome da categoria do novo produto ou selecionar uma categoria clicando na seta para baixo para mostrar as opções. As opções dependem do seu [categorias](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} configuração. |
-| [!UICONTROL Website Ids] | (Obrigatório) Escolha o site (loja) ao qual o produto será associado. As opções dependem do seu [!DNL Commerce] [configuração da loja](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} configurações |
-| ID do conjunto de atributos | Escolha um conjunto de atributos. As opções dependem do que foi configurado [!DNL Commerce] [conjuntos de atributos](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Categories] | É possível inserir o nome da categoria do novo produto ou selecionar uma categoria clicando na seta para baixo para mostrar as opções. As opções dependem do seu [categorias](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) configuração. |
+| [!UICONTROL Website Ids] | (Obrigatório) Escolha o site (loja) ao qual o produto será associado. As opções dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações |
+| ID do conjunto de atributos | Escolha um conjunto de atributos. As opções dependem do que foi configurado [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | Opções:<ul><li>**[!UICONTROL Not Visible Individually]** - O produto não está visível no seu [!DNL Commerce] vitrine (mais comum para produtos variantes).</li><li>**[!UICONTROL Catalog]** - Permite que o produto seja acessado por meio da categoria à qual está associado no site.</li><li>**Pesquisar** - Permite que o produto só seja encontrado através da ferramenta de pesquisa.</li><li>**[!UICONTROL Catalog and Search]** - Permite que os produtos sejam acessados por meio da estrutura de categorias e usando a ferramenta de pesquisa.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Atribua uma classe de imposto ao novo produto. As opções dependem do que foi configurado [classes de imposto](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |
+| [!UICONTROL Assign Tax Class] | Atribua uma classe de imposto ao novo produto. As opções dependem do que foi configurado [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

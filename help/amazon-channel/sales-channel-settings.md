@@ -1,15 +1,15 @@
 ---
-title: Configurações do Sales Channel
+title: Configurações do canal de vendas
 description: Para gerenciar o registro, a origem do cron e a sincronização das funções de canal de vendas do Amazon, atualize a configuração do Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Configurações do Sales Channel
+# Configurações do canal de vendas
 
 Quando a variável [!DNL Amazon Sales Channel] for instalada, os valores padrão serão definidos no Admin para o canal de vendas do Amazon. Essas configurações podem ser modificadas nas configurações da loja da Amazon. Essas configurações incluem:
 
@@ -33,11 +33,11 @@ Quando a variável [!DNL Amazon Sales Channel] for instalada, os valores padrão
 
 1. Para **[!UICONTROL Background Tasks (CRON) Source]**, escolha `Magento CRON`.
 
-   Essa opção permite que o canal de vendas da Amazon use sua [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) configurações para determinar intervalos de comunicação e sincronização de dados com [!DNL Amazon Seller Central].
+   Essa opção permite que o canal de vendas da Amazon use sua [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) configurações para determinar intervalos de comunicação e sincronização de dados com [!DNL Amazon Seller Central].
 
 1. Para **[!UICONTROL Enable Debug Logging]**, escolha `Enabled` para coletar dados adicionais de sincronização quando a solução de problemas for necessária.
 
-   O registro do canal de vendas da Amazon é gravado no `{Commerce Root}/var/log/channel_amazon.log` arquivo e pode ser visualizado em [modo de desenvolvedor](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. O registro só deve ser `Enabled` durante a solução de problemas e deve ser `Disabled` quando a solução de problemas estiver concluída.
+   O registro do canal de vendas da Amazon é gravado no `{Commerce Root}/var/log/channel_amazon.log` arquivo e pode ser visualizado em [modo de desenvolvedor](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). O registro só deve ser `Enabled` durante a solução de problemas e deve ser `Disabled` quando a solução de problemas estiver concluída.
 
 1. Para **[!UICONTROL Read-Only Mode]**, selecione `Enabled` para bloquear todas as solicitações de API que mudam de estado de saída.
 
@@ -51,4 +51,4 @@ Quando a variável [!DNL Amazon Sales Channel] for instalada, os valores padrão
 
 1. Clique em **[!UICONTROL Save Config]**.
 
-![definições de configuração de Sales Channel](assets/config-sales-channel-global-settings.png)
+![definições de configuração de Sales Channel](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

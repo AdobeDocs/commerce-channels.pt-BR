@@ -1,15 +1,15 @@
 ---
-title: Configurações da loja
+title: Revisar configurações da loja para o canal de vendas da Amazon
 description: Após concluir o processo de integração do canal de vendas da Amazon, revise e atualize o [!DNL Commerce] configurações de armazenamento.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Configurações da loja
+# Revisar configurações da loja para o canal de vendas da Amazon
 
 Depois de criar e integrar sua loja de canais de vendas da Amazon, revise as configurações padrão da loja para garantir que seu produto, sua lista, seus preços e outras configurações estejam corretos.
 
@@ -27,4 +27,4 @@ Depois de criar e integrar sua loja de canais de vendas da Amazon, revise as con
    - **[!UICONTROL Logs]** - [Listando alterações](./listing-changes-log.md) e [erros de comunicação](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Revisar as configurações de email e nome do armazenamento do canal de vendas da Amazon no [!DNL Commerce] Admin.
 
-![Armazenar painel](assets/ob-store-review.png)
+![Armazenar painel](assets/ob-store-review.png){width="600" zoomable="yes"}

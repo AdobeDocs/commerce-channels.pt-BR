@@ -1,15 +1,15 @@
 ---
-title: Painel da Amazon Store
+title: painel de loja da Amazon
 description: Exiba a atividade das suas lojas Amazon no Administrador do Commerce usando o painel de lojas Amazon.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Painel da Amazon Store
+# painel de loja da Amazon
 
 No _[!UICONTROL Amazon Stores]_na página inicial do canal de vendas do Amazon, você pode clicar em **[!UICONTROL View Store]**em um cartão de loja para abrir o painel da loja.
 
@@ -17,7 +17,7 @@ O painel da loja é o local principal para exibir a atividade de cada uma das lo
 
 Você também pode acessar seu [configurações da loja](./ob-store-review.md), [gerenciar suas listas](./managing-product-listings.md)e exibir dados de vendas e informações recentes da ordem.
 
-![Painel da Amazon Store](assets/amazon-store-dashboard.png)
+![Painel da Amazon Store](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 O cabeçalho do painel de armazenamento exibe as mesmas informações básicas de armazenamento mostradas no cartão de armazenamento:
 

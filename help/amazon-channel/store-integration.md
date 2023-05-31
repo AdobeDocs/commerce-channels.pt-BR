@@ -1,17 +1,17 @@
 ---
-title: Integração da loja
+title: Integração da loja com um [!DNL Amazon Seller Account]
 description: Antes de iniciar o processo de integração, você deve criar (adicionar) um armazenamento de Sales Channel da Amazon e conectá-lo à sua conta de vendedor da Amazon.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Integração da loja
+# Integração da loja com um [!DNL Amazon Seller Account]
 
-Para começar a usar o canal de vendas da Amazon, você deve criar (adicionar) uma loja de canais de vendas da Amazon e conectá-la à sua conta de vendedor da Amazon. Essas duas etapas integram o seu [!DNL Commerce] e contas do Amazon para compartilhar dados, sincronizar produtos e muito mais.
+Para começar a usar o canal de vendas da Amazon, você deve criar (adicionar) uma loja de canais de vendas da Amazon e conectá-la à [!DNL Amazon Seller Account]. Essas duas etapas integram o seu [!DNL Commerce] e contas do Amazon para compartilhar dados, sincronizar produtos e muito mais.
 
 _Você precisa das credenciais de login principais para seu [!DNL Amazon Seller Central] conta (o email ou telefone usado para criar a conta do vendedor) para conectar sua loja._
 
@@ -29,7 +29,7 @@ _Você precisa das credenciais de login principais para seu [!DNL Amazon Seller 
 
    A variável _[!UICONTROL Add Amazon sales channel]_é aberta.
 
-   ![Adicionar a loja de canal de vendas da Amazon](assets/amazon-store-integration.png)
+   ![Adicionar a loja de canal de vendas da Amazon](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Para **[!UICONTROL Magento Website to use for Amazon Listing]**, escolha qual dos seus [!DNL Commerce] sites a serem conectados nesta loja de canais de vendas da Amazon.
 
@@ -84,7 +84,7 @@ _Você precisa das credenciais de login principais para seu [!DNL Amazon Seller 
 
    Para exibir o painel da loja, clique em **[!UICONTROL View Store]** no cartão de loja.
 
-![Página inicial do canal de vendas da Amazon com o novo cartão de loja](assets/asc-dashboard-after-2fa.png)
+![Página inicial do canal de vendas da Amazon com o novo cartão de loja](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Sua nova loja de canais de vendas da Amazon agora está conectada ao seu [!DNL Amazon Seller Central] conta.
 

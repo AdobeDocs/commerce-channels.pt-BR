@@ -1,15 +1,15 @@
 ---
-title: Preços do Concorrente Buy Box
+title: "[!DNL Buy Box] preços do concorrente para listagens do Amazon"
 description: O Sales Channel da Amazon fornece a [!UICONTROL Buy Box Competitor Pricing] para ajudá-lo a entender o posicionamento de preços de seus concorrentes no Amazon.
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] Preços da concorrência
+# [!DNL Buy Box] preços do concorrente para listagens do Amazon
 
 A variável [!DNL Buy Box] O é concedido pela Amazon ao vendedor que tem o produto listado geralmente com o melhor preço, juntamente com outros fatores, como a oferta de envio FBA/Prime, disponibilidade e desempenho do vendedor.
 
@@ -17,9 +17,9 @@ A variável _[!UICONTROL Buy Box Competitor Pricing]_na guia_[!UICONTROL Product
 
 [Regras inteligentes de reprecificação](./intelligent-repricing-rules.md) O pode ser configurado para ajustar seus preços com base no [!DNL Amazon Buy Box] preço.
 
-![Detalhes de Preços do Concorrente Buy Box](assets/amazon-listing-details-buy-box.png)
+![Detalhes de Preços do Concorrente Buy Box](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
-## Access [!DNL Buy Box] Detalhes de Preços do Concorrente
+## Access [!DNL Buy Box] detalhes de preços do concorrente
 
 1. Clique em **[!UICONTROL Manage Listings]** no painel da loja.
 

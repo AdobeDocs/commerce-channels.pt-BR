@@ -2,9 +2,9 @@
 title: Ordens de Devolução e de Reembolso
 description: Instruções para a emissão de reembolsos totais ou parciais para pedidos de devolução recebidos do [!DNL Walmart Marketplace] de [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ No lado do Comércio, a solicitação de retorno inicia o seguinte fluxo de trab
 
 1. O Gerenciador de canais cria uma solicitação de retorno correspondente com um status recebido e adiciona o número de ID de retorno ([!UICONTROL RMA #]) para o [!UICONTROL Returns] painel. No [!DNL Orders] painel de controle, os detalhes do status do pedido associado à devolução são atualizados para incluir uma [!UICONTROL Return requested] link para exibir e processar a devolução.
 
-1. Os comerciantes processam a restituição associada à devolução criando um Aviso de Crédito após a [Fluxo de trabalho de reembolso do Adobe Commerce](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Todos os reembolsos são processados usando o método offline.
+1. Os comerciantes processam a restituição associada à devolução criando um Aviso de Crédito após a [Fluxo de trabalho de reembolso do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Todos os reembolsos são processados usando o método offline.
 
 1. [!DNL Channel Manager] envia uma atualização de reembolso ao Walmart marketplace para que o status da devolução possa ser atualizado para refletir o reembolso concluído da Adobe Commerce.
 
 No Administrador da loja, é possível visualizar e processar os retornos do Gerenciador de canais abrindo a loja de canais de vendas e selecionando **[!UICONTROL Returns]**.
 
-![Gerenciador de canal Retorna o painel para processar reembolsos de solicitações de retorno recebidas do [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![Gerenciador de canal Retorna o painel para processar reembolsos de solicitações de retorno recebidas do [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Os cenários a seguir descrevem como emitir reembolsos para diferentes tipos de 
 
    * No [!UICONTROL Status Details] coluna, selecione **[!UICONTROL Create credit memo]** para abrir a página Detalhes do pedido em [!DNL Commerce].
 
-      Se o pedido não tiver sido faturado, a página Detalhes do pedido exibirá uma mensagem de erro solicitando a criação de um. Selecionar **[!UICONTROL Create invoice]**. Em seguida, [criar e salvar a fatura](https://docs.magento.com/user-guide/sales/invoices.html).
+      Se o pedido não tiver sido faturado, a página Detalhes do pedido exibirá uma mensagem de erro solicitando a criação de um. Selecionar **[!UICONTROL Create invoice]**. Em seguida, [criar e salvar a fatura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Na página Detalhes do pedido, selecione **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Você pode exibir informações sobre solicitações de devolução e processame
 
 1. Exibir detalhes de reembolso para uma devolução selecionando **[!UICONTROL View credit memo]**.
 
-   ![Aviso de crédito para reembolso de itens devolvidos de um [!DNL Walmart Marketplace] pedido](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Aviso de crédito para reembolso de itens devolvidos de um [!DNL Walmart Marketplace] pedido](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

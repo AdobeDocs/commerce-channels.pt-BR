@@ -2,7 +2,7 @@
 title: Gerenciar Listagens
 description: '"Gerenciar listas de canais de vendas para um [!DNL Commerce] armazenamento com o Gerenciador de canal para Adobe Commerce e Magento Open Source.'''
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Gerenciar listas de produtos para o [!DNL Walmart Marketplace] canal de vendas n
 
 O Status de uma lista individual indica onde o produto está na [!DNL Channel Manager] fluxo de trabalho para que você possa determinar as próximas etapas e resolver erros.
 
-![Página de listagens de um canal de vendas conectado](assets/listings-dashboard-view.png)
+![Página de listagens de um canal de vendas conectado](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 Você pode concluir as seguintes tarefas a partir da exibição Listagem.
 

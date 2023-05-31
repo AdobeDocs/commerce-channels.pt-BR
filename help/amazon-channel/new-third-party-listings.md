@@ -1,15 +1,15 @@
 ---
-title: Novas listagens de terceiros
+title: Novas listagens de Amazon de terceiros
 description: Gerencie novas listagens do Amazon associando-as a um produto no catálogo de Comércio.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Novas listagens de terceiros
+# Novas listagens de Amazon de terceiros
 
 A variável _[!UICONTROL New Third Party]_mostra suas listagens existentes do Amazon que não foram correspondidas a um produto em sua [!DNL Commerce] catálogo. Para usar o gerenciamento de listas para quantidade, preço, tempo de manuseio e muito mais, cada uma das suas listas do Amazon deve corresponder (ser atribuída) a um produto na sua [!DNL Commerce] catálogo. Você tem algumas opções para atribuir uma lista a um produto na [!DNL Commerce] catálogo.
 
@@ -31,7 +31,7 @@ Em _[!UICONTROL Select]_:
 >
 >Se você tiver listas em andamento, uma mensagem será exibida acima das guias indicando o número de listas.
 
-![Novas listagens de terceiros](assets/amazon-listings-new-third-party.png)
+![Novas listagens de terceiros](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 

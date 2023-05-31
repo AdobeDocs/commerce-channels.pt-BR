@@ -1,15 +1,15 @@
 ---
-title: Gerenciar Pedidos
+title: Gerenciar pedidos do Amazon
 description: Você pode ativar a importação de pedidos nas Configurações de pedidos para gerenciar mais facilmente os pedidos do Amazon com o administrador do Commerce.
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
-# Gerenciar Pedidos
+# Gerenciar pedidos do Amazon
 
 Você pode visualizar as informações do pedido do Amazon, conforme recebidas da Amazon, no _[!UICONTROL Recent Orders]_seção do [painel de armazenamento](./amazon-store-dashboard.md) ou no_[!UICONTROL Amazon orders]_ página (também chamada de _[!UICONTROL All Orders]_exibir).
 
@@ -17,13 +17,13 @@ A forma como você gerencia os pedidos do Amazon depende de a importação do pe
 
 ## Com a importação da ordem ativada
 
-Depois [integração de loja](./store-integration.md), o [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) a configuração é `Enabled` por padrão. Com essa configuração, o correspondente a [!DNL Commerce] são criados para seus pedidos da Amazon e podem ser gerenciados no [[!DNL Commerce] Pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} fluxo de trabalho.
+Depois [integração de loja](./store-integration.md), o [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) a configuração é `Enabled` por padrão. Com essa configuração, o correspondente a [!DNL Commerce] são criados para seus pedidos da Amazon e podem ser gerenciados no [[!DNL Commerce] Pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) fluxo de trabalho.
 
 >[!NOTE]
 >
 >Independentemente das configurações de importação do seu pedido, os pedidos do Amazon que existiam em seu [!DNL Amazon Seller Central] antes da sua [integração de loja](./store-integration.md) não são importados.
 
-Os pedidos Amazon importados são gerenciados na [[!DNL Commerce] Pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. Consulte [Exibir Pedidos do Amazon](./amazon-orders-all.md).
+Os pedidos Amazon importados são gerenciados na [[!DNL Commerce] Pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) fluxo de trabalho, exatamente como o seu outro [!DNL Commerce] lojas. Clique no número do pedido Amazon na caixa *[!UICONTROL Order Number]* coluna para abrir a ordem na [[!DNL Commerce] processo de pedido](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-processing.html#process-an-order#order-view-descriptions). Consulte [Exibir Pedidos do Amazon](./amazon-orders-all.md).
 
 ### Processo de importação de ordem
 
@@ -32,8 +32,8 @@ Quando um pedido é feito no Amazon e [importação de ordem](./order-settings.m
 | Alterar | Ações |
 |---|---|
 | Um pedido é feito no Amazon. | <ul><li>O Amazon define o status do pedido como `Pending`.</li><li>As informações do pedido são enviadas para [!DNL Commerce].</li><li>O pedido é adicionado a [_Pedidos do Amazon_ tabela](./amazon-orders-all.md) com um `Pending` status.</li></ul> |
-| O Amazon altera o status do pedido para `Unshipped`. | <ul><li>A alteração de status é enviada para [!DNL Commerce].</li><li>No [_Pedidos do Amazon_ tabela](./amazon-orders-all.md), o status do pedido muda para `Unshipped`.</li><li>No [[!DNL Commerce] fluxo de trabalho de pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, um correspondente [!DNL Commerce] o pedido é criado com um `Processing` status.</li></ul> |
-| Entrada [[!DNL Commerce] fluxo de trabalho de pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, o [!DNL Commerce] pedido for processado e o status for alterado para `Shipped`. | <ul><li>No [_Pedidos do Amazon_ tabela](./amazon-orders-all.md), o status do pedido muda para `Shipped`.</li><li>No próximo trabalho cron, o status do pedido muda para `Complete` no [[!DNL Commerce] fluxo de trabalho de pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
+| O Amazon altera o status do pedido para `Unshipped`. | <ul><li>A alteração de status é enviada para [!DNL Commerce].</li><li>No [_Pedidos do Amazon_ tabela](./amazon-orders-all.md), o status do pedido muda para `Unshipped`.</li><li>No [[!DNL Commerce] fluxo de trabalho de pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), um correspondente [!DNL Commerce] o pedido é criado com um `Processing` status.</li></ul> |
+| Entrada [[!DNL Commerce] fluxo de trabalho de pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), o [!DNL Commerce] pedido for processado e o status for alterado para `Shipped`. | <ul><li>No [_Pedidos do Amazon_ tabela](./amazon-orders-all.md), o status do pedido muda para `Shipped`.</li><li>No próximo trabalho cron, o status do pedido muda para `Complete` no [[!DNL Commerce] fluxo de trabalho de pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
 
 ### Bloqueadores de criação de pedidos
 
@@ -42,8 +42,8 @@ Existem alguns cenários que impedem a criação dos correspondentes [!DNL Comme
 | Cenário | Solução |
 |---|---|
 | O item não existe no [!DNL Commerce] catálogo. | [Criar o produto](./creating-assigning-catalog-products.md) no seu [!DNL Commerce] catálogo e [correspondência manual](./creating-assigning-catalog-products.md) ao produto. |
-| O item no catálogo está desabilitado. | Certifique-se de que a variável [status do produto](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} está ativado. |
-| O item solicitado está esgotado. | Atualize ou configure o [opções de produto](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} para quantidade e origem. |
+| O item no catálogo está desabilitado. | Certifique-se de que a variável [status do produto](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) está ativado. |
+| O item solicitado está esgotado. | Atualize ou configure o [opções de produto](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) para quantidade e origem. |
 
 Quando os pedidos não puderem ser importados, uma mensagem do sistema semelhante à seguinte será exibida na parte superior da tela:
 

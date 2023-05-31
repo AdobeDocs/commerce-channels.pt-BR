@@ -2,9 +2,9 @@
 title: "Regra de Reprecificação Inteligente: Preço Mínimo"
 description: Use as configurações de preço mínimo para determinar o preço mais baixo de uma regra de preço inteligente para gerenciar suas listagens do Amazon.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Defina sua configuração de preço mais baixo no _[!UICONTROL Floor Price]_seç
 
 1. Para **[!UICONTROL Floor Price Source]**, escolha um atributo de origem de preço.
 
-   Escolha o [!DNL Commerce] [atributo de produto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} que indica o limite mínimo relativo. Por exemplo, se você não quiser que o preço de tabela do Amazon fique abaixo do custo do item, escolha a opção *Custo* atributo.
+   Escolha o [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) que indica o limite mínimo relativo. Por exemplo, se você não quiser que o preço de tabela do Amazon fique abaixo do custo do item, escolha a opção *Custo* atributo.
 
 1. Para **[!UICONTROL Floor Price Action]**, escolha uma opção.
 
@@ -47,7 +47,7 @@ Defina sua configuração de preço mais baixo no _[!UICONTROL Floor Price]_seç
 
 Neste exemplo, o preço mínimo está definido como 3% acima do custo do item.
 
-![Exemplo de regra de reprecificação inteligente - preço mínimo](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Exemplo de regra de reprecificação inteligente - preço mínimo](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

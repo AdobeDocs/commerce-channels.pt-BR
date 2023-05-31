@@ -2,7 +2,7 @@
 title: Detalhes do pedido Amazon
 description: Veja os detalhes dos seus pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Detalhes do pedido Amazon
 
-![Detalhes do pedido Amazon](assets/amazon-order-details-header.png)
+![Detalhes do pedido Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Exibir detalhes do pedido Amazon
 
@@ -55,16 +55,16 @@ A variável _[!UICONTROL Order and Shipping Details]_mostra informações detalh
 >
 >Não se esqueça de clicar **Salvar pedido** depois de fazer edições.
 
-![Detalhes do pedido e do envio](assets/amazon-order-details.png)
+![Detalhes do pedido e do envio](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Guia Itens de pedido
 
 A variável _[!UICONTROL Order Items]_A guia mostra todos os itens associados ao pedido do Amazon, conforme recebido do Amazon.
 
-![Detalhes do item do pedido](assets/amazon-order-item-details.png)
+![Detalhes do item do pedido](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Guia Tracking
 
 A variável _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
 
-![Detalhes de rastreamento](assets/amazon-order-tracking-details.png)
+![Detalhes de rastreamento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

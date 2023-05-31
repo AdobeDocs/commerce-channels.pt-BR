@@ -1,15 +1,15 @@
 ---
-title: "Integração: criar regra de listagem"
+title: Criar uma regra de listagem do Amazon
 description: Ao concluir o processo de integração do canal de vendas do Amazon, crie as regras de lista iniciais para gerar listas do Amazon para o seu [!DNL Commerce] produtos.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Integração: criar regra de listagem
+# Criar uma regra de listagem do Amazon
 
 As regras de listagem podem ser definidas durante a integração, mas também podem ser modificadas a qualquer momento. Após a integração, você pode acessar o [regras de listagem](./listing-rules.md) na loja [painel](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ As regras de listagem podem ser definidas durante a integração, mas também po
 
 1. Revise suas listas na Visualização da lista:
 
-   ![Visualização da listagem](assets/amazon-ob-listing-preview.png)
+   ![Visualização da listagem](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - Os produtos listados nesta guia não estão qualificados para a lista do Amazon com base nas configurações de regra de lista atuais.
 

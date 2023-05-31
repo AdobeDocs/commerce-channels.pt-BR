@@ -1,15 +1,15 @@
 ---
-title: Gerenciar atributos
+title: Gerenciar atributos para listagens do Amazon
 description: É possível gerenciar o mapeamento de atributos de produto do Commerce para os atributos do Amazon para garantir informações precisas do produto entre os sistemas.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Gerenciar atributos
+# Gerenciar atributos para listagens do Amazon
 
 AMAZON e [!DNL Commerce] ambos usam um sistema de propriedades de produto, conhecidas como atributos, usados para definir um produto. Os atributos definem a descrição, o conteúdo, as imagens, os preços e vários dados para seus produtos.
 
@@ -23,7 +23,7 @@ O canal de vendas da Amazon permite acessar, revisar, criar e gerenciar atributo
 
 Para obter mais informações sobre [!DNL Commerce] e Amazon conjuntos de atributos e valores, consulte:
 
-- [Gerenciar noções básicas de atributos](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [Gerenciar noções básicas de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Criar um atributo](./creating-attributes.md#create-an-attribute)
 - [Editar um atributo existente](./creating-attributes.md#edit-an-attribute)
 - [Exibir mapeamento de atributos](./amazon-matching-attributes-values.md)

@@ -1,16 +1,16 @@
 ---
-title: Ações de listagem de produtos
+title: Canal de vendas do Amazon - Ações de lista de produtos
 description: Use as configurações de Ações de listagem de produtos para definir como o catálogo do Commerce interage com o Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
-# Ações de listagem de produtos
+# Ações de lista de produtos
 
 As configurações de ações de listagem de produtos fazem parte das configurações de listagem de lojas. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -42,7 +42,7 @@ Essas configurações definem como o catálogo interage com o Amazon. Estas conf
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Ações de lista de produtos](assets/amazon-product-listing-actions.png)
+![Ações de lista de produtos](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

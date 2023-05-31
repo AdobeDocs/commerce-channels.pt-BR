@@ -1,15 +1,15 @@
 ---
-title: Gerenciar listas de produtos por ação
+title: Gerenciar listas de produtos do Amazon por ação
 description: Ao gerenciar suas listagens do Amazon, você pode aplicar uma ação a listagens individuais ou múltiplas.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Gerenciar listas de produtos por ação
+# Gerenciar listas de produtos do Amazon por ação
 
 A variável _[!UICONTROL Product Listings]_Esta página contém várias guias, nas quais você pode visualizar os status de todas as suas listas e corresponder seus produtos às listas do Amazon.
 

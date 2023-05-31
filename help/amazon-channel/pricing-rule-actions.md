@@ -1,16 +1,16 @@
 ---
-title: Ações da Regra de Preço
+title: Canal de vendas do Amazon - Ações de regra de preço
 description: Use as ações de regra de preço para definir os cálculos de ajuste aplicados à origem do preço para determinar o preço de listagem do Amazon.
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Ações da Regra de Preço
+# Ações de regra de preço
 
 As Ações de Regra de Preço definem os cálculos de ajuste aplicados à origem do preço para determinar o preço da lista.
 

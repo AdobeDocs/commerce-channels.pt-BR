@@ -1,10 +1,10 @@
 ---
-title: Atualizar informações necessárias (listagem incompleta)
+title: Atualizar informações necessárias do Amazon
 description: O canal de vendas da Amazon fornece a guia Incompleto para monitorar produtos de catálogo do Commerce sem as informações necessárias da Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Listagens exibidas na _[!UICONTROL Incomplete]_inclua seu [!DNL Commerce] produt
 
 A lista agora corresponde ao catálogo, e a lista é atualizada e publicada no Amazon com base nas configurações de cron e lista. Também é removido do _[!UICONTROL Incomplete]_guia.
 
-![Atribuir ASIN manualmente para nenhuma correspondência de listagem](assets/amazon-listing-update-assign-asin.png)
+![Atribuir ASIN manualmente para nenhuma correspondência de listagem](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Atualizar informações necessárias (várias correspondências encontradas) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ A lista agora corresponde ao catálogo, e a lista é atualizada e publicada no A
 
 1. Para salvar a correspondência do produto, clique em **[!UICONTROL Save Listing Update]**.
 
-![Selecionar manualmente ASIN entre várias correspondências possíveis](assets/amazon-listing-update-multiple-matches.png)
+![Selecionar manualmente ASIN entre várias correspondências possíveis](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Atualizar informações necessárias (tem variantes) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ A lista agora corresponde ao catálogo, e a lista é atualizada e publicada no A
 
 1. Para salvar a correspondência do produto, clique em **[!UICONTROL Save Listing Update]**.
 
-![Selecionar manualmente a ASIN entre possíveis correspondências de variante](assets/amazon-listing-update-multiple-matches.png)
-
 ## Atualizar informações necessárias (condição ausente) {#update-required-info-missing-condition}
 
 1. Exibir as listagens no _[!UICONTROL Incomplete]_guia em [Gerenciar Listagens](./managing-product-listings.md).
@@ -79,4 +77,4 @@ A lista agora corresponde ao catálogo, e a lista é atualizada e publicada no A
 
 1. Para salvar a correspondência do produto, clique em **[!UICONTROL Save Listing Update]** .
 
-![Atualizar manualmente a condição ausente](assets/amazon-update-listing-missing-condition.png)
+![Atualizar manualmente a condição ausente](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

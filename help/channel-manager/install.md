@@ -2,9 +2,9 @@
 title: 'Instalar [!DNL Channel Manager]'
 description: '''Instalar o[!DNL Channel Manager] extensão."'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Ambos os métodos exigem o uso da CLI (Command Line Interface, interface de linh
 
 >[!NOTE]
 >
->Para obter ajuda com a instalação do [!DNL Commerce] usando a CLI, consulte [Instalação geral da CLI](https://devdocs.magento.com/extensions/install/){target="_blank"}.
+>Para obter ajuda com a instalação do [!DNL Commerce] usando a CLI, consulte [Instalar uma extensão](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### Instalar em uma instância local
 
 Use estas instruções para instalar o [!DNL Channel Manager] no Adobe Commerce e no Magento Open Source para uma instância local.
 
-1. Faça logon no [!DNL Commerce] servidor as a [usuário com permissões](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} para gravar na [!DNL Commerce] sistema de arquivos.
+1. Faça logon no [!DNL Commerce] servidor as a [usuário com permissões](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) para gravar na [!DNL Commerce] sistema de arquivos.
 
-1. Coloque seu site em [modo de manutenção](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
+1. Coloque seu site em [modo de manutenção](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -108,13 +108,13 @@ Use estas instruções para instalar o [!DNL Channel Manager] no Adobe Commerce 
 
 Trabalhe em uma ramificação de desenvolvimento ao adicionar uma extensão à instância da nuvem.
 
-Para obter ajuda sobre como usar ramificações, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} na documentação do desenvolvedor do Adobe Commerce.
+Para obter ajuda sobre como usar ramificações, consulte [Introdução à criação de ramificações](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) no _Guia do Commerce na infraestrutura em nuvem_.
 
-Durante a instalação, o nome da extensão (`magento\channel-manager`) é inserido automaticamente no [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} arquivo. Não é necessário editar o arquivo diretamente.
+Durante a instalação, o nome da extensão (`magento\channel-manager`) é inserido automaticamente no [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) arquivo. Não é necessário editar o arquivo diretamente.
 
 1. Na estação de trabalho local, altere para o diretório raiz do projeto na nuvem.
 
-1. Criar ou conferir um desenvolvimento [ramificação](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
+1. Criar ou conferir um desenvolvimento [ramificação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
 1. Usando o nome do Compositor, adicione a extensão ao `require` seção do `composer.json` arquivo.
 
@@ -156,14 +156,14 @@ Exemplo de resposta:
 Module is enabled
 ```
 
-Se o módulo estiver desativado, [habilite-o em seu ambiente local](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) e implantar suas alterações.
+Se o módulo estiver desativado, [habilite-o em seu ambiente local](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) e implantar suas alterações.
 
 
 1. Depois de instalar a extensão com êxito, faça logon na [!UICONTROL Admin] para [configurar o Commerce Services Connector](connect.md).
 
    >[!NOTE]
    >
-   >Para obter instruções sobre como atualizar o Gerenciador de canais para uma nova versão, consulte [Atualizar módulos e extensões](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
+   >Para obter instruções sobre como atualizar o Gerenciador de canais para uma nova versão, consulte [Atualizar módulos e extensões](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
 ## Solução de problemas
@@ -172,7 +172,7 @@ Use as informações a seguir para resolver erros que ocorrem durante o processo
 
 ### Chaves do compositor incorretas
 
-Se a variável [chaves de acesso](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} para autenticar no repositório do Composer são inválidos ou não estão vinculados ao [!DNL MAGE ID] usado para se inscrever no [!DNL Channel Manager] serviço, o seguinte erro é exibido.
+Se a variável [chaves de acesso](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) para autenticar no repositório do Composer são inválidos ou não estão vinculados ao [!DNL MAGE ID] usado para se inscrever no [!DNL Channel Manager] serviço, o seguinte erro é exibido.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -192,7 +192,7 @@ Verifique a configuração da chave:
    $ cat /path/to/auth.json
    ```
 
-1. Verifique se as credenciais no auth.json correspondem [as chaves associadas à ID da IMAGEM](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} utilizado para registrar-se no serviço Gerenciador de canais.
+1. Verifique se as credenciais no auth.json correspondem [as chaves associadas à ID da IMAGEM](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) utilizado para registrar-se no serviço Gerenciador de canais.
 
 ### Memória insuficiente para o PHP
 
@@ -204,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Use um dos seguintes métodos para resolver o problema de memória:
 
-- [Aumentar o limite de memória do PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} para outras configurações do PHP.
+- [Aumentar o limite de memória do PHP](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) no ambiente `php.ini` arquivo. Além disso, verifique se a instância do Commerce tem o [valores recomendados](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) para outras configurações do PHP.
 
 - Especifique o limite de memória na linha de comando.
 
@@ -220,7 +220,7 @@ Use um dos seguintes métodos para resolver o problema de memória:
 
 ### Visualização ausente
 
-Se você receber um erro sobre uma falha `process_catalog_exporter_view` durante a instalação do Gerenciador de canais, tente [atualizar os indexadores](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
+Se você receber um erro sobre uma falha `process_catalog_exporter_view` durante a instalação do Gerenciador de canais, tente [atualizar os indexadores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
 
 ```bash
 php bin/magento indexer:refresh
@@ -228,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### Erros de implantação de nuvem
 
-Para problemas ao implantar a extensão na nuvem, consulte [falha na implantação da extensão](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
+Para problemas ao implantar a extensão na nuvem, consulte [falha na implantação da extensão](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).

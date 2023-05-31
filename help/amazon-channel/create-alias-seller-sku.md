@@ -2,7 +2,7 @@
 title: Criar um alias Amazon Seller SKU
 description: Você pode usar o Alias Amazon Seller SKU para criar listagens de Amazon multirregionais a partir de seus produtos de catálogo do Commerce.
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Exibir a listagem no _[!UICONTROL Product Listings]_página (_[!UICONTROL Inacti
 
 1. Clique em **[!UICONTROL Save Listing Update]**.
 
-![criar um alias Amazon Seller SKU](assets/amazon-alias-sku-create.png)
+![criar um alias Amazon Seller SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

@@ -1,16 +1,15 @@
 ---
-title: Regras de listagem
+title: Canal de vendas do Amazon - [!UICONTROL Listing Rules]
 description: Usar regras de listagem determina os produtos do catálogo do Commerce publicados como listagens do Amazon Marketplace.
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# Regras de listagem
+# [!UICONTROL Listing Rules]
 
 É possível acessar as regras de listagem para armazenamento na [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ As regras de listagem são continuamente sincronizadas com as [!DNL Commerce] ca
 
 - Se quiser que todos os seus produtos sejam publicados em uma lista do Amazon, não defina condições para as regras da lista.
 
-- Se quiser limitar quais dos seus produtos de catálogo são publicados no Amazon, defina as condições da regra de listagem. A definição das condições para as regras de listagem do Amazon segue a mesma lógica e processo que a definição das condições para [Regras de preço do carrinho](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- Se quiser limitar quais dos seus produtos de catálogo são publicados no Amazon, defina as condições da regra de listagem. A definição das condições para as regras de listagem do Amazon segue a mesma lógica e processo que a definição das condições para [Regras de preço do carrinho](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - Se as regras de lista excluírem um produto, o status de qualificação desse produto será alterado para `Ineligible`. Produtos não qualificados não são publicados no Amazon.
 
@@ -28,7 +27,7 @@ As regras de listagem são continuamente sincronizadas com as [!DNL Commerce] ca
 
 As alterações na quantidade e no status de qualificação afetam todas as listagens que compartilham o SKU do Vendedor Amazon nos mercados existentes para lojas que vendem na mesma região (conforme definido em _[!UICONTROL Amazon Marketplace Country]_durante [integração de loja](./store-integration.md)). No entanto, uma alteração em um [!DNL Amazon Seller SKU] em uma região não afeta as listagens do Amazon do produto em outro país.
 
-![Regras de listagem](assets/ob-listing-rules.png)
+![Regras de listagem](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## Definir configurações de Regras de Listagem
 
@@ -40,7 +39,7 @@ Consulte [Exemplo: definir uma condição](./ob-define-condition-example.md).
 
 | Campo | Descrição |
 |---|---|
-| [!UICONTROL Websites] | As opções disponíveis dependem do [sites](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} você configurou o em seu [!DNL Commerce] configuração. Selecione o site dos produtos qualificados listados no Amazon. Somente um site pode ser selecionado, pois cada site requer uma loja exclusiva do Amazon criada no canal de vendas do Amazon. |
+| [!UICONTROL Websites] | As opções disponíveis dependem do [sites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) você configurou o em seu [!DNL Commerce] configuração. Selecione o site dos produtos qualificados listados no Amazon. Somente um site pode ser selecionado, pois cada site requer uma loja exclusiva do Amazon criada no canal de vendas do Amazon. |
 | [!UICONTROL Conditions] | Usado para definir o [!DNL Commerce] atributos para qualificação de produto na região do Amazon. Consulte [Exemplo: definir uma condição](./ob-define-condition-example.md). |
 
 ## Espaço de trabalho Condições
@@ -50,7 +49,7 @@ Consulte [Exemplo: definir uma condição](./ob-define-condition-example.md).
 - Não adicione condições se todos os produtos nos sites selecionados estiverem qualificados.
 - Há um conjunto complexo de processos de back-end para se comunicar diretamente com os sistemas da Amazon. Com base no número de itens que você está tentando listar e na ocupação dos sistemas da Amazon (como Black Friday), pode levar algum tempo para que seus itens sejam listados no Amazon.
 
-Para obter mais informações sobre condições, consulte [Descrever as condições](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+Para obter mais informações sobre condições, consulte [Descrever as condições](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## Visualização da regra de listagem
 
@@ -90,7 +89,7 @@ Suas possíveis listagens do Amazon são preenchidas no _[!UICONTROL Listing Pre
 
    Se suas listagens não forem exibidas conforme esperado, clique em **[!UICONTROL Back]** e modifique suas regras e condições até que suas listas atendam às suas expectativas.
 
-![Visualização da regra de listagem](assets/amazon-listing-rule-preview.png)
+![Visualização da regra de listagem](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### Listando registros de visualização
 
@@ -98,11 +97,11 @@ Suas possíveis listagens do Amazon são preenchidas no _[!UICONTROL Listing Pre
 |--- |--- |
 | [!UICONTROL Product ID] | O número sequencial exclusivo atribuído a um [!DNL Commerce] produto de catálogo quando adicionado. |
 | [!UICONTROL Thumbnail] | Mostra uma miniatura da imagem principal do produto. |
-| [!UICONTROL Name] | O nome do produto, gerenciado no [!DNL Commerce] [grade de produtos](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | O nome do produto, gerenciado no [!DNL Commerce] [grade de produtos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | O tipo de produto, gerenciado no [!DNL Commerce] grade de produtos. |
 | [!UICONTROL Attribute Set] | O nome do conjunto de atributos usado como modelo para o produto, gerenciado na [!DNL Commerce] grade de produtos. |
 | [!UICONTROL SKU] | A Unidade de Manutenção de Estoque exclusiva atribuída ao produto, gerenciada na [!DNL Commerce] grade de produtos. |
 | [!UICONTROL Visibility] | Indica onde o produto está visível, gerenciado na [!DNL Commerce] grade de produtos. Opções:<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | Status | Indica o status do produto, gerenciado na [!DNL Commerce] grade de produtos. Opções: `Enabled` / `Disabled` |
 
-![Fluxo de trabalho de visualização da listagem](assets/listing-preview-flowchart.png)
+![Fluxo de trabalho de visualização da listagem](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

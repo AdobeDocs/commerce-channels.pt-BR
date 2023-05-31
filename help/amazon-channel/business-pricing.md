@@ -1,18 +1,18 @@
 ---
-title: (B2B) Preço comercial
+title: "[!DNL (B2B) Business Price] para listagens Amazon"
 description: Você pode listar seus [!DNL Commerce] armazene produtos no site Amazon Business (B2B) habilitando negócios em seu Amazon [!DNL Seller Central] conta.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) Preço comercial
+# [!DNL (B2B) Business Price] para listagens do Amazon
 
-(B2B) As configurações de Preço comercial fazem parte das configurações de lista da loja. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
+(B2B) As configurações de Preço comercial fazem parte das configurações de lista da loja. As configurações de listagem são acessadas no [painel de loja da Amazon](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] é um mercado exclusivo de contas comerciais registradas da Amazon e só está disponível nos Estados Unidos, França, Alemanha e Reino Unido. Se o marketplace permitir preços de negócios B2B, ele será editável nas configurações da lista.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Para que seus produtos sejam listados no [!DNL Amazon Business (B2B)] site, você deve primeiro habilitar os negócios em seu [!DNL Amazon Seller Central] conta. Para obter mais informações sobre o recurso B2B, consulte [Amazon: B2B central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (requer logon da Central de vendas).
 
-## Configurar definições de preço comercial (B2B)
+## Configurar [!DNL (B2B) Business Price] configurações
 
 1. Clique em **[!UICONTROL Listing Settings]** no painel da loja.
 
@@ -44,7 +44,7 @@ Para que seus produtos sejam listados no [!DNL Amazon Business (B2B)] site, voc�
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Preços de negócios da Amazon (B2B)](assets/amazon-business-pricing.png)
+![Preços de negócios da Amazon (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

@@ -1,16 +1,15 @@
 ---
-title: Estoque/Quantidade
+title: Canal de vendas do Amazon - [!UICONTROL Stock/Quantity]
 description: Para controlar a sincronização dos detalhes de quantidade do produto da sua loja do Commerce para a sua [!DNL Amazon Seller Central] conta, atualize as configurações de Estoque/Quantidade.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Estoque/Quantidade
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* as configurações fazem parte das configurações da lista de lojas. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ Quantidade é um atributo regional e com base na variável **[!UICONTROL Amazon 
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Configurações de estoque/quantidade](assets/amazon-stock-quantity.png)
+![Configurações de estoque/quantidade](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
 |---|---|
@@ -67,10 +66,10 @@ Quando um item é vendido, a lista do Amazon o lista nesta quantidade.
 
 Por exemplo, se você definir *[!UICONTROL Maximum Listed Quantity]* as `12`, a lista do Amazon mostra uma quantidade de 12, mesmo que o produto tenha uma [!DNL Commerce] quantidade de 80:
 
-![Exemplo 1 de quantidade máxima listada](assets/amazon-max-listed-quantity.png)
+![Exemplo 1 de quantidade máxima listada](assets/amazon-max-listed-quantity.png){width="300"}
 
 Se você definir seu *[!UICONTROL Maximum Listed Quantity]* as `1`, todos os produtos elegíveis são enumerados com uma quantidade de `1`. Quando um item é vendido, o sistema examina o [!DNL Commerce] produto e, se houver estoque adicional, confia o item no Amazon com uma quantidade de `1`.
 
 Essa opção pode ser valiosa para produtos que normalmente são solicitados na quantidade de 1. Isso também aumenta a urgência para o comprador ao visualizar sua lista do Amazon.
 
-![Exemplo 2 de quantidade máxima listada](assets/amazon-max-listed-quantity-1.png)
+![Exemplo 2 de quantidade máxima listada](assets/amazon-max-listed-quantity-1.png){width="300"}

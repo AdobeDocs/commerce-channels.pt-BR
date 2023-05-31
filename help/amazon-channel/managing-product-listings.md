@@ -2,7 +2,7 @@
 title: Gerenciar listagens do Amazon
 description: O Amazon Sales Channel fornece várias ferramentas para ajudar você a gerenciar suas listagens do Amazon fornecidas pelo administrador do Commerce.
 exl-id: 895fd0f1-29ec-4ae5-af5b-eb5d99f5752a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

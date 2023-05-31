@@ -1,16 +1,16 @@
 ---
-title: Pesquisa no catálogo
+title: Pesquisa no catálogo de listagens do Amazon
 description: Para definir a correspondência de atributos que ajuda a mapear produtos de catálogo do Commerce qualificados com listagens do Amazon, atualize as configurações de Pesquisa de catálogo.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Pesquisa no catálogo
+# Pesquisa no catálogo de listagens do Amazon
 
 _Pesquisa no catálogo_ as configurações fazem parte das configurações da lista de lojas. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Se quiser adicionar atributos, consulte [Criar atributos de produto para corresp
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Pesquisa no catálogo](assets/amazon-catalog-search.png)
+![Pesquisa no catálogo](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |

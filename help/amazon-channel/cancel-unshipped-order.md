@@ -1,15 +1,15 @@
 ---
-title: Cancelar uma Ordem Não Entregue
+title: Cancelar um pedido Amazon não remetido
 description: Cancelar um pedido pendente ou parcialmente remetido (não remetido) por meio da Amazon [!DNL Seller Central] conta.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Cancelar uma Ordem Não Entregue
+# Cancelar um pedido Amazon não remetido
 
 Os pedidos do Amazon só podem ser cancelados se estiverem em uma `Unshipped` status. Se a ordem estiver pendente ou parcialmente entregue (não entregue), a ordem só poderá ser cancelada por meio de [!DNL Amazon Seller Central] conta. Se o item tiver sido enviado, as devoluções e as trocas também deverão ser tratadas em seu [!DNL Amazon Seller Central] Conta.
 
@@ -17,7 +17,7 @@ Os pedidos do Amazon só podem ser cancelados se estiverem em uma `Unshipped` st
 >
 >Para tarefas diferentes do cancelamento de um pedido:
 >
->- Se você tiver [importação de ordem](./order-settings.md) ativado, os pedidos são gerenciados na variável [[!DNL Commerce] fluxo de trabalho de pedidos](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- Se você tiver [importação de ordem](./order-settings.md) ativado, os pedidos são gerenciados na variável [[!DNL Commerce] fluxo de trabalho de pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- Se [importação de ordem](./order-settings.md) estiver desativado, você deverá gerenciar seus pedidos no [!DNL Amazon Seller Central].
 
 

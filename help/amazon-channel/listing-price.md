@@ -1,16 +1,16 @@
 ---
-title: Preço de Listagem
+title: Canal de vendas do Amazon - [!UICONTROL Listing Price]
 description: Use as configurações de Preço da Lista para determinar a origem do preço e o valor de preço-base (padrão) para as listas do Amazon.
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# Preço de Listagem
+# [!UICONTROL Listing Price]
 
 [!UICONTROL Listing Price] as configurações fazem parte das configurações da lista de lojas. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -18,9 +18,9 @@ Essas configurações definem quais [!DNL Commerce] atributo de precificação a
 
 Você pode configurar suas [escopo de precificação](./price-scope.md) como global ou site. Se o escopo de precificação estiver definido como `Global`, há uma única fonte de preço para todas as suas lojas/sites. Se o escopo de precificação estiver definido como `Website`, a fonte de preço usa a lógica de fallback do preço do site (se disponível) seguida pelo preço padrão (global).
 
-Se uma regra de listagem for definida para ser aplicada a mais de um site, a ordem em que o preço do site é usado será determinada pela configuração de prioridade do site definida na [regra de listagem](./listing-rules.md). Essas regras permitem definir o preço do produto no catálogo. Para ver se você está usando o escopo de preço do site, consulte [Escopo do Preço de Catálogo](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target="_blank"}.
+Se uma regra de listagem for definida para ser aplicada a mais de um site, a ordem em que o preço do site é usado será determinada pela configuração de prioridade do site definida na [regra de listagem](./listing-rules.md). Essas regras permitem definir o preço do produto no catálogo. Para ver se você está usando o escopo de preço do site, consulte [Escopo do Preço de Catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html).
 
-As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, e _[!UICONTROL Strike Through Price (MSRP)]_inclua os atributos de Preço configurados. Os atributos de preço são [!DNL Commerce] atributos de produto com o valor Tipo de Entrada de Catálogo para Proprietário da Loja definido como `Price`. Consulte [Tipos de entrada de atributo](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target="_blank"}.
+As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, e _[!UICONTROL Strike Through Price (MSRP)]_inclua os atributos de Preço configurados. Os atributos de preço são [!DNL Commerce] atributos de produto com o valor Tipo de Entrada de Catálogo para Proprietário da Loja definido como `Price`. Consulte [Tipos de entrada de atributo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html).
 
 ## Configurar definições de Preço de Listagem {#configure-listing-price-settings}
 
@@ -51,7 +51,7 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
    - `Enabled` - Escolha quando deseja aplicar o IVA ao preço da lista. O IVA é normalmente usado como um imposto sobre vendas em países europeus e é adicionado ao preço listado final na Amazon. o IVA não se aplica ao preço final das cotações utilizadas no âmbito de uma regra de tarifação inteligente, a menos [preço mínimo](./floor-price.md) é uma ocorrência.
    >[!NOTE]
    >
-   >As empresas da União Europeia (UE) devem enviar faturas aos compradores de empresas para que o cliente possa remeter o imposto. Você pode gerar essas NFFs e calcular os impostos ou usar um serviço de cálculo de imposto, como o Serviço de Cálculo de IVA da Amazon. A Amazon recomenda se inscrever no [Serviço de Cálculo de IVA da Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target="_blank"}. Se você escolher um método diferente, será responsável pela conformidade com o IVA.>
+   >As empresas da União Europeia (UE) devem enviar faturas aos compradores de empresas para que o cliente possa remeter o imposto. Você pode gerar essas NFFs e calcular os impostos ou usar um serviço de cálculo de imposto, como o Serviço de Cálculo de IVA da Amazon. A Amazon recomenda se inscrever no [Serviço de Cálculo de IVA da Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Se você escolher um método diferente, será responsável pela conformidade com o IVA.>
    >
    >Pode levar de 10 a 14 dias para que a Amazon verifique e ative sua conta do Serviço de Cálculo de IVA.
 
@@ -72,11 +72,11 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
 
 1. Para **[!UICONTROL Currency Conversion]**, escolha uma opção.
 
-   O padrão é `Disabled`. Essas opções dependem do seu [!DNL Commerce] [moeda](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} configurações. Se nenhuma opção estiver disponível, defina as configurações de moeda.
+   O padrão é `Disabled`. Essas opções dependem do seu [!DNL Commerce] [moeda](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) configurações. Se nenhuma opção estiver disponível, defina as configurações de moeda.
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Preço de Listagem](assets/amazon-listing-price.png)
+![Preço de Listagem](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |
@@ -87,7 +87,7 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
 | [!UICONTROL VAT Percentage] | Defina a porcentagem a ser usada para calcular o valor do IVA a ser adicionado ao preço de listagem para suas listagens do Amazon. <br><br>Se você inserir `5`Em seguida, um IVA de 5% será aplicado ao preço de lista final após a aplicação de todas as regras de preços. o imposto sobre o valor acrescentado não se aplica ao preço final das cotações utilizadas no âmbito de uma regra de fixação [andar](./floor-price.md) ou [teto](./optional-ceiling-price.md) é uma ocorrência. |
 | [!UICONTROL Amazon Product Tax Code (PTC)] | (Aparece Somente para Lojas no Reino Unido) Determina se o canal de vendas do Amazon envia informações de código de imposto do produto para o seu [!DNL Amazon Seller Central] conta. <br><br>Selecionar **Não gerenciar PTC** se você estiver usando um serviço de cálculo de imposto de terceiros ou já tiver todos os cálculos de imposto configurados no [!DNL Amazon Seller Central] conta. Quando definido para esta opção, o canal de vendas do Amazon não envia informações de código de imposto do produto para o [!DNL Amazon Seller Central] conta.<br><br>Selecionar **Definir PTC padrão** se você tiver um código de imposto de produto universal que deseja usar para todos os seus produtos.<br><br>Consulte [Códigos de Imposto do Produto da Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | Aparece somente quando **Código de Imposto do Produto (PTC) do Amazon** está definida como `Set Default PTC`. Informe o PTC padrão a ser usado para todas as listagens qualificadas do Amazon. Se o PTC padrão estiver definido no seu [!DNL Amazon Seller Central] deixe este campo em branco. <br><br>As alterações feitas nesse campo não afetam as listagens existentes. A listagem deve ser [encerrado](./end-listings-manually.md) e uma nova lista criada para que a alteração entre em vigor. |
-| [!UICONTROL Currency Conversion] | Permite que [!DNL Commerce] a moeda padrão da loja para converter com precisão para a sua moeda padrão do Amazon para publicar seus preços de lista na moeda apropriada. A conversão de moeda é sempre baseada em seus [!DNL Commerce] moeda padrão.<br><br>Você ainda pode exibir seu padrão [!DNL Commerce] e Amazon quando outras moedas estiverem disponíveis. Se o seu padrão [!DNL Commerce] A moeda corresponde à moeda padrão do Amazon. Deixe a opção Conversão de moeda desativada.<br><br>Por exemplo, se o [!DNL Commerce] A moeda padrão é CAD (Dólares canadenses) e a moeda padrão do Amazon é USD, você deve ativar a Conversão de moeda e escolher a Taxa de conversão CAD para USD. As opções apresentadas baseiam-se no modelo [!DNL Commerce] conversões de moeda. Se você não vir a opção que está procurando, [configurar a moeda em [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}. |
+| [!UICONTROL Currency Conversion] | Permite que [!DNL Commerce] a moeda padrão da loja para converter com precisão para a sua moeda padrão do Amazon para publicar seus preços de lista na moeda apropriada. A conversão de moeda é sempre baseada em seus [!DNL Commerce] moeda padrão.<br><br>Você ainda pode exibir seu padrão [!DNL Commerce] e Amazon quando outras moedas estiverem disponíveis. Se o seu padrão [!DNL Commerce] A moeda corresponde à moeda padrão do Amazon. Deixe a opção Conversão de moeda desativada.<br><br>Por exemplo, se o [!DNL Commerce] A moeda padrão é CAD (Dólares canadenses) e a moeda padrão do Amazon é USD, você deve ativar a Conversão de moeda e escolher a Taxa de conversão CAD para USD. As opções apresentadas baseiam-se no modelo [!DNL Commerce] conversões de moeda. Se você não vir a opção que está procurando, [configurar a moeda em [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 
 **Acesso rápido** - [!UICONTROL Listing Settings] seções
 

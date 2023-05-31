@@ -1,16 +1,16 @@
 ---
-title: Preenchido por
+title: Configurações de Preenchido por para listagens do Amazon
 description: Use as configurações Atendido por para determinar como as ordens das listagens do Amazon são atendidas (entregues).
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# Preenchido por
+# Configurações de Preenchido por para listagens do Amazon
 
 _[!UICONTROL Fulfilled By]_as configurações fazem parte das configurações da lista de lojas. As configurações de listagem são acessadas no [painel de armazenamento](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ O método de preenchimento é um atributo regional e tem como base **[!UICONTROL
 
 1. Quando terminar, clique em **[!UICONTROL Save listing settings]**.
 
-![Configurações de Preenchido por](assets/amazon-fulfilled-by.png)
+![Configurações de Preenchido por](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | Opções:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Escolha se você atende aos pedidos. Quando um pedido é feito, o inventário é deduzido do [!DNL Commerce] catálogo. Quando um novo produto é criado, o método de preenchimento do Comerciante Atendido é atribuído.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Escolha se a Amazon atende aos pedidos. Com esse método de preenchimento, o inventário de produtos não é deduzido do seu [!DNL Commerce] catálogo quando um pedido é feito. Quando um produto é criado, ele é criado com _[!UICONTROL Fulfilled by Amazon (FBA)]_como o tipo de preenchimento. Certifique-se de que seus produtos estejam qualificados para o cumprimento do FBA em seu [!DNL Amazon Seller Central] conta. O inventário FBA também é gerenciado diretamente por meio de [!DNL Amazon Seller Central] conta. Com esse método de atendimento, as atualizações de quantidade não são enviadas em relação às [!DNL Commerce] catálogo, portanto, não é possível usar algumas das ferramentas de marketing descritas em [Configurações de estoque/quantidade](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Escolha se você tem um existente [!DNL Commerce] atributo que determina se é preenchido pelo comerciante ou preenchido pela Amazon. Quando escolhido, **[!UICONTROL Fulfilled by Attribute]** habilita.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | Escolha o [!DNL Commerce] atributo usado para determinar o método de preenchimento.<br><br>Por exemplo, se o atributo for _Preenchido por_ e você escolher o valor do atributo como _[!UICONTROL Fulfilled By Merchant]_ou_[!UICONTROL Fulfilled By Amazon (FBA)]_, o sistema usa esse valor como o tipo de preenchimento para um novo produto. Como comerciante, você deve garantir que seus produtos sejam qualificados para o preenchimento do FBA em seu [!DNL Amazon Seller Central] conta. O inventário FBA também é gerenciado diretamente por meio de sua conta de vendedor da Amazon.<br><br>As opções dependem dos atributos configurados para seus produtos Amazon. |
+| [!UICONTROL Fulfilled By Attribute] | Escolha o [!DNL Commerce] atributo usado para determinar o método de preenchimento.<br><br>Por exemplo, se o atributo for _Preenchido por_ e você escolher o valor do atributo como `Fulfilled By Merchant` ou `Fulfilled By Amazon (FBA)`, o sistema usa esse valor como o tipo de preenchimento para um novo produto. Como comerciante, você deve garantir que seus produtos sejam qualificados para o preenchimento do FBA em seu [!DNL Amazon Seller Central] conta. O inventário FBA também é gerenciado diretamente por meio de sua conta de vendedor da Amazon.<br><br>As opções dependem dos atributos configurados para seus produtos Amazon. |
 
 **Acesso rápido** - [!UICONTROL Listing Settings] seções
 

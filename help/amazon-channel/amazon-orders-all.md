@@ -1,15 +1,15 @@
 ---
-title: Exibir Pedidos do Amazon
+title: Exibir pedidos do Amazon
 description: Veja seus pedidos do Amazon Marketplace no Adobe Commerce ou no Magento Open Source Admin.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# Exibir Pedidos do Amazon
+# Exibir pedidos do Amazon
 
 Há duas maneiras de visualizar seus pedidos do Amazon: _[!UICONTROL Recent Orders]_e_[!UICONTROL All Orders]_.
 
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_a visualização adiciona opções de filtragem para pe
 
 Você pode exibir seus pedidos mais recentes na _[!UICONTROL Recent Orders]_seção do [painel de armazenamento](./amazon-store-dashboard.md).
 
-![Pedidos recentes](assets/amazon-recent-orders-imported.png)
+![Pedidos recentes](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Exibir pedidos recentes do Amazon
 
@@ -54,7 +54,7 @@ Você pode exibir todos os seus pedidos do Amazon no _[!UICONTROL Amazon orders]
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Pedidos do Amazon](assets/amazon-orders-list-all.png)
+![Pedidos do Amazon](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Exibir todos os pedidos do Amazon
 
@@ -72,7 +72,7 @@ Você pode exibir todos os seus pedidos do Amazon no _[!UICONTROL Amazon orders]
 
 É possível aplicar filtros à sua lista de pedidos na _[!UICONTROL Filter by]_seção. Faça suas seleções e clique em **[!UICONTROL Apply filters]**. Os filtros aplicados são exibidos acima da grade de pedidos.
 
-![Filtros para exibir pedidos do Amazon](assets/amazon-orders-filter-view.png)
+![Filtros para exibir pedidos do Amazon](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Alteração de filtros aplicados
 

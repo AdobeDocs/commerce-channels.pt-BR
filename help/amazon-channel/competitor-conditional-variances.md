@@ -2,9 +2,9 @@
 title: "Regra Inteligente de Reavaliação de Preços: Variações Condicionais do Concorrente"
 description: Determine o preço de sua lista do Amazon com base no preço do concorrente e na condição do produto criando uma regra inteligente de reprecificação.
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ Para **[!UICONTROL Conditional Variance]**, escolha uma opção:
 
    Quando a variável _[!UICONTROL Apply Variance]_for escolhido, campos de variação adicionais serão exibidos para cada uma das condições do Amazon. Esse recurso permite usar regras inteligentes de reavaliação de preços ao oferecer produtos que estão em uma condição diferente de seus concorrentes. Para entender o cálculo por trás da variação condicional, você deve primeiro entender que toda a variação é determinada a partir de um preço de correspondência base.
 
-   As opções de variação condicional exibidas se baseiam nas configurações de lista para `Condition` que são mapeados para valores de condição usando um [!DNL Commerce] [atributo de produto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Para todas as condições mapeadas, é possível definir uma porcentagem de variação de 1-100. A exceção é cobrável, nesse caso, uma porcentagem maior que 100 pode ser aplicada.
+   As opções de variação condicional exibidas se baseiam nas configurações de lista para `Condition` que são mapeados para valores de condição usando um [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Para todas as condições mapeadas, é possível definir uma porcentagem de variação de 1-100. A exceção é cobrável, nesse caso, uma porcentagem maior que 100 pode ser aplicada.
 
-![Regra inteligente de reavaliação de preços - Variações condicionais do concorrente](assets/amazon-competitor-cond-variances.png)
+![Regra inteligente de reavaliação de preços - Variações condicionais do concorrente](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | Opções: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Se não houver uma correspondência para a condição com a qual você está listando seu produto, essa opção corresponderá a qualquer condição disponível. Primeiro, ele tenta corresponder à sua condição e, em seguida, funciona no modo `New` condição para `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Essa opção é compatível com a condição do seu produto. Se não houver correspondência, os preços do produto no _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Essa opção primeiro tenta corresponder à condição do seu produto. Se não houver nenhuma condição correspondente, ela aplicará uma variação (como uma porcentagem) relativa à condição do seu produto e à condição do concorrente mais baixo.</li></ul><br><br>As opções de variação condicional exibidas com base nas configurações de lista para Condição que são mapeadas para valores de condição usando um [!DNL Commerce] [atributo de produto](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Para todas as condições mapeadas, você pode indicar uma porcentagem de variação de 1-100. A exceção é cobrável, nesse caso, uma porcentagem maior que 100 pode ser aplicada.<br><br>Esse recurso permite usar regras inteligentes de reavaliação de preços ao oferecer produtos que estão em uma condição diferente de seus concorrentes. Para entender o cálculo por trás da variação condicional, você deve primeiro entender que toda a variação é determinada a partir de um preço de correspondência base. |
+| [!UICONTROL Competitor Conditional Variances] | Opções: <ul><li>**[!UICONTROL Use all competitor's product conditions]** - Se não houver uma correspondência para a condição com a qual você está listando seu produto, essa opção corresponderá a qualquer condição disponível. Primeiro, ele tenta corresponder à sua condição e, em seguida, funciona no modo `New` condição para `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]** - Essa opção é compatível com a condição do seu produto. Se não houver correspondência, os preços do produto no _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]** - Essa opção primeiro tenta corresponder à condição do seu produto. Se não houver nenhuma condição correspondente, ela aplicará uma variação (como uma porcentagem) relativa à condição do seu produto e à condição do concorrente mais baixo.</li></ul><br><br>As opções de variação condicional exibidas com base nas configurações de lista para Condição que são mapeadas para valores de condição usando um [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). Para todas as condições mapeadas, você pode indicar uma porcentagem de variação de 1-100. A exceção é cobrável, nesse caso, uma porcentagem maior que 100 pode ser aplicada.<br><br>Esse recurso permite usar regras inteligentes de reavaliação de preços ao oferecer produtos que estão em uma condição diferente de seus concorrentes. Para entender o cálculo por trás da variação condicional, você deve primeiro entender que toda a variação é determinada a partir de um preço de correspondência base. |
 
 ## Calcular a base de variação condicional
 
@@ -55,18 +55,18 @@ Para **[!UICONTROL Conditional Variance]**, escolha uma opção:
 
 A fórmula para calcular a base de variação condicional é a seguinte:
 
-![fórmula de cálculo base de variação condicional](assets/amazon-cond-variance-calc-1.png)
+![fórmula de cálculo base de variação condicional](assets/amazon-cond-variance-calc-1.png){width="300"}
 
 ## Exemplo
 
 As configurações de variação condicional são as seguintes:
 
-![exemplo de configurações de variação condicional](assets/amazon-cond-variances.png)
+![exemplo de configurações de variação condicional](assets/amazon-cond-variances.png){width="500" zoomable="yes"}
 
 - BMC = 100 (Condição do concorrente = Novo)
 - MCV = 80 (Condição do comerciante = Utilizado; Bom)
 - BMP = US$ 7,99 (Preço base de correspondência = o preço mais baixo da condição do concorrente correspondente)
 
-![exemplo de cálculo de base de variação condicional](assets/amazon-cond-variance-calc-2.png)
+![exemplo de cálculo de base de variação condicional](assets/amazon-cond-variance-calc-2.png){width="300"}
 
 Usando o cálculo da base de variação condicional acima, sua base de variação condicional = US$ 6,39. Esse cálculo é a fonte de preço do concorrente usada para suas ações de regra de preço, explicado mais detalhadamente em [Ajuste de Preço](./price-adjustment.md).

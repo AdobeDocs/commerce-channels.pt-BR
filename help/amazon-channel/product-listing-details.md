@@ -1,15 +1,15 @@
 ---
-title: Exibir Detalhes da Listagem
+title: Exibir detalhes da listagem do Amazon
 description: Para entender as métricas competitivas em suas listagens do Amazon e em alterações individuais de SKU/produto, consulte a página Detalhes da listagem de produtos .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Exibir Detalhes da Listagem
+# Exibir detalhes da listagem do Amazon
 
 A variável _[!UICONTROL Product Listing Details]_A página mostra informações adicionais sobre suas listas de produtos ativas, incluindo o Log de atividades de listagem, que mostra as alterações em um SKU/produto individual. Essas informações podem ajudá-lo a entender as métricas competitivas em seus produtos e em alterações individuais de SKU/produto. As informações adicionais nesta página incluem:
 
@@ -28,7 +28,7 @@ As informações do produto exibidas incluem:
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Detalhes da listagem](assets/amazon-product-listing-details.png)
+![Detalhes da listagem](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Log de atividades de listagem {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Mostra todas as atividades recentes da lista do Amazon. As informações mostrad
 - Comentários: fornece detalhes adicionais relacionados ao tipo de ação de listagem que ocorreu.
 - Executado às: identifica a data e a hora em que a ação ocorreu.
 
-![Detalhes da lista de produtos - Log de atividades da lista](assets/amazon-listing-activity-log.png)
+![Detalhes da lista de produtos - Log de atividades da lista](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Preços do concorrente Buy Box {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Essa guia exibe informações sobre o comerciante do Amazon que retém o [[!DNL 
 - Preço da Entrega: Identifica o preço da lista mais o preço da entrega para a lista.
 - Última Atualização: Identifica a data e a hora em que as informações de precificação foram atualizadas no Amazon.
 
-![Detalhes da lista de produtos: preço do concorrente de Buy Box](assets/amazon-listing-details-buy-box-2.png)
+![Detalhes da lista de produtos: preço do concorrente de Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Menor preço para concorrentes {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ Esta guia exibe informações sobre os concorrentes da Amazon para a mesma lista
 - Contagem de feedback: Identifica a contagem de feedback do Amazon para o comerciante de preço mais baixo.
 - Última Atualização: Identifica a data e a hora em que as informações de precificação foram atualizadas no Amazon.
 
-![Detalhes da lista de produtos - preço mais baixo do concorrente](assets/amazon-listing-details-lowest-comp.png)
+![Detalhes da lista de produtos - preço mais baixo do concorrente](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

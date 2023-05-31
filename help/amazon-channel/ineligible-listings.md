@@ -1,15 +1,15 @@
 ---
-title: Listagens Inelegíveis
+title: Listagens do Amazon inelegíveis
 description: O canal de vendas da Amazon fornece o [!UICONTROL Ineligible] para ajudá-lo a gerenciar os itens não são elegíveis como uma lista com base nas regras de lista atuais.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Listagens Inelegíveis
+# Listagens do Amazon inelegíveis
 
 A variável _[!UICONTROL Ineligible]_A guia mostra uma lista de todos os produtos que estão publicados no Amazon, mas não são qualificados como uma lista com base nas regras de lista atuais. Se um produto anterior foi qualificado e as regras de listagem foram modificadas para torná-lo inelegível, a quantidade associada a um produto cai para 0 e o produto é marcado como_ inelegível _. No entanto, ela ainda está presente no seu [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ Em **[!UICONTROL Select]** no _[!UICONTROL Action]_coluna:
 >[!NOTE]
 >Se você tiver listagens em andamento, o número de listagens será exibido em uma mensagem acima das guias.
 
-![Listagens do Amazon inelegíveis](assets/amazon-ineligible-listings.png)
+![Listagens do Amazon inelegíveis](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 

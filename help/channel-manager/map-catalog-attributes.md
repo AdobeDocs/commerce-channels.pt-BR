@@ -2,9 +2,9 @@
 title: Mapear atributos do catálogo
 description: "Mapear atributos para correspondência [DNL! Commerce] para produtos existentes [!DNL Walmart Marketplace] listagens e sincronização de dados entre [!DNL Channel Manager] e [!DNL Walmart]."
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Esta etapa é necessária para corresponder a [!DNL Commerce] produtos para os e
 | ISSN | Número de Série Padrão Internacional | Número de série de oito dígitos usado para identificar revistas, jornais e periódicos de todos os tipos entregues em todos os tipos de mídia impressa e eletrônica | 8 dígitos |
 | UPC | Código universal do produto | Código de rastreamento padrão de varejo | 12 dígitos |
 
-Se o catálogo não tiver um atributo correspondente, [adicionar ou converter um atributo de catálogo existente](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+Se o catálogo não tiver um atributo correspondente, [adicionar ou converter um atributo de catálogo existente](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## Mapear identificadores exclusivos
 
@@ -38,6 +38,6 @@ Se o catálogo não tiver um atributo correspondente, [adicionar ou converter um
 
       O exemplo a seguir mapeia a variável [!UICONTROL Walmart Marketplace UPC] ao atributo UPC no catálogo de produtos.
 
-      ![Mapear atributos para critérios de correspondência de produtos](assets/products-map-attributes-for-match.png)
+      ![Mapear atributos para critérios de correspondência de produtos](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Selecionar **[!UICONTROL Save]**.
