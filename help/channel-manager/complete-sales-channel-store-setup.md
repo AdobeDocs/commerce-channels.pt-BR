@@ -2,7 +2,9 @@
 title: Concluir configuração do canal
 description: "Depois de criar o canal de vendas que conecta um [!DNL Commerce] Armazenar exibição para [!DNL Walmart Marketplace], abra o canal e conclua a configuração dele. Em seguida, inicie o processo para adicionar produtos, gerenciar listas, inventário, preços e pedidos no [!DNL Channel Manager]."
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+role: Admin, User
+feature: Sales Channels, Configuration
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%

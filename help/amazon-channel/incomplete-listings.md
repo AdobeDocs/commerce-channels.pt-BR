@@ -1,8 +1,9 @@
 ---
 title: Listagens incompletas do Amazon
 description: O canal de vendas da Amazon fornece o [!UICONTROL Incomplete] para ajudar a identificar e atender aos requisitos de qualificação para suas listagens incompletas do Amazon.
+feature: Sales Channels, Products
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -16,7 +17,7 @@ A variável _[!UICONTROL Incomplete]_A guia lista as [!DNL Commerce] produtos de
 Há quatro causas possíveis para uma listagem incompleta, cada uma identificada por seu status.
 
 | Status | Motivo | Ação |
-|--- |--- |--- |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Condição ausente | A Amazon aceita listagens em várias condições (como _Novo_, _Recondicionado_, _Usado: Como novo_) exige uma condição definida. | Atualizar as informações necessárias e manualmente [atribuir uma condição](./amazon-manually-update-incomplete-listing.md#update-required-info-missing-condition) para uma lista. |
 | Não é possível atribuir à listagem do Amazon | A correspondência automática desta listagem ao seu catálogo falhou. Se nenhuma correspondência for encontrada, a lista não poderá ser gerenciada pelo Amazon Sales Channel | Atualizar as informações necessárias e manualmente [atribuir um ASIN](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) ao produto de catálogo para corresponder à lista. |
 | Várias Correspondências Encontradas | A correspondência automática desta listagem ao seu catálogo falhou. Se várias correspondências possíveis forem encontradas, você deverá selecionar a correspondência correta para seu produto. | Atualizar as informações necessárias e manualmente [escolher uma correspondência de produto](./amazon-manually-update-incomplete-listing.md#update-required-info-multiple-matches-found) para o produto e a lista. |
@@ -46,7 +47,7 @@ Em **[!UICONTROL Select]** no _[!UICONTROL Action]_coluna:
 As home pages dos canais de vendas do Amazon compartilham algumas informações [controles do espaço de trabalho](./workspace-controls.md) que permitem personalizar os dados exibidos.
 
 | Coluna | Descrição |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | A SKU (Unidade de manutenção de estoque) atribuída pela Amazon a um produto para identificar o produto, as opções, o preço e o fabricante. |
 | [!UICONTROL ASIN] | Um bloco exclusivo de 10 letras e/ou números que identificam itens.<br><br>ASIN significa [!DNL Amazon Standard Identification Number]. Um ASIN é um bloco exclusivo de 10 letras e/ou números que identificam itens. Para livros, o ASIN é o mesmo que o número ISBN, mas para todos os outros produtos, um novo ASIN é criado quando o item é carregado para o seu catálogo. Você pode encontrar um ASIN de itens na página de detalhes do produto no Amazon, juntamente com mais detalhes relacionados ao item. |
 | [!UICONTROL Product Listing Name] | O nome do produto. |

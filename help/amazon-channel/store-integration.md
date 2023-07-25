@@ -1,8 +1,10 @@
 ---
 title: Integração da loja com um [!DNL Amazon Seller Account]
 description: Antes de iniciar o processo de integração, você deve criar (adicionar) um armazenamento de Sales Channel da Amazon e conectá-lo à sua conta de vendedor da Amazon.
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _Você precisa das credenciais de login principais para seu [!DNL Amazon Seller 
 
    - Para **[!UICONTROL Product ID on the Amazon market]**, escolha o atributo do Amazon a ser mapeado para a variável [!DNL Commerce] atributo selecionado abaixo.
 
-      Essa ID ajuda a corresponder corretamente os produtos correspondentes em seu [!DNL Commerce] catálogo.
+     Essa ID ajuda a corresponder corretamente os produtos correspondentes em seu [!DNL Commerce] catálogo.
 
    - Para **[!UICONTROL Map a Magento attribute]**, escolha o [!DNL Commerce] atributo de produto a ser mapeado para o atributo Amazon selecionado acima.
 
-      [Mapeamento de atributos](./ob-creating-magento-attributes.md) ajuda a garantir que sua lista do Amazon corresponda corretamente ao produto correspondente em sua [!DNL Commerce] catálogo.
+     [Mapeamento de atributos](./ob-creating-magento-attributes.md) ajuda a garantir que sua lista do Amazon corresponda corretamente ao produto correspondente em sua [!DNL Commerce] catálogo.
 
 1. Clique em **[!UICONTROL Connect]**.
 

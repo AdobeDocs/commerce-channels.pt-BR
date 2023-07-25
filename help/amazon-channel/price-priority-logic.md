@@ -1,8 +1,9 @@
 ---
 title: Canal de vendas da Amazon - Lógica de prioridade de preço
 description: O canal de vendas da Amazon aplica priorização ao determinar o preço publicado para uma lista do Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Se o preço do produto estiver definido como `Use Default`, ele retorna ao valor
 
 ## Exemplo 1
 
-|  | Prioridade do site | Preço (Site) | Usar padrão |
-|---|---|---|---|
+|         | Prioridade do site | Preço (Site) | Usar padrão |
+|---------|------------------|-----------------|-------------|
 | Padrão | 0 | $31.99 | -- |
 | Loja 1 | 1 | $24.99 | Não |
 | Loja 2 | 2 | $27.99 | Sim |
@@ -35,8 +36,8 @@ Se o preço do produto estiver definido como `Use Default`, ele retorna ao valor
 
 ## Exemplo 2
 
-|  | Prioridade do site | Preço do site | Usar padrão |
-|---|---|---|---|
+|         | Prioridade do site | Preço do site | Usar padrão |
+|---------|------------------|---------------|-------------|
 | Padrão | 0 | $31.99 | -- |
 | Loja 1 | 1 | $24.99 | Sim |
 | Loja 2 | 2 | $27.99 | Não |
@@ -48,8 +49,8 @@ Se o preço do produto estiver definido como `Use Default`, ele retorna ao valor
 
 ## Exemplo 3
 
-|  | Prioridade do site | Preço do site | Usar padrão |
-|---|---|---|---|
+|         | Prioridade do site | Preço do site | Usar padrão |
+|---------|------------------|---------------|-------------|
 | Padrão | 0 | $31.99 | $30.00 |
 | Loja 1 | 1 | $24.99 | -- |
 | Loja 2 | 2 | $27.99 | $20.00 |

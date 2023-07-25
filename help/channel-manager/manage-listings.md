@@ -1,8 +1,9 @@
 ---
 title: Gerenciar Listagens
 description: '"Gerenciar listas de canais de vendas para um [!DNL Commerce] armazenamento com o Gerenciador de canal para Adobe Commerce e Magento Open Source.'''
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ No espaço de trabalho de Listagem, o rótulo Status mostra onde um produto est�
 
 * **[!UICONTROL Match]**-Identifica produtos que foram correspondidos com êxito em [!DNL Walmart].
 
-   Uma correspondência ocorre quando o valor do atributo do produto — código UPC por exemplo — corresponde ao valor UPC em um [!DNL Walmart Marketplace] listagem. Quando um produto é correspondente, a oferta de produto do Commerce é adicionada à lista existente.
+  Uma correspondência ocorre quando o valor do atributo do produto — código UPC por exemplo — corresponde ao valor UPC em um [!DNL Walmart Marketplace] listagem. Quando um produto é correspondente, a oferta de produto do Commerce é adicionada à lista existente.
 
-   Verifique a [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) painel para revisar a lista de produtos atualizada e verificar os detalhes do produto, o preço e a quantidade do estoque.
+  Verifique a [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) painel para revisar a lista de produtos atualizada e verificar os detalhes do produto, o preço e a quantidade do estoque.
 
 * **[!UICONTROL Match - Match in Stage]**—Identifica produtos correspondentes em [!DNL Walmart] que não pode ser conectado até que o [!DNL Walmart Marketplace] a loja está ativa. Os produtos com esse status se conectam automaticamente quando a variável [!DNL Walmart Marketplace] a loja fica ativa.
 
@@ -102,4 +103,4 @@ No espaço de trabalho de Listagem, o rótulo Status mostra onde um produto est�
 
 * **[!UICONTROL Error description]**— Fornece informações detalhadas sobre o erro de listagem.
 
-   Após resolver o erro, reenvie o produto para correspondência. Consulte [Solução de problemas de erros de correspondência de produtos](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Após resolver o erro, reenvie o produto para correspondência. Consulte [Solução de problemas de erros de correspondência de produtos](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

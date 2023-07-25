@@ -1,8 +1,9 @@
 ---
 title: Ordens de Devolução e de Reembolso
 description: Instruções para a emissão de reembolsos totais ou parciais para pedidos de devolução recebidos do [!DNL Walmart Marketplace] de [!DNL Channel Manager] para Adobe Commerce e Magento Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ Os cenários a seguir descrevem como emitir reembolsos para diferentes tipos de 
 
    * É possível revisar os retornos selecionando o **[!UICONTROL Returns]** guia.
 
-      Você também pode acessar as informações de devolução na [!UICONTROL Orders] página. Procure [!UICONTROL Shipped] ordens que têm uma solicitação de devolução. Em seguida, selecione o `Return requested` no [!UICONTROL Status Details] para exibir e processar a solicitação.
+     Você também pode acessar as informações de devolução na [!UICONTROL Orders] página. Procure [!UICONTROL Shipped] ordens que têm uma solicitação de devolução. Em seguida, selecione o `Return requested` no [!UICONTROL Status Details] para exibir e processar a solicitação.
 
 1. Na tabela Devoluções, localize um retorno com a variável *[!UICONTROL Received]* status.
 
@@ -148,13 +149,13 @@ Os cenários a seguir descrevem como emitir reembolsos para diferentes tipos de 
 
    * No [!UICONTROL Status Details] coluna, selecione **[!UICONTROL Create credit memo]** para abrir a página Detalhes do pedido em [!DNL Commerce].
 
-      Se o pedido não tiver sido faturado, a página Detalhes do pedido exibirá uma mensagem de erro solicitando a criação de um. Selecionar **[!UICONTROL Create invoice]**. Em seguida, [criar e salvar a fatura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Se o pedido não tiver sido faturado, a página Detalhes do pedido exibirá uma mensagem de erro solicitando a criação de um. Selecionar **[!UICONTROL Create invoice]**. Em seguida, [criar e salvar a fatura](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Na página Detalhes do pedido, selecione **[!UICONTROL Credit Memo]**.
 
    * Entrada [!UICONTROL Items to Refund] seção do [!UICONTROL Credit Memo], atualize o **[!UICONTROL Qty to refund]** e **[!UICONTROL Return to Stock]** informações sobre os itens incluídos na solicitação de devolução.
 
-      Certifique-se de retornar apenas os itens listados na solicitação de devolução.
+     Certifique-se de retornar apenas os itens listados na solicitação de devolução.
 
    * Para adicionar um comentário, insira o texto no campo **[!UICONTROL Credit Memo Comments]**
 

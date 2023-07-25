@@ -1,8 +1,9 @@
 ---
 title: Criar e editar substituições de canal de vendas do Amazon
 description: Use substituições do Amazon Sales Channel para aplicar suas alterações a uma única lista do Amazon ou a várias listas.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -112,7 +113,7 @@ A variável _[!UICONTROL Edit Listing Overrides]_a ação está disponível no_[
 ### Substituir tipos
 
 | Substituir | Descrição |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Uma substituição de preço define o preço das listagens. Essa substituição tem prioridade sobre todas as configurações automatizadas até que seja removida.<br><br>Para substituir o preço do seu produto, escolha **[!UICONTROL Change Listing Price]** e insira o novo preço para **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Uma substituição de tempo de manuseio define o tempo gasto (em dias) para processar e enviar produtos. Uma substituição de tempo de manuseio tem prioridade sobre todas as configurações de tempo de manuseio automatizadas e padrão até que a substituição seja removida.<br><br>O valor que existe na variável _[!UICONTROL Handling Time Override]_é o tempo de manipulação padrão definido no [configurações de listagem](./listing-settings.md) ou o tempo de manipulação de substituição definido. Se você remover uma substituição de tempo de manuseio, a lista assumirá como padrão o tempo de manuseio definido nas configurações da lista.<br><br>Para definir uma sobreposição de tempo de manuseio, escolha **[!UICONTROL Change Handling Time]**e insira o novo tempo de manuseio (em dias) para **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Para sobrepor a Condição de Listagem, escolha **[!UICONTROL Change Condition]** e escolha a nova condição em **Substituição de Condição**. |

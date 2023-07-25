@@ -1,8 +1,9 @@
 ---
 title: Adicionar produtos ao Gerenciador de canal
-description: '"Criar sortimento de produtos para [!DNL Walmart Marketplace] vendas adicionando produtos do catálogo ao canal de vendas configurado no Gerenciador de Canais.'' '
+description: '"Criar sortimento de produtos para [!DNL Walmart Marketplace] vendas adicionando produtos do catálogo ao canal de vendas configurado no Gerenciador de Canais.'''
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ O processo de importação pode levar até 30 minutos ou mais, dependendo de qua
 
    - Selecionar **[!UICONTROL Save]**.
 
-      Uma mensagem de confirmação é exibida.
+     Uma mensagem de confirmação é exibida.
 
-      ![Mensagem de confirmação da importação do produto do catálogo para o canal de vendas](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![Mensagem de confirmação da importação do produto do catálogo para o canal de vendas](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Se a mensagem indicar que a atualização está programada, use o [fila:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] para processar a atualização imediatamente.
+     Se a mensagem indicar que a atualização está programada, use o [fila:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] para processar a atualização imediatamente.
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. Após a conclusão da operação de importação, verifique os produtos adicionados, retornando para [!DNL Channel Manager] e seleção **[!UICONTROL Listings]**.
 

@@ -1,8 +1,9 @@
 ---
 title: Gerenciar atributos para listagens do Amazon
 description: É possível gerenciar o mapeamento de atributos de produto do Commerce para os atributos do Amazon para garantir informações precisas do produto entre os sistemas.
+feature: Sales Channels, Products, Configuration
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

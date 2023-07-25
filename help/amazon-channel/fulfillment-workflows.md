@@ -1,8 +1,9 @@
 ---
 title: Fluxos de trabalho de preenchimento do Amazon
 description: O preenchimento de uma ordem de uma lista Amazon segue uma sequência específica, desde a submissão até a entrega.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 ## Exemplo: preenchido pelo comerciante
 
 | Etapa | Descrição |
-|----|----|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Um pedido preenchido pelo comerciante é feito no Amazon.** O Amazon atribui um status de `Pending` até que as informações de cartão de crédito do cliente sejam verificadas. Pedidos em `Pending` status automaticamente importar para o canal de vendas do Amazon, mas não exibir no _[!UICONTROL Orders]_guia. |
 | 2 | **O pedido é verificado pela Amazon.** Quando verificado, o Amazon altera o status para `Unshipped`. Com essa alteração de status, o pedido é atualizado no canal de vendas da Amazon e aparece na _[!UICONTROL Orders]_guia. |
 | 3 | **Os detalhes do pedido são atualizados.** O canal de vendas da Amazon atualiza os detalhes do pedido com o preço, email do cliente e nome do cliente. Durante essa atualização, o pedido do Amazon cria a solicitação [!DNL Commerce] pedido na página de gerenciamento de pedidos. A variável [!DNL Commerce] o número do pedido é exibido com as informações sobre o pedido no _[!UICONTROL Orders]_guia. |
@@ -24,7 +25,7 @@ ht-degree: 2%
 ## Exemplo: preenchido pelo Amazon (FBA)
 
 | Etapa | Descrição |
-|---|---|
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | **Um pedido preenchido pela Amazon é feito no Amazon.** |
 | 2 | **A ordem é importada.** O pedido não é importado para o canal de vendas do Amazon até que o pedido seja atribuído ao `Shipped` Status por Amazon. Como a Amazon tem o inventário para este produto, isso evita a interferência com o gerenciamento de depósito/inventário. |
 | 3 | **Os detalhes do pedido são atualizados.** Se configurado no seu [configurações do pedido](./order-settings.md), o pedido do Amazon cria o correspondente [!DNL Commerce] pedido e ser criado como um pedido com um status de `Complete`. |

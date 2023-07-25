@@ -1,8 +1,9 @@
 ---
-title: Canal de vendas da Amazon - Configurações gerais da regra de preço
+title: Amazon Sales Channel - Configurações gerais da regra de precificação
 description: Use as configurações gerais da regra de preço para definir as características principais de uma regra de preço de lista.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Defina o nome, a descrição, as datas ativas e a prioridade da regra.
 ![Configurações gerais da regra de preço](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obrigatório) Informe um nome para a regra, usado para fins de identificação interna. Quanto mais descritivo for o nome da regra, melhor. Por exemplo, &quot;25% de desconto na venda de livros no final do ano&quot;. |
 | [!UICONTROL Description] | Informe uma descrição detalhada que explique a regra (também usada para fins internos). Por exemplo, &quot;Fim de ano de venda, 25% de desconto em todos os itens na Categoria Livros&quot;. |
 | [!UICONTROL Status] | Opções:<ul><li>**[!UICONTROL Inactive]** - A regra de preço não se aplica às suas listas. Essa opção pode ser usada ao modificar uma regra de precificação ou desativá-la após uma promoção limitada.</li><li>**[!UICONTROL Active]** - A regra de preço se aplica às suas listas e ajusta o preço da lista antes de publicar no Amazon.</li></ul> |

@@ -2,8 +2,9 @@
 title: "Introdução ao [!DNL Amazon Sales Channel]"
 description: "[!DNL Amazon Sales Channel] permite que os comerciantes vendam produtos sem problemas na [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
+role: Admin, User, Leader
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -56,7 +57,7 @@ Com o [!DNL Amazon Sales Channel] você pode:
 
 Com o [!DNL Amazon Sales Channel] você pode:
 
-- Importe suas listagens existentes do Amazon (produtos) e corresponda aos produtos existentes ou crie produtos em seu [!DNL Commerce] catálogo.
+- Importe suas listas existentes do Amazon (produtos) e corresponda aos produtos existentes ou crie produtos em seu [!DNL Commerce] catálogo.
 
 - Publicar seu [!DNL Commerce] produtos ao Amazon para criar listagens do Amazon.
 

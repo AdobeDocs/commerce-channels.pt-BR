@@ -1,8 +1,9 @@
 ---
 title: Canal de vendas do Amazon - [!UICONTROL Overrides]
 description: O Amazon Sales Channel fornece a guia Sobreposições para ajudar você a identificar e gerenciar como está aplicando sobreposições nas listagens do Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ A variável _[!UICONTROL Overrides]_mostra suas listagens do Amazon às quais vo
 ## Tipos de sobreposições
 
 | Tipo | Descrição |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Preço | Uma substituição que define o preço da lista, ignorando todas as outras configurações de preço para a lista. <br><br>**Exemplo**: você definiu uma regra de preço com desconto de 20% que se aplica a todos os produtos em uma categoria específica do catálogo. Você tem um produto novo no mercado e a demanda é alta, então você não quer que o preço com desconto seja aplicado à lista mesmo que o produto esteja nessa categoria. É possível selecionar a lista, [criar uma substituição de preço](./creating-editing-overrides.md#edit-override-single-listing)e definir o preço de lista em uma substituição de preço. |
 | Tempo de manuseio | Uma substituição que define o tempo de manipulação para uma listagem, ignorando o tempo de manipulação padrão definido nas configurações de listagem.<br><br>**Exemplo**: o tempo de manipulação padrão das listagens é definido como 2 dias. Você tem um produto que é frágil e requer um dia extra para garantir sua embalagem especial para o transporte. É possível exibir a listagem, [criar uma substituição de tempo de manuseio](./creating-editing-overrides.md#edit-override-single-listing)e definirá o tempo de manuseio em três dias.<br><br>**Nota:** Não disponível para produtos definidos como `Fulfilled by Amazon`. |
 | Condição | Uma substituição que define o valor de condição de uma listagem, independentemente do atributo de condição atribuído à listagem.<br><br>**Exemplo**: a maioria dos produtos no catálogo é Nova condição, mas você tem um produto que está em Condição recondicionada. É possível exibir a listagem, [criar uma substituição de condição](./creating-editing-overrides.md#edit-override-single-listing)e definir a condição Recondicionada para a lista.<br><br>**Nota:** Não disponível para produtos definidos como `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ As home pages dos canais de vendas do Amazon compartilham algumas informações 
 ## Colunas padrão
 
 | Coluna | Descrição |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | A SKU (Unidade de manutenção de estoque) atribuída pela Amazon a um produto para identificar o produto, as opções, o preço e o fabricante. |
 | [!UICONTROL ASIN] | Um bloco exclusivo de 10 letras e/ou números que identificam itens.<br><br>ASIN significa Números de identificação padrão da Amazon. Um ASIN é um bloco exclusivo de 10 letras e/ou números que identificam itens. Para livros, o ASIN é o mesmo que o número ISBN, mas para todos os outros produtos, um novo ASIN é criado quando o item é carregado para o seu catálogo. Você pode encontrar um ASIN de itens na página de detalhes do produto no Amazon, juntamente com mais detalhes relacionados ao item. |
 | [!UICONTROL Condition Override] | A nova condição definida na substituição. Se a substituição aplicada à lista não for uma substituição de condição, `Not Selected` aparece nesta coluna. |

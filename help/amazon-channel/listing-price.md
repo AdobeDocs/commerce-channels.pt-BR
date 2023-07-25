@@ -1,9 +1,10 @@
 ---
 title: Canal de vendas do Amazon - [!UICONTROL Listing Price]
 description: Use as configurações de Preço da Lista para determinar a origem do preço e o valor de preço-base (padrão) para as listas do Amazon.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
    - `Disabled` - (Padrão) Escolha quando você não deseja aplicar o IVA ao preço da lista.
 
    - `Enabled` - Escolha quando deseja aplicar o IVA ao preço da lista. O IVA é normalmente usado como um imposto sobre vendas em países europeus e é adicionado ao preço listado final na Amazon. o IVA não se aplica ao preço final das cotações utilizadas no âmbito de uma regra de tarifação inteligente, a menos [preço mínimo](./floor-price.md) é uma ocorrência.
+
    >[!NOTE]
    >
    >As empresas da União Europeia (UE) devem enviar faturas aos compradores de empresas para que o cliente possa remeter o imposto. Você pode gerar essas NFFs e calcular os impostos ou usar um serviço de cálculo de imposto, como o Serviço de Cálculo de IVA da Amazon. A Amazon recomenda se inscrever no [Serviço de Cálculo de IVA da Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Se você escolher um método diferente, será responsável pela conformidade com o IVA.>
@@ -66,6 +68,7 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
    - `Set Default PTC` - Escolha se você tem um código de imposto de produto universal (PTC) que deseja usar para todos os seus produtos. Quando escolhido, você deve concluir _[!UICONTROL Default PTC]_.
 
       - Para **[!UICONTROL Default PTC]**, insira o PTC padrão a ser usado para todas as listagens qualificadas do Amazon. Se o PTC padrão estiver definido no seu [!DNL Amazon Seller Central] deixe este campo em branco. As alterações feitas nesse campo não afetam as listagens existentes do Amazon. Para alterar o PTC Padrão de uma listagem existente, a listagem deve ser [encerrado](./end-listings-manually.md) e uma nova lista criada.
+
    >[!NOTE]
    >
    >Se você usar o Serviço de Cálculo de IVA da Amazon, deverá saber a categoria de imposto para seus produtos. Um PTC é o código de ID de categoria de imposto da Amazon para compras B2B na UE. Consulte [Códigos de Imposto do Produto da Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ As opções listadas em _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum
 ![Preço de Listagem](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Determina a origem de preço usada ao criar suas listagens do Amazon. O padrão é `Price`. Se você escolher um atributo diferente, como `Amazon Price` ou `Special Price`, o valor definido para o atributo é usado para sua lista do Amazon. No entanto, se o atributo selecionado não estiver definido, `Price` é usada. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | A variável [!DNL Commerce] atributo para precificação do MAP. Escolher a opção MAPA define automaticamente a lista do Amazon para o preço MAPA se o preço da lista for menor que o preço MAPA. |
 | [!UICONTROL Strike Through Price (MSRP)] | A variável [!DNL Commerce] atributo que representa o preço do MSRP. Se o preço de listagem do Amazon for menor que o MSRP, ele exibe um tachado do preço do MSRP e do preço de listagem. Essa configuração também é usada para calcular o valor e a porcentagem de &quot;Você salva&quot;, mas esse recurso se aplica somente às listagens que ganharam o [Buy Box](./buy-box-competitor-pricing.md) posição. |

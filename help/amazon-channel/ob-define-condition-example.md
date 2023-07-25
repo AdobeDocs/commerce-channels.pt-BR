@@ -1,8 +1,9 @@
 ---
 title: "Exemplo: definir uma condição para regras de listagem do Amazon"
 description: Ao criar suas regras de listagem, defina condições para identificar os produtos do catálogo do Commerce a serem listados no Amazon Marketplace.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Você pode criar condições diferentes alterando a combinação desses valores.
 
    - **[!UICONTROL Conditions Combination]** - Opte por permitir que você crie outro conjunto de `All/Any` e `True/False` condições no conjunto existente.
 
-      ![Combinação de condições](assets/ob-conditions-combinations.png){width="500"}
+     ![Combinação de condições](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - Os atributos do produto dependem da configuração do atributo. Para que um atributo seja exibido na lista, ele deve ser configurado para uso nas condições de regra promocional. Consulte a _Usar para condições de regra promocional_ in [Atributos do produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      Na lista abaixo **[!UICONTROL Product Attribute]**, escolha o atributo que deseja usar como a base da condição. Neste exemplo, a condição selecionada é `Amazon FBA`.
+     Na lista abaixo **[!UICONTROL Product Attribute]**, escolha o atributo que deseja usar como a base da condição. Neste exemplo, a condição selecionada é `Amazon FBA`.
 
-      ![Linha de condição 2, parte 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Linha de condição 2, parte 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      A condição selecionada aparece na instrução, seguida por mais dois links em negrito. As opções diferem dependendo do atributo de produto selecionado.
+     A condição selecionada aparece na instrução, seguida por mais dois links em negrito. As opções diferem dependendo do atributo de produto selecionado.
 
-      Depois que você define o atributo, ele não pode ser alterado. Para alterar o atributo, você deve excluir a linha e adicionar o novo atributo. Você pode excluir uma linha de condição clicando no botão Excluir (![Ícone Excluir](assets/btn-del-red.png)) no final da linha.
+     Depois que você define o atributo, ele não pode ser alterado. Para alterar o atributo, você deve excluir a linha e adicionar o novo atributo. Você pode excluir uma linha de condição clicando no botão Excluir (![Ícone Excluir](assets/btn-del-red.png)) no final da linha.
 
       1. Clique em **[!UICONTROL is]** e escolha o operador de comparação que descreve a condição dos produtos a serem atendidos.
 
@@ -74,6 +75,7 @@ Você pode criar condições diferentes alterando a combinação desses valores.
          O item selecionado aparece na instrução para concluir a condição.
 
          ![Linha de condição 2, parte 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Essa condição está concluída. Conforme dito, essa condição significa que qualquer produto em seu [!DNL Commerce] catálogo que tem o atributo FBA do Amazon definido como um valor de `Yes` está qualificado para listagem na Amazon para a região e loja. Você pode adicionar mais linhas de condição para restringir ainda mais seus produtos qualificados.
 
 1, Para adicionar outra linha de condição à instrução, retorne à etapa 1 e repita o processo até que todas as condições desejadas sejam concluídas.

@@ -1,8 +1,9 @@
 ---
 title: painel de loja da Amazon
 description: Exiba a atividade das suas lojas Amazon no Administrador do Commerce usando o painel de lojas Amazon.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ O painel da loja também inclui dados da loja e links para configurações ou ma
 
 - **[!UICONTROL Store Listings]** - Mostra uma representação gráfica das vendas da loja nos últimos 7 ou 30 dias, juntamente com os dados de vendas vitalícios.
 
-   Esta seção também mostra as contagens de listagem para seus [listagens ativas](./active-listings.md), [listagens inativas](./inactive-listings.md)e listagens em andamento, juntamente com links para os respectivos _[!UICONTROL Product Listings]_página. Você também pode clicar em **[!UICONTROL Manage Listings]**para abrir o_[!UICONTROL Product Listings]_ página. Consulte [Gerenciar listagens do Amazon](./managing-product-listings.md).
+  Esta seção também mostra as contagens de listagem para seus [listagens ativas](./active-listings.md), [listagens inativas](./inactive-listings.md)e listagens em andamento, juntamente com links para os respectivos _[!UICONTROL Product Listings]_página. Você também pode clicar em **[!UICONTROL Manage Listings]**para abrir o_[!UICONTROL Product Listings]_ página. Consulte [Gerenciar listagens do Amazon](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Mostra informações dos seus pedidos mais recentes do Amazon. As informações listadas se baseiam nas informações recebidas da Amazon. Esta tabela não é atualizada com [!DNL Commerce] informações do pedido, mesmo quando [importação de ordem](./order-settings.md) está ativado. Para exibir todos os seus pedidos do Amazon, clique em **Todos os pedidos**.
 
-   Consulte [Exibir Pedidos do Amazon](./amazon-orders-all.md) para obter descrições de colunas, consulte [Gerenciar Pedidos](./managing-orders.md) para obter mais informações.
+  Consulte [Exibir Pedidos do Amazon](./amazon-orders-all.md) para obter descrições de colunas, consulte [Gerenciar Pedidos](./managing-orders.md) para obter mais informações.
 
 - **[!UICONTROL Seller Central links]** - Fornece links para importantes [!DNL Amazon Seller Central] informações.

@@ -1,8 +1,9 @@
 ---
 title: "Regra de Reprecificação Inteligente: Selecionar Tipo de Regra"
 description: Determine o preço da lista do Amazon de acordo com os preços da concorrência criando uma regra de reavaliação inteligente.
+feature: Sales Channels, Products, Price Rules
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Defina o tipo de regra no _[!UICONTROL Select Rule Type]_seção.
 ![Regra inteligente de reavaliação de preços - selecionar tipo de regra](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Selecione um tipo de regra. Opções:<ul><li>**[!UICONTROL Standard price rule]** - Esse tipo de regra permite aumentar ou diminuir o preço de listagem do Amazon em uma porcentagem específica ou valor fixo em dólar relativo ao _[!UICONTROL Magento Price Source]_. </li><li>**[!UICONTROL Intelligent repricing rule]** - Esse tipo de regra permite ajustar o preço de sua lista do Amazon com base nos preços do concorrente. Quando escolhido, o _[!UICONTROL Minimum Positive Feedback]_e_[!UICONTROL Minimum Feedback Count]_ campos são ativados.</li></ul> |
 | [!UICONTROL Competitor Price Source] | Selecione a origem de preço desejada. Opções:<ul><li>**[!UICONTROL Use "Buy Box" Price]** - Escolha esta opção quando quiser ajustar os preços do Amazon com base no Amazon [[!DNL Buy Box]](./buy-box-competitor-pricing.md) preço de venda. A [!DNL Buy Box] o preço existe quando vários vendedores na Amazon oferecem o mesmo produto. O Amazon define o [!DNL Buy Box] com base nos requisitos de desempenho. Os comerciantes buscam conquistar a [!DNL Buy Box] O status do vendedor e a visibilidade máxima de suas listagens de produtos.</li><li>**[!UICONTROL Use Lowest Competitor Price]** - Escolha esta opção quando quiser comparar e ajustar o preço da sua lista à [preço mais baixo do concorrente](./lowest-competitor-pricing.md) para o mesmo produto. Quando escolhido, o _[!UICONTROL Minimum Positive Feedback]_e_[!UICONTROL Minimum Feedback Count]_ campos são ativados.</li></ul> |
 | [!UICONTROL Minimum Positive Feedback] | Somente ativo se `Use Lowest Competitor Price` for escolhida. Opções:<ul><li>**[!UICONTROL All Competitor's Prices]** - Escolha quando deseja comparar e ajustar seus preços com base em todos os preços de concorrentes para o mesmo produto.</li><li>**[!UICONTROL Minimum 80/90/95/98% positive feedback]** - Escolha quando deseja limitar os concorrentes com os quais você compara e ajusta seus preços. Essa configuração restringe ainda mais seus concorrentes, exigindo que sua lista tenha um mínimo da porcentagem escolhida de feedback positivo e, em seguida, use o preço mais baixo desse subconjunto de concorrentes.</li></ul> |

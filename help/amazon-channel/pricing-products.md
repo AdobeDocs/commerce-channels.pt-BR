@@ -1,9 +1,9 @@
 ---
 title: Gerenciar preços do Amazon
 description: Você pode definir os preços das suas listagens do Amazon para diferirem da sua loja de comércio usando as regras de preços.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Há dois tipos de regras de precificação:
 - [Regra de Preço Padrão](./standard-price-rules.md)
 - [Regra inteligente de reprecificação](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >As regras de reprecificação inteligentes não funcionarão adequadamente se a região do Amazon estiver definida como `Inactive` status, como está durante a integração. Os cálculos de preço dependem das taxas de entrega e sua região deve estar em `Active` Status das taxas de envio para sincronização no Amazon.
-   >
-   >Para atualizar o status da região na conta do Amazon, acesse Configurações > Informações da conta > Configurações de férias. Consulte [Amazon: Status de Listagem para Férias](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (logon da Central de Vendedores necessário).
+  >[!IMPORTANT]
+  >
+  >As regras de reprecificação inteligentes não funcionarão adequadamente se a região do Amazon estiver definida como `Inactive` status, como está durante a integração. Os cálculos de preço dependem das taxas de entrega e sua região deve estar em `Active` Status das taxas de envio para sincronização no Amazon.
+  >
+  >Para atualizar o status da região na conta do Amazon, acesse Configurações > Informações da conta > Configurações de férias. Consulte [Amazon: Status de Listagem para Férias](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (logon da Central de Vendedores necessário).
 
 Esse recurso permite manipular os preços do Amazon de uma forma semelhante ao [!DNL Commerce] [regras de preço de catálogo](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Você pode criar regras complexas que permitem alterar os preços de produtos específicos, produtos dentro de categorias específicas ou até mesmo com atributos específicos.
 
@@ -58,7 +58,7 @@ Outra opção de preço é uma [substituição de preço](./overrides.md), que �
 ## Colunas padrão
 
 | Coluna | Descrição |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | O nome da regra de precificação, conforme definido em [Configurações Gerais da Regra de Precificação](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | O tipo de regra, conforme definido em [Ações da Regra de Precificação](./pricing-rule-actions.md) (regra de preço Padrão ou regra de reprecificação inteligente) |
 | [!UICONTROL Is Active] | Se a regra está ativa, conforme definido em [Configurações Gerais da Regra de Precificação](./pricing-rule-general-settings.md) |

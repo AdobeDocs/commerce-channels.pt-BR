@@ -1,9 +1,9 @@
 ---
 title: Canal de vendas da Amazon - Condições de regra de preço
 description: Use as condições da regra de preço para determinar quais produtos são elegíveis para a regra de preço de lista.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ Você pode criar condições diferentes alterando a combinação desses valores.
 
    - Para **[!UICONTROL Product Attribute]**, escolha o atributo que deseja definir como a base da condição. Neste exemplo, a condição selecionada é `Category`.
 
-      ![Condição de regra de preço - linha 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Condição de regra de preço - linha 2, parte 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      A condição selecionada aparece na instrução, seguida por mais dois links em negrito. As opções diferem dependendo do atributo de produto selecionado.
+     A condição selecionada aparece na instrução, seguida por mais dois links em negrito. As opções diferem dependendo do atributo de produto selecionado.
 
-      Depois que você define o atributo, ele não pode ser editado. Para alterar o atributo, você deve excluir a linha e adicionar o novo atributo. Você pode excluir uma linha de condição clicando no botão Excluir (![Ícone Excluir](assets/btn-del-red.png) ícone no final da linha.
+     Depois que você define o atributo, ele não pode ser editado. Para alterar o atributo, você deve excluir a linha e adicionar o novo atributo. Você pode excluir uma linha de condição clicando no botão Excluir (![Ícone Excluir](assets/btn-del-red.png) ícone no final da linha.
 
    - Clique em **[!UICONTROL is]** e escolha o operador de comparação que descreve a condição dos produtos a serem atendidos.
 
-      Para este exemplo, o operador de comparação é `is`. As opções disponíveis dependem do atributo selecionado na etapa anterior e podem incluir diferentes opções de comparação. As opções podem incluir valores correspondentes, sem incluir ou incluir pelo menos um de um valor, e maiores que, iguais a e menores que um valor numérico. Neste exemplo, as opções são `is` e `is not`.
+     Para este exemplo, o operador de comparação é `is`. As opções disponíveis dependem do atributo selecionado na etapa anterior e podem incluir diferentes opções de comparação. As opções podem incluir valores correspondentes, sem incluir ou incluir pelo menos um de um valor, e maiores que, iguais a e menores que um valor numérico. Neste exemplo, as opções são `is` e `is not`.
 
    - Clique em **[!UICONTROL ...]** e escolha o valor do atributo no qual a condição se baseia. As opções dependem da configuração do atributo.
 
-      Talvez seja solicitado que você selecione uma opção ou insira um valor para a condição. Para este exemplo, o campo aparece em branco. Para selecionar suas categorias para a regra, clique no ícone do seletor (![Ícone do seletor](assets/btn-chooser.png)) para mostrar as opções de seleção. Esta regra é para _Livros_, selecione o **[!UICONTROL Books]** caixa de seleção O número da categoria é preenchido. Para aceitar suas seleções de categoria, clique no ícone de marca de seleção verde (![Ícone de marca de seleção](assets/btn-check-mark-green.png)).
+     Talvez seja solicitado que você selecione uma opção ou insira um valor para a condição. Para este exemplo, o campo aparece em branco. Para selecionar suas categorias para a regra, clique no ícone do seletor (![Ícone do seletor](assets/btn-chooser.png)) para mostrar as opções de seleção. Esta regra é para _Livros_, selecione o **[!UICONTROL Books]** caixa de seleção O número da categoria é preenchido. Para aceitar suas seleções de categoria, clique no ícone de marca de seleção verde (![Ícone de marca de seleção](assets/btn-check-mark-green.png)).
 
-      ![Condição de regra de preço - linha 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Condição de regra de preço - linha 2, parte 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      O item selecionado aparece na instrução para concluir a condição.
+     O item selecionado aparece na instrução para concluir a condição.
 
-      ![Condição de regra de preço - linha 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Condição de regra de preço - linha 2, parte 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Este exemplo de condição está concluído. Conforme dito, essa condição significa que qualquer produto em seu [!DNL Commerce] catálogo que tem uma categoria definida de Livros (`4`) é elegível para esta regra de preço. Você pode adicionar mais linhas de condição para restringir ainda mais seus produtos qualificados.
+     Este exemplo de condição está concluído. Conforme dito, essa condição significa que qualquer produto em seu [!DNL Commerce] catálogo que tem uma categoria definida de Livros (`4`) é elegível para esta regra de preço. Você pode adicionar mais linhas de condição para restringir ainda mais seus produtos qualificados.
 
 1. Para adicionar outra linha de condição à instrução, retorne à Etapa 1 e repita o processo até que todas as condições desejadas sejam concluídas.
 

@@ -1,8 +1,10 @@
 ---
 title: '[!DNL Walmart] Requisitos'
 description: '''Verifique se você tem a [!DNL Walmart Marketplace]informações e recursos para integrar com o Channel Manager."'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * Uma chave de API para conectar o Adobe Commerce ou o Magento Open Source a [!DNL Walmart Marketplace]
 
-   A variável [!DNL Walmart Marketplace] A chave de API permite a integração entre [!DNL Channel Manager] para Adobe [!DNL Commerce] ou o Magento Open Source e o Walmart Marketplace. Configure a chave de API na Central do vendedor antes de iniciar o processo de integração do Gerenciador de canal.
+  A variável [!DNL Walmart Marketplace] A chave de API permite a integração entre [!DNL Channel Manager] para Adobe [!DNL Commerce] ou o Magento Open Source e o Walmart Marketplace. Configure a chave de API na Central do vendedor antes de iniciar o processo de integração do Gerenciador de canal.
 
 ## Configurar um [!DNL Walmart Seller] account
 

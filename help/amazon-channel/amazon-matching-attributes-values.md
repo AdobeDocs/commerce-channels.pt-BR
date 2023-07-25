@@ -1,8 +1,9 @@
 ---
 title: Exibir mapeamento de atributos do Amazon
 description: Verifique os valores dos atributos vinculados do Commerce para sincronizar corretamente entre o Commerce e o Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ A variável _Valor do Amazon_ varia dependendo do tipo de atributo e do atributo
 ![Exibir valores de atributo](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | A região da atividade de vendas definida em **[!DNL Amazon Marketplace]País** durante a integração da loja. |
 | [!UICONTROL Magento Product SKU] | Indica a [!DNL Commerce] produtos sincronizados com a loja da Amazon. O valor é uma ID de produto atribuída por [!DNL Commerce] e vinculado a um produto no catálogo. Para abrir o produto no [!DNL Commerce], clique no link. |
 | [!UICONTROL ASIN] | Indica o identificador exclusivo alfanumérico de 10 caracteres do ASIN (Amazon Standard Identification Number) atribuído ao produto pela Amazon para identificação do produto. |

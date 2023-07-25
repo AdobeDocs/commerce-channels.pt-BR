@@ -1,8 +1,10 @@
 ---
 title: 'Instalar [!DNL Channel Manager]'
 description: '''Instalar o[!DNL Channel Manager] extensão."'
+role: Admin, Developer
+feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -64,15 +66,15 @@ Use estas instruções para instalar o [!DNL Channel Manager] no Adobe Commerce 
 
    - Verifique o status do módulo.
 
-      ```bash
-      bin/magento module:status Magento_SalesChannels
-      ```
+     ```bash
+     bin/magento module:status Magento_SalesChannels
+     ```
 
-      Exemplo de resposta:
+     Exemplo de resposta:
 
-      ```terminal
-      Module is enabled
-      ```
+     ```terminal
+     Module is enabled
+     ```
 
    - Se o módulo não estiver ativado, ative-o.
 
@@ -208,15 +210,15 @@ Use um dos seguintes métodos para resolver o problema de memória:
 
 - Especifique o limite de memória na linha de comando.
 
-   ```bash
-   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
-   ```
+  ```bash
+  $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
+  ```
 
-   Por exemplo:
+  Por exemplo:
 
-   ```bash
-   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
-   ```
+  ```bash
+  $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
+  ```
 
 ### Visualização ausente
 

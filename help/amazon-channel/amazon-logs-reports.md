@@ -1,8 +1,9 @@
 ---
 title: Registra e armazena relatórios para listagens do Amazon
 description: Use os registros e relatórios da loja para ver o que está acontecendo em sua loja Adobe Commerce ou Magento Open Source e suas listagens do Amazon Marketplace.
+feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%

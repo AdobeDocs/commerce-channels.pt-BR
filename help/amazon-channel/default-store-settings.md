@@ -1,8 +1,10 @@
 ---
 title: Configurações de loja padrão para listagens do Amazon
 description: Modifique as configurações padrão do Commerce para personalizar o Sales Channel do Amazon para sua loja.
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ As configurações de armazenamento incluem:
 ## Algumas configurações padrão importantes
 
 | Configuração | Padrão | Descrição | Localização |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | Cria um correspondente [!DNL Commerce] pedidos quando novos pedidos são recebidos da Amazon, permitindo que os pedidos sejam gerenciados no [[!DNL Commerce] Pedidos](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) fluxo de trabalho. Quando `Disabled`, o Amazon solicita as informações de ordem de importação para revisão, mas os pedidos devem ser gerenciados no [!DNL Amazon Seller Central] conta. | [Configurações do pedido](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Os dados do cliente de pedidos da Amazon não são importados para o [!DNL Commerce] banco de dados. Os pedidos Amazon importados são processados como check-out de convidado. Se você quiser criar seu [!DNL Commerce] banco de dados do cliente, você deve alterar essa configuração para `Build New Customer Account`. | [Configurações do pedido](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] produtos de catálogo (que atendem aos requisitos de qualificação da Amazon) para publicar automaticamente no Amazon e criar Listagens do Amazon. Se quiser revisar e publicar manualmente seus produtos, altere essa configuração para `Do Not Automatically List Eligible Products`. Os produtos que aguardam publicação manual são exibidos no [_Pronto para Listar_](./ready-to-list.md) guia. | [Ações de listagem de produtos](./product-listing-actions.md) |

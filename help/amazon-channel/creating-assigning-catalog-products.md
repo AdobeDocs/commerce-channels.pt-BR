@@ -1,8 +1,9 @@
 ---
 title: Criar e atribuir produtos ao canal de vendas do Amazon
 description: O Sales Channel da Amazon fornece a [!UICONTROL New Third Party] para ajudar a criar e atribuir produtos de catálogo do Commerce correspondentes às listagens do Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ Seu produto e sua lista agora são correspondidos. O canal de vendas da Amazon a
 
    - Definir **[!UICONTROL Enable Product(s)]** alternar para `Yes` ou `No` (obrigatório).
 
-      |Sim|Escolha tornar o produto qualificado para a sua [!DNL Commerce] vendas de vitrine.| |Não|Escolha tornar o produto inelegível para sua [!DNL Commerce] vendas de vitrine.|
+     |Sim|Escolha tornar o produto qualificado para a sua [!DNL Commerce] vendas de vitrine.| |Não|Escolha tornar o produto inelegível para sua [!DNL Commerce] vendas de vitrine.|
 
    - Para **[!UICONTROL Categories]**, atribua uma categoria ao produto (opcional).
 
-      Para selecionar a categoria do produto, clique na seta para baixo e marque uma caixa de seleção de categoria. Clique em **[!UICONTROL Done]** quando terminar.
+     Para selecionar a categoria do produto, clique na seta para baixo e marque uma caixa de seleção de categoria. Clique em **[!UICONTROL Done]** quando terminar.
 
    - Para **[!UICONTROL Website Ids]**, escolha o site (loja) ao qual o produto será associado.
 
-      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
+     As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
 
    - Para **[!UICONTROL Attribute Set Id]** (obrigatório), escolha uma opção.
 
-      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
+     `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
 
    - Para **[!UICONTROL Visibility]**, escolha uma opção para o novo produto.
 
-      |**[!UICONTROL Not Visible Individually]** (padrão)|O produto não está incluído nas listagens de vitrines, embora possa estar disponível como uma variação de outro produto.| |**[!UICONTROL Catalog]**|O produto aparece nas listagens do catálogo.| |**[!UICONTROL Search]**|O produto está disponível para operações de pesquisa.| |**[!UICONTROL Catalog and Search]**|O produto está incluído nas listagens de catálogo e disponível para operações de pesquisa.|
+     |**[!UICONTROL Not Visible Individually]** (padrão)|O produto não está incluído nas listagens de vitrines, embora possa estar disponível como uma variação de outro produto.| |**[!UICONTROL Catalog]**|O produto aparece nas listagens do catálogo.| |**[!UICONTROL Search]**|O produto está disponível para operações de pesquisa.| |**[!UICONTROL Catalog and Search]**|O produto está incluído nas listagens de catálogo e disponível para operações de pesquisa.|
 
    - Para **[!UICONTROL Assign Tax Class]**, escolha uma opção para o produto.
 
-      As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
+     As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
 
    - Quando terminar, clique em **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ O produto de catálogo é criado no [!DNL Commerce] catálogo e atribuído à li
 
    - Definir **[!UICONTROL Enable Product(s)]** alternar para `Yes` ou `No` (obrigatório).
 
-      |Sim|Escolha tornar o produto qualificado para a sua [!DNL Commerce] vendas de vitrine.| |Não|Escolha tornar o produto inelegível para sua [!DNL Commerce] vendas de vitrine.|
+     |Sim|Escolha tornar o produto qualificado para a sua [!DNL Commerce] vendas de vitrine.| |Não|Escolha tornar o produto inelegível para sua [!DNL Commerce] vendas de vitrine.|
 
    - Para **[!UICONTROL Categories]**, atribua uma categoria ao produto (opcional).
 
-      Para selecionar a categoria do produto, clique na seta para baixo e marque uma caixa de seleção de categoria. Clique em **Concluído** quando terminar.
+     Para selecionar a categoria do produto, clique na seta para baixo e marque uma caixa de seleção de categoria. Clique em **Concluído** quando terminar.
 
    - Para **[!UICONTROL Website Ids]**, escolha o site (loja) ao qual o produto será associado.
 
-      As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
+     As opções nessa lista dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações.
 
    - Para **[!UICONTROL Attribute Set Id]** (obrigatório), escolha uma opção.
 
-      `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
+     `Default` é a seleção padrão. As opções nessa lista dependem do seu [!DNL Commerce] [conjuntos de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) você configurou o.
 
    - Para **[!UICONTROL Visibility]**, escolha uma opção para o novo produto.
 
-      |**[!UICONTROL Not Visible Individually]** (padrão)|O produto não está incluído nas listagens de vitrines, embora possa estar disponível como uma variação de outro produto.| |**[!UICONTROL Catalog]**|O produto aparece nas listagens do catálogo.| |**[!UICONTROL Search]**|O produto está disponível para operações de pesquisa.| |**[!UICONTROL Catalog and Search]**|O produto está incluído nas listagens de catálogo e disponível para operações de pesquisa.|
+     |**[!UICONTROL Not Visible Individually]** (padrão)|O produto não está incluído nas listagens de vitrines, embora possa estar disponível como uma variação de outro produto.| |**[!UICONTROL Catalog]**|O produto aparece nas listagens do catálogo.| |**[!UICONTROL Search]**|O produto está disponível para operações de pesquisa.| |**[!UICONTROL Catalog and Search]**|O produto está incluído nas listagens de catálogo e disponível para operações de pesquisa.|
 
    - Para **[!UICONTROL Assign Tax Class]**, escolha uma opção para o produto.
 
-      As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
+     As opções exibidas nessa lista dependem das [classes de imposto](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) você configurou o.
 
    - Quando terminar, clique em **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ Os produtos do catálogo são criados no [!DNL Commerce] catálogo e atribuído 
 ![Criar produto de catálogo do Commerce](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | (Obrigatório) Se ativado, o produto fica visível no [!DNL Commerce] vitrine eletrônica. Se estiver desativado, o produto não será exibido no [!DNL Commerce] vitrine eletrônica. |
 | [!UICONTROL Categories] | É possível inserir o nome da categoria do novo produto ou selecionar uma categoria clicando na seta para baixo para mostrar as opções. As opções dependem do seu [categorias](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) configuração. |
 | [!UICONTROL Website Ids] | (Obrigatório) Escolha o site (loja) ao qual o produto será associado. As opções dependem do seu [!DNL Commerce] [configuração da loja](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) configurações |

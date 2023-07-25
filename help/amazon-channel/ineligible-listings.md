@@ -1,8 +1,9 @@
 ---
 title: Listagens do Amazon inelegíveis
 description: O canal de vendas da Amazon fornece o [!UICONTROL Ineligible] para ajudá-lo a gerenciar os itens não são elegíveis como uma lista com base nas regras de lista atuais.
+feature: Sales Channels, Products
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -47,7 +48,7 @@ As home pages dos canais de vendas do Amazon compartilham algumas informações 
 ## Colunas padrão
 
 | Coluna | Descrição |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | A SKU (Unidade de manutenção de estoque) atribuída pela Amazon a um produto para identificar o produto, as opções, o preço e o fabricante. |
 | [!UICONTROL ASIN] | Um bloco exclusivo de 10 letras e/ou números que identificam itens.<br><br>ASIN significa [!DNL Amazon Standard Identification Number]. Um ASIN é um bloco exclusivo de 10 letras e/ou números que identificam itens. Para livros, o ASIN é o mesmo que o número ISBN, mas para todos os outros produtos, um novo ASIN é criado quando o item é carregado para o seu catálogo. Você pode encontrar um ASIN de itens na página de detalhes do produto no Amazon, juntamente com mais detalhes relacionados ao item. |
 | [!UICONTROL Product Listing Name] | O nome do produto. |

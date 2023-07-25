@@ -1,10 +1,11 @@
 ---
 title: '''Conectar a [!DNL Commerce] ''Serviços'''
 description: '''Conectar o Gerenciador de canal ao [!DNL Commerce] serviços para permitir a sincronização de dados e a comunicação entre os [!DNL Commerce] Channel Manager e outros serviços de apoio."'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ A variável [!DNL Commerce Services Connector] integra o serviço do Gerenciador
 
 - **Conta do Commerce**-Para instalar o software em [!DNL Commerce] instâncias, você deve ter uma conta com acesso de Proprietário ou Administrador à [!DNL Commerce] plataforma.
 
-   Os proprietários e superusuários de contas podem criar contas de administrador no [!DNL Commerce] instância ou da linha de comando usando o [!DNL Commerce] comando CLI `admin:user:create`.
+  Os proprietários e superusuários de contas podem criar contas de administrador no [!DNL Commerce] instância ou da linha de comando usando o [!DNL Commerce] comando CLI `admin:user:create`.
 
 - **Chave da API de produção do Adobe Commerce**-Este [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) permite o acesso da API aos serviços exigidos pelo Gerenciador de canais. Você precisa das credenciais públicas e privadas para esta chave.
 

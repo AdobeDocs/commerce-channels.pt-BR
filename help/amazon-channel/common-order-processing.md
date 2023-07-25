@@ -1,8 +1,9 @@
 ---
 title: Tarefas comuns de processamento de pedidos do Amazon
 description: Use o correspondente [!DNL Commerce] pedidos criados para pedidos Amazon para gerenciar a atividade e o processamento de pedidos na [!UICONTROL Commerce] Admin.
+feature: Sales Channels, Orders
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
-source-git-commit: 6d221c2c2e9a37a42e9d660aceb3c525fedc511d
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%

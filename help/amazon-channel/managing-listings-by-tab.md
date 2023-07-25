@@ -1,8 +1,9 @@
 ---
 title: Gerenciar listas de produtos do Amazon por status/guia
 description: Ao gerenciar as listagens do Amazon, você pode aplicar ações às suas listagens de acordo com o status.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Consulte também [Gerenciar Listas por Ação](./managing-listings-by-action.md)
 ![Guias Listas de produtos](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Guia | Descrição | Ações |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | Mostra o [!DNL Commerce] produtos de catálogo que atendem às configurações de lista definidas, mas que não têm as informações exigidas pela Amazon para uma lista.<br><br>Se _[!UICONTROL Automatic List Action]_está definida como `Automatically List Eligible Products` no seu [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) configurações, esses itens são seus **[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Mostra suas listas existentes do Amazon (com base nas informações recebidas do Amazon) que não correspondem a um produto em sua [!DNL Commerce] catálogo. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>Tentar correspondência automática<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Mostra os produtos de catálogo prontos para criar as listagens do Amazon, mas a loja está configurada para não publicar automaticamente novas listagens. Essa guia é usada para publicar manualmente as novas listagens.<br><br>Se _[!UICONTROL Automatic List Action]_está definida como `Do Not Automatically List Eligible Products` no seu [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) configurações, esses itens são seus **[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

@@ -1,8 +1,9 @@
 ---
 title: Canal de vendas do Amazon - [!UICONTROL Price Adjustment]
 description: Configure ajustes de preço para definir o cálculo de preço quando tiver identificado a fonte de preço do concorrente do Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Defina o ajuste de preço no _[!UICONTROL Price Adjustment]_seção.
 ![Regra inteligente de reavaliação de preços - Ajuste de preços](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Escolha uma ação de ajuste de preço. Opções:<br>**[!UICONTROL Decrease By]**- Escolha quando deseja definir o _[!UICONTROL Magento Price Source]_definido em seu [Preço de Listagem](./listing-price.md) para ser ajustado, criando um preço mais baixo para a regra, antes de listar na Amazon.<br>**[!UICONTROL Increase By]**- Escolha quando deseja definir o_[!UICONTROL Magento Price Source]_ definido em seu [Preço de Listagem](./listing-price.md) para ser ajustado, criando um preço mais alto para a regra, antes de listar na Amazon.<br>**[!UICONTROL Match Competitor Price]**- (Somente regra de reprecificação inteligente) Escolha quando deseja alterar o preço de lista do Amazon para corresponder ao [concorrente mais baixo](./lowest-competitor-pricing.md) preço, com base nos comentários do concorrente e nos parâmetros de variação. Quando escolhido, o _Aplicar_ e _Valor do Ajuste_ Os campos do são removidos. |
 | [!UICONTROL Apply] | Opções:<br>**[!UICONTROL Apply as percentage]**- Escolha quando deseja definir o _[!UICONTROL Magento Price Source]_definido em seu [Preço de Listagem](./listing-price.md) ajustado por uma porcentagem.<br>**[!UICONTROL Apply as fixed amount]**- Escolha quando deseja definir o_[!UICONTROL Magento Price Source]_ definido em seu [Preço de Listagem](./listing-price.md) ajustado por um valor fixo. |
 | [!UICONTROL Adjustment Amount] | Obrigatório.<br>Se você escolher `Apply as percentage` para **[!UICONTROL Apply]**, insira o valor percentual (exemplo: insira `25` para um ajuste de 25%).<br>Se você escolher `Apply as fixed amount` para **[!UICONTROL Apply]**, insira o valor numérico para o valor fixo (exemplo: insira `25` para um ajuste fixo de US$ 25). |

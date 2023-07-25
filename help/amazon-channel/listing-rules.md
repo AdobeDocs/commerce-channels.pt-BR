@@ -1,8 +1,9 @@
 ---
 title: Canal de vendas do Amazon - [!UICONTROL Listing Rules]
 description: Usar regras de listagem determina os produtos do catálogo do Commerce publicados como listagens do Amazon Marketplace.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ As alterações na quantidade e no status de qualificação afetam todas as list
 Consulte [Exemplo: definir uma condição](./ob-define-condition-example.md).
 
 | Campo | Descrição |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | As opções disponíveis dependem do [sites](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) você configurou o em seu [!DNL Commerce] configuração. Selecione o site dos produtos qualificados listados no Amazon. Somente um site pode ser selecionado, pois cada site requer uma loja exclusiva do Amazon criada no canal de vendas do Amazon. |
 | [!UICONTROL Conditions] | Usado para definir o [!DNL Commerce] atributos para qualificação de produto na região do Amazon. Consulte [Exemplo: definir uma condição](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Suas possíveis listagens do Amazon são preenchidas no _[!UICONTROL Listing Pre
 
 - **[!UICONTROL Ineligible Listings]** - Os produtos listados não são qualificados para a lista do Amazon com base nas regras e condições atuais da lista.
 
-   Produtos não qualificados não são publicados no Amazon. Se um produto inelegível já estiver listado no Amazon e você corresponder a lista do Amazon ao seu [!DNL Commerce] produto de catálogo, a quantidade da lista do Amazon muda para `0` para impedir as vendas do produto. Para remover manualmente uma listagem, consulte [Encerramento de uma listagem do Amazon](./end-listings-manually.md). Os produtos que não estão qualificados pelos requisitos do Amazon não estão listados aqui. Esses produtos estão listados no [Guia Listings inativos](./inactive-listings.md).
+  Produtos não qualificados não são publicados no Amazon. Se um produto inelegível já estiver listado no Amazon e você corresponder a lista do Amazon ao seu [!DNL Commerce] produto de catálogo, a quantidade da lista do Amazon muda para `0` para impedir as vendas do produto. Para remover manualmente uma listagem, consulte [Encerramento de uma listagem do Amazon](./end-listings-manually.md). Os produtos que não estão qualificados pelos requisitos do Amazon não estão listados aqui. Esses produtos estão listados no [Guia Listings inativos](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - Os produtos listados são qualificados para a lista do Amazon com base nas regras e condições atuais da lista e também são qualificados pelos requisitos da Amazon. Essa lista inclui suas listas existentes do Amazon que importam (se você tiver **Importar Listagens de Terceiros** definir como `Import Listing` in [Configurações de listagem](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Suas possíveis listagens do Amazon são preenchidas no _[!UICONTROL Listing Pre
 ### Listando registros de visualização
 
 | Campo | Descrição |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | O número sequencial exclusivo atribuído a um [!DNL Commerce] produto de catálogo quando adicionado. |
 | [!UICONTROL Thumbnail] | Mostra uma miniatura da imagem principal do produto. |
 | [!UICONTROL Name] | O nome do produto, gerenciado no [!DNL Commerce] [grade de produtos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

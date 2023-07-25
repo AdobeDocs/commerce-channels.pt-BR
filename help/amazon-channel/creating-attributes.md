@@ -1,8 +1,9 @@
 ---
 title: Criar e editar atributos para o canal de vendas do Amazon
 description: O Amazon Sales Channel fornece a visualização Atributos para ajudá-lo a revisar os atributos atuais do Amazon e os atributos de comércio vinculados.
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ Depois de salvar, talvez você queira editar o atributo para revisar as configur
 ![criar configurações de atributo](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Indica se este atributo está ativo e sincroniza ativamente entre o Amazon e [!DNL Commerce]. Defina como `Yes` para garantir os valores de atributo do Amazon e [!DNL Commerce] permanecer sincronizado para o atributo selecionado. |
 | Selecionar atributo de produto do Magento | Indica o atributo selecionado que você deseja vincular ao Nome de atributo do Amazon listado. Ao criar um atributo, escolha `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | Mostra o nome do atributo do Amazon que você escolheu. O atributo selecionado é vinculado a este atributo do Amazon. Não é possível editar esse valor por meio de [!DNL Commerce]. |
@@ -109,7 +110,7 @@ Depois de salvar, talvez você queira editar o atributo para revisar as configur
 ![editar configurações de atributo](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Indica se este atributo está ativo e sincroniza ativamente entre o Amazon e [!DNL Commerce]. Defina como `Yes` para garantir os valores de atributo do Amazon e [!DNL Commerce] permanecer sincronizado para o atributo selecionado. |
 | [!UICONTROL Select Magento Product Attribute] | Indica o selecionado [!DNL Commerce] atributo que você deseja vincular ao Nome do atributo do Amazon listado. Se quiser alterar a variável vinculada [!DNL Commerce] atributo, escolha um atributo diferente na lista suspensa. Os valores são sincronizados de acordo com as configurações. |
 | [!UICONTROL Amazon Attribute Name] | Mostra o nome do atributo Amazon conforme definido em [!DNL Amazon Seller Central]. O selecionado [!DNL Commerce] links de atributo para este atributo do Amazon. Não é possível editar esse valor por meio de [!DNL Commerce]. |

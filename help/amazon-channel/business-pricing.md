@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] para listagens Amazon"
 description: Você pode listar seus [!DNL Commerce] armazene produtos no site Amazon Business (B2B) habilitando negócios em seu Amazon [!DNL Seller Central] conta.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ Para que seus produtos sejam listados no [!DNL Amazon Business (B2B)] site, voc�
 ![Preços de negócios da Amazon (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Campo | Descrição |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Opções: <ul><li>**[!UICONTROL Disabled]** - (Padrão) Escolha quando você não deseja habilitar as vendas entre empresas. Quando selecionados, todos os outros campos desta seção são desativados.</li><li>**[!UICONTROL Enabled]** - Escolha quando deseja habilitar as vendas entre os negócios. Quando escolhido, o preço comercial é definido como igual ao preço de lista após a aplicação de todas as regras de preço. O preço comercial segue o escopo de preços do site, se habilitado. Um preço comercial não pode ser inferior a US$ 1.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (obrigatório) Opções: <ul><li>**[!UICONTROL Disabled]** - (Padrão) Escolha quando deseja o mesmo preço de lista para todas as quantidades da ordem. Quando escolhido, todos _[!UICONTROL Pricing Level]_Os campos desta seção estão desabilitados.</li><li>**[!UICONTROL Enabled]** - Escolha quando deseja ativar a precificação que se ajusta com base na quantidade da ordem. Quando escolhido, o _[!UICONTROL Pricing Level]_campos são ativados.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | Quando a Precificação em Camadas está habilitada, você pode definir até cinco configurações de quantidade/desconto que definem a precificação em camada para suas listagens de negócios. Em cada linha, insira o valor do limite de quantidade e o percentual de desconto a ser aplicado. Por exemplo, se você inserir `5` no primeiro campo da primeira linha e `5` no segundo campo, o preço aplica um desconto de 5% quando outra empresa compra uma quantidade de cinco ou mais. |
