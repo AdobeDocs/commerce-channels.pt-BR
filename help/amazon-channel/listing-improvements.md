@@ -1,12 +1,12 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Listing Improvements]
+title: Canal de vendas da Amazon - [!UICONTROL Listing Improvements]
 description: O Amazon Sales Channel fornece o relatório de Melhorias de listagem para dar sugestões de melhorias de qualidade na listagem do Amazon.
 feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

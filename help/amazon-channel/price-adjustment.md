@@ -1,5 +1,5 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Price Adjustment]
+title: Canal de vendas da Amazon - [!UICONTROL Price Adjustment]
 description: Configure ajustes de preço para definir o cálculo de preço quando tiver identificado a fonte de preço do concorrente do Amazon.
 feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0

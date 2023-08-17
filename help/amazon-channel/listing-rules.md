@@ -1,5 +1,5 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Listing Rules]
+title: Canal de vendas da Amazon - [!UICONTROL Listing Rules]
 description: Usar regras de listagem determina os produtos do catálogo do Commerce publicados como listagens do Amazon Marketplace.
 feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f

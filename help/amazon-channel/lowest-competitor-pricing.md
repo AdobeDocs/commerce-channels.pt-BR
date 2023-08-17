@@ -1,12 +1,12 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Lowest Competitor Pricing]
+title: Canal de vendas da Amazon - [!UICONTROL Lowest Competitor Pricing]
 description: A variável [!UICONTROL Amazon Sales Channel] fornece a [!UICONTROL Lowest Competitor Pricing] para ajudá-lo a entender o posicionamento de preços de seus concorrentes no Amazon.
 feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Listing Price]
+title: Canal de vendas da Amazon - [!UICONTROL Listing Price]
 description: Use as configurações de Preço da Lista para determinar a origem do preço e o valor de preço-base (padrão) para as listas do Amazon.
 feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html

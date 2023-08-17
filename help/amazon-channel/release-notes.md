@@ -186,7 +186,7 @@ Se você tiver uma [!DNL Amazon sales channel] versão instalada e tentar atuali
 
 ![Novo](../assets/new.svg) Introduziu uma abordagem mais simples e [processo de integração](amazon-onboarding-home.md) e [configurações de loja padrão](default-store-settings.md) para integrar suas lojas com mais rapidez.
 
-![Problema conhecido](../assets/bug.svg) <!--CHAN-4102--> Quando [criação de atributos](managing-attributes.md) para importar imagens de listagens e **Armazenar visualizações** está definida como `All Store Views (Global)`, um problema conhecido impede que imagens sejam importadas para todas as exibições de loja. Se você alterar a configuração de **Exibições de armazenamento (para importar valores)** para um armazenamento específico, as imagens são importadas para esse armazenamento.
+![Problema conhecido](../assets/bug.svg) <!--CHAN-4102--> Quando [criação de atributos](managing-attributes.md) para importar imagens de listagens e **Armazenar visualizações** está definida como `All Store Views (Global)`, um problema conhecido impede que imagens sejam importadas para todas as exibições de loja. Se você alterar a configuração para **Exibições de armazenamento (para importar valores)** para um armazenamento específico, as imagens são importadas para esse armazenamento.
 
 ## v3.0.1
 

@@ -10,11 +10,11 @@ exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Amazon Sales Channel] Guia
+# Guia do [!DNL Amazon Sales Channel]
 
 Este guia destina-se aos administradores do Adobe Commerce e do Magento Open Source. Inclui informações detalhadas sobre a instalação e integração do [!DNL Amazon sales channel], bem como configuração e gerenciamento dos serviços. Ele pressupõe uma compreensão básica da configuração e funcionalidade principais do Commerce.
 

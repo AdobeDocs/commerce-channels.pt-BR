@@ -89,7 +89,7 @@ Depois de salvar, talvez você queira editar o atributo para revisar as configur
 
    Quando definido como `Yes`, os valores são sincronizados de acordo com sua configuração.
 
-1. Para **[!UICONTROL Select Magento Product Attribute]**, verifique ou atualize o atributo para mapear para o selecionado **[!UICONTROL Amazon Attribute Name]**.
+1. Para **[!UICONTROL Select Magento Product Attribute]**, verifique ou atualize o atributo para mapear para o **[!UICONTROL Amazon Attribute Name]**.
 
 1. Indique se deseja que o valor de atributo de entrada do Amazon substitua o valor de atributo existente.
 

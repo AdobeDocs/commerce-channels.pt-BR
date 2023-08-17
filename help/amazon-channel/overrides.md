@@ -1,5 +1,5 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Overrides]
+title: Canal de vendas da Amazon - [!UICONTROL Overrides]
 description: O Amazon Sales Channel fornece a guia Sobreposições para ajudar você a identificar e gerenciar como está aplicando sobreposições nas listagens do Amazon.
 feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2

@@ -1,12 +1,12 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Listing Changes Log]
+title: Canal de vendas da Amazon - [!UICONTROL Listing Changes Log]
 description: O Amazon Sales Channel fornece o Registro de alterações da lista para ajudar você a monitorar as alterações afetadas em sua conta de vendedor Amazon.
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

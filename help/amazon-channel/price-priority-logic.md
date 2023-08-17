@@ -26,7 +26,7 @@ Se o preço do produto estiver definido como `Use Default`, ele retorna ao valor
 
 |         | Prioridade do site | Preço (Site) | Usar padrão |
 |---------|------------------|-----------------|-------------|
-| Padrão | 0 | $31.99 | -- |
+| Padrão | 0 | $31.99 | — |
 | Loja 1 | 1 | $24.99 | Não |
 | Loja 2 | 2 | $27.99 | Sim |
 

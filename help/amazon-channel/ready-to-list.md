@@ -1,5 +1,5 @@
 ---
-title: Canal de vendas do Amazon - [!UICONTROL Ready to List]
+title: Canal de vendas da Amazon - [!UICONTROL Ready to List]
 description: O canal de vendas do Amazon fornece a guia Pronto para listar para ajudar você a revisar os produtos do Commerce que atendem à qualificação, mas não são listados automaticamente.
 feature: Sales Channels, Products, Merchandising
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a

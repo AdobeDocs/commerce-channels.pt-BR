@@ -27,7 +27,7 @@ Depois de conectar um [!DNL Commerce] armazenar em [!DNL Walmart Marketplace], c
 
    - [Adicione produtos do seu [!DNL Commerce Catalog] para o Gerenciador de canais](add-products-to-channel-store.md)
 
-   - [Conectar listas de produtos a [!DNL Walmart] uso da correspondência de produtos](connect-listings-to-marketplace.md)
+   - [Conectar listas de produtos ao [!DNL Walmart] uso da correspondência de produtos](connect-listings-to-marketplace.md)
 
    - [Saiba como [!DNL Channel Manager] sincroniza atualizações de inventário e preço entre [!DNL Commerce] e [!DNL Walmart]](inventory-and-price-updates.md)
 
