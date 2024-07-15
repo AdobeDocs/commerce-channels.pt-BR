@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ As configurações automatizadas de preço máximo protegem automaticamente o pr
 
 ## Configurar preço máximo opcional
 
-Defina suas configurações opcionais de preço mais alto na _[!UICONTROL Optional Ceiling Price]_seção.
+Defina suas configurações opcionais de preço mais alto na seção _[!UICONTROL Optional Ceiling Price]_.
 
 1. Para **[!UICONTROL Ceiling Price Source]**, escolha um atributo.
 
-   Selecione o [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) isso indica seu limite máximo relativo. Por exemplo, se você não quiser que o preço de listagem do Amazon fique acima do MSRP do seu item, escolha o `Manufacturer's Suggested Retail Price` atributo.
+   Selecione seu [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) que indica seu limite máximo relativo. Por exemplo, se você não quiser que o preço de listagem do Amazon fique acima do MSRP do seu item, escolha o atributo `Manufacturer's Suggested Retail Price`.
 
 1. Para **[!UICONTROL Ceiling Price Action]**, escolha uma opção.
 
-   - `Decrease By` - Escolha quando deseja definir o _[!UICONTROL Ceiling Price Source]_valor a ser ajustado para baixo, criando um preço máximo mais baixo para a regra, antes de listar na Amazon.
+   - `Decrease By` - Escolha quando deseja que o valor _[!UICONTROL Ceiling Price Source]_definido seja ajustado para baixo, criando um preço máximo mais baixo para a regra, antes de listar na Amazon.
 
-   - `Increase By` - Escolha quando deseja definir o _[!UICONTROL Ceiling Price Source]_valor a ser ajustado, criando um preço máximo mais alto para a regra, antes de listar na Amazon.
+   - `Increase By` - Escolha quando deseja que o valor _[!UICONTROL Ceiling Price Source]_definido seja ajustado, criando um preço máximo mais alto para a regra, antes de listar na Amazon.
 
-   - `Match` - Escolha quando não deseja que o preço de tabela flutue acima do valor definido _[!UICONTROL Ceiling Price Source]_valor. Quando definido como `Match`, o_[!UICONTROL Apply]_ e _[!UICONTROL Ceiling Adjustment Amount]_Os campos do estão desativados.
+   - `Match` - Escolha quando não deseja que o preço de lista flutue acima do valor _[!UICONTROL Ceiling Price Source]_definido. Quando definido como `Match`, os campos_[!UICONTROL Apply]_ e _[!UICONTROL Ceiling Adjustment Amount]_são desabilitados.
 
-1. Deixe a **[!UICONTROL Apply]** padrão como `Apply as percentage`.
+1. Deixe o padrão **[!UICONTROL Apply]** como `Apply as percentage`.
 
-1. Para **[!UICONTROL Ceiling Adjustment Price]**, insira o valor numérico para o percentual para ajustar _[!UICONTROL Ceiling Price Source]_valor.
+1. Para **[!UICONTROL Ceiling Adjustment Price]**, insira o valor numérico da porcentagem para ajustar o valor de _[!UICONTROL Ceiling Price Source]_.
 
 Neste exemplo, o preço máximo está definido como 2% abaixo do MSRP do item.
 
@@ -48,7 +48,7 @@ Neste exemplo, o preço máximo está definido como 2% abaixo do MSRP do item.
 
 | Campo | Descrição |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Ceiling Price Source] | Escolha o [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) isso indica seu limite máximo relativo. Por exemplo, se você não quiser que o preço da lista de produtos fique acima do MSRP do seu item, escolha a opção `Manufacturer's Suggested Retail Price` atributo. |
-| [!UICONTROL Ceiling Price Action] | Escolha uma ação de ajuste de preço. Opções:<ul><li>**[!UICONTROL Decrease By]** - Escolha quando deseja definir o _[!UICONTROL Ceiling Price Source]_valor a ser ajustado para baixo, criando um preço máximo mais baixo para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Increase By]** - Escolha quando deseja definir o _[!UICONTROL Ceiling Price Source]_valor a ser ajustado, criando um preço máximo mais alto para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Match]** - Escolha quando não deseja que o preço de tabela flutue acima do valor definido _[!UICONTROL Ceiling Price Source]_valor. Quando definido como `Match`, o_[!UICONTROL Apply]_ e _[!UICONTROL Ceiling Adjustment Amount]_Os campos do estão desativados.</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Um ajuste percentual em relação ao _[!UICONTROL Ceiling Price Source]_valor. |
-| [!UICONTROL Ceiling Price Adjustment] | Insira o valor numérico para o percentual a ser ajustado _[!UICONTROL Ceiling Price Source]_valor. |
+| [!UICONTROL Ceiling Price Source] | Escolha o [!DNL Commerce] [atributo de produto](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) que indica seu limite máximo relativo. Por exemplo, se você não quiser que o preço da lista de produtos fique acima do MSRP do seu item, escolha o atributo `Manufacturer's Suggested Retail Price`. |
+| [!UICONTROL Ceiling Price Action] | Escolha uma ação de ajuste de preço. Opções:<ul><li>**[!UICONTROL Decrease By]** - Escolha quando deseja que o valor _[!UICONTROL Ceiling Price Source]_definido seja ajustado para baixo, criando um preço máximo mais baixo para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Increase By]** - Escolha quando deseja que o valor _[!UICONTROL Ceiling Price Source]_definido seja ajustado, criando um preço máximo mais alto para a regra, antes de listar na Amazon.</li><li>**[!UICONTROL Match]** - Escolha quando não deseja que o preço de lista flutue acima do valor _[!UICONTROL Ceiling Price Source]_definido. Quando definido como `Match`, os campos_[!UICONTROL Apply]_ e _[!UICONTROL Ceiling Adjustment Amount]_são desabilitados.</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Um ajuste de porcentagem relativo ao valor _[!UICONTROL Ceiling Price Source]_. |
+| [!UICONTROL Ceiling Price Adjustment] | Insira o valor numérico para a porcentagem para ajustar o valor _[!UICONTROL Ceiling Price Source]_. |

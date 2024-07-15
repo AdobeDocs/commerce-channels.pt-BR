@@ -1,41 +1,41 @@
 ---
 title: '[!DNL Walmart] Requisitos'
-description: '''Verifique se você tem a [!DNL Walmart Marketplace]informações e recursos para integrar com o Channel Manager."'
+description: 'Verifique se você tem as  [!DNL Walmart Marketplace]informações e os recursos necessários para integrar ao Gerenciador de Canais.'
 role: Leader, Admin, Developer
 feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
-# [!DNL Walmart] Requisitos
+# [!DNL Walmart] requisitos
 
-[!DNL Channel Manager] O requer os seguintes recursos e informações para configurar um [!DNL Commerce] canal de vendas para [!DNL Walmart Marketplace.]
+O [!DNL Channel Manager] requer os seguintes recursos e informações para configurar um canal de vendas [!DNL Commerce] para [!DNL Walmart Marketplace.]
 
-* A [!DNL Walmart] Conta do Vendedor
+* Uma Conta De Vendedor [!DNL Walmart]
 
-* Uma chave de API para conectar o Adobe Commerce ou o Magento Open Source a [!DNL Walmart Marketplace]
+* Uma chave de API para conectar Adobe Commerce ou Magento Open Source a [!DNL Walmart Marketplace]
 
-  A variável [!DNL Walmart Marketplace] A chave de API permite a integração entre [!DNL Channel Manager] para Adobe [!DNL Commerce] ou o Magento Open Source e o Walmart Marketplace. Configure a chave de API na Central do vendedor antes de iniciar o processo de integração do Gerenciador de canal.
+  A chave de API [!DNL Walmart Marketplace] habilita a integração entre o [!DNL Channel Manager] para o Adobe [!DNL Commerce] ou Magento Open Source e o Walmart Marketplace. Configure a chave de API na Central do vendedor antes de iniciar o processo de integração do Gerenciador de canal.
 
-## Configurar um [!DNL Walmart Seller] account
+## Configurar uma conta do [!DNL Walmart Seller]
 
-Vá para a [!DNL Walmart Seller Center] para configurar o seu [Conta do vendedor do Walmart](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+Vá para o [!DNL Walmart Seller Center] para configurar sua [conta Walmart Seller](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
-## Gerar um [!DNL Walmart Marketplace] Chave da API de produção
+## Gerar uma chave de API de produção [!DNL Walmart Marketplace]
 
-1. Ir para [!DNL Walmart Marketplace] para gerar um [Chave da API de produção do provedor de soluções para o Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Vá para [!DNL Walmart Marketplace] para gerar uma [chave da API de produção do provedor de soluções para o Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Crie a chave e configure as permissões:
 
    * Selecione Adobe como o provedor de soluções.
 
-   * Defina as permissões conforme mostrado na tabela a seguir. Para obter detalhes, consulte [Credenciais da API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) no _Ajuda para Vendedores do Walmart Marketplace_.
+   * Defina as permissões conforme mostrado na tabela a seguir. Para obter detalhes, consulte [Credenciais da API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) na _Ajuda para Vendedores do Walmart Marketplace_.
 
-   **Configuração da chave de API do Adobe para o Walmart**
+   Configuração da chave de API **Adobe para o Walmart**
 
    | **Permissão** | **Configuração** |
    |----------------|-------------|
@@ -51,17 +51,17 @@ Vá para a [!DNL Walmart Seller Center] para configurar o seu [Conta do vendedor
    | Regras | Acesso completo |
    | Envio | Acesso completo |
 
-## [!DNL Walmart Marketplace] Status da loja
+## Status do armazenamento [!DNL Walmart Marketplace]
 
-Quando você conecta produtos ao marketplace, a disponibilidade da lista depende do status do seu [!DNL Walmart Marketplace] lojas:
+Quando você conecta produtos ao marketplace, a disponibilidade da lista depende do status das suas lojas [!DNL Walmart Marketplace]:
 
 * Para lojas ao vivo, suas ofertas de produtos são listadas e estão disponíveis para venda quando a operação de correspondência é concluída.
 
-* Para lojas que não estão ativas, as ofertas de produtos são preparadas e não ficam visíveis para os clientes. Quando a variável [!DNL Walmart Marketplace] a loja fica ativa, as listagens preparadas são enviadas para a loja ativa automaticamente.
+* Para lojas que não estão ativas, as ofertas de produtos são preparadas e não ficam visíveis para os clientes. Quando o armazenamento [!DNL Walmart Marketplace] é ativado, as listagens preparadas são enviadas automaticamente para o armazenamento ativo.
 
 ![[!DNL Walmart Seller Central] produtos preparados](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Depois [!DNL Channel Manager] O está instalado e configurado, todas as atualizações de inventário, preço e pedido são sincronizadas automaticamente. Não conectar [!DNL Channel Manager] para uma loja ativa do Walmart Marketplace até que você tenha desativado quaisquer outras integrações que atualizem os dados do produto e do pedido. Se você tiver outras integrações configuradas, verifique se a quantidade do item e os preços em [!DNL Commerce] corresponder às quantidades em [!DNL Walmart Marketplace] antes de se conectar a uma loja online.
+>Depois que o [!DNL Channel Manager] for instalado e configurado, todas as atualizações de inventário, preço e pedido serão sincronizadas automaticamente. Não conecte [!DNL Channel Manager] a uma loja ativa do Walmart Marketplace até desabilitar outras integrações que atualizem os dados do produto e do pedido. Se você tiver outras integrações configuradas, verifique se a quantidade e os preços do item em [!DNL Commerce] correspondem às quantidades em [!DNL Walmart Marketplace] antes de se conectar a uma loja em tempo real.
 

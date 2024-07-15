@@ -16,7 +16,7 @@ As Ações de Regra de Preço definem os cálculos de ajuste aplicados à origem
 
 ## Regra de preço padrão
 
-A [regra de preço padrão](./standard-price-rules.md) permite aumentar ou diminuir um preço de listagem do Amazon por uma porcentagem específica ou valor fixo em dólar relativo ao [!DNL Commerce] preço de catálogo (ou origem de preço).
+Uma [regra de preço padrão](./standard-price-rules.md) permite aumentar ou diminuir um preço de listagem do Amazon por uma porcentagem específica ou valor fixo em dólar relativo ao preço de catálogo [!DNL Commerce] (ou fonte de preço).
 
 | Seção | Descrição |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -25,11 +25,11 @@ A [regra de preço padrão](./standard-price-rules.md) permite aumentar ou dimin
 
 ## Regra inteligente de reavaliação de preços
 
-Um [regra inteligente de reavaliação de preços](./intelligent-repricing-rules.md) O usa os preços dos concorrentes da Amazon para determinar o preço de sua lista. Os concorrentes são outros vendedores que estão listando os mesmos produtos que você está listando no Amazon.
+Uma [regra inteligente de reavaliação de preços](./intelligent-repricing-rules.md) usa os preços dos concorrentes da Amazon para determinar seu preço de lista. Os concorrentes são outros vendedores que estão listando os mesmos produtos que você está listando no Amazon.
 
 | Seção | Descrição |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Defina o tipo de regra para `Intelligent repricing rule` junto com os requisitos de Fonte de preço do concorrente e Feedback. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | Defina o tipo de regra como `Intelligent repricing rule` junto com seus requisitos de Preço de Concorrente do Source e Feedback. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | Definir variações para condições do mesmo produto vendido por concorrentes. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | Definir os cálculos de ajuste aplicados à origem do preço para determinar o preço de listagem |
 | [[!UICONTROL Floor Price]](./floor-price.md) | Defina o menor preço para um produto para evitar que várias regras de precificação definam um preço de lista muito baixo. |

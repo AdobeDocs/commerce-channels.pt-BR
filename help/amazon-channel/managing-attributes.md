@@ -5,24 +5,24 @@ feature: Sales Channels, Products, Configuration
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Gerenciar atributos para listagens do Amazon
 
-AMAZON e [!DNL Commerce] ambos usam um sistema de propriedades de produto, conhecidas como atributos, usados para definir um produto. Os atributos definem a descrição, o conteúdo, as imagens, os preços e vários dados para seus produtos.
+O Amazon e o [!DNL Commerce] usam um sistema de propriedades de produto, conhecidas como atributos, usados para definir um produto. Os atributos definem a descrição, o conteúdo, as imagens, os preços e vários dados para seus produtos.
 
-A comunicação bem-sucedida entre o Commerce e o Amazon exige que [!DNL Commerce] Os atributos devem ser mapeados corretamente (ou correspondidos) ao atributo correspondente do Amazon. Ao integrar com o Amazon, você mapeia esses atributos para atributos do Amazon. Quando concluído, [!DNL Commerce] O pode sincronizar e manter suas listagens do Amazon com as [!DNL Commerce] catálogo de produtos.
+A comunicação bem-sucedida entre o Commerce e o Amazon requer que os atributos [!DNL Commerce] sejam mapeados (ou correspondidos) corretamente ao atributo Amazon correspondente. Ao integrar com o Amazon, você mapeia esses atributos para atributos do Amazon. Quando concluído, o [!DNL Commerce] poderá sincronizar e manter suas listas do Amazon com seu catálogo de produtos do [!DNL Commerce].
 
-Por exemplo, imagine que você tem o mesmo item em seu [!DNL Commerce] catálogo e Amazon. Um atributo do produto pode ser o preço de lista do item. O nome do preço de listagem em [!DNL Commerce] pode ser nomeado `Price`, embora o preço de lista do Amazon possa ser nomeado `ListingPrice`. Você deve instruir [!DNL Commerce] que, ao se comunicar com o Amazon, a variável [!DNL Commerce] atributo nomeado `Price` é o mesmo que o atributo do Amazon chamado `ListingPrice`. Esse processo é chamado de _gerenciamento de atributos_, e inclui a criação de atributos novos e a edição de atributos existentes. Garantir que os atributos sejam correspondidos corretamente garante a comunicação correta entre [!DNL Commerce] e Amazon.
+Por exemplo, imagine que você tem o mesmo item no catálogo [!DNL Commerce] e nas listagens do Amazon. Um atributo do produto pode ser o preço de lista do item. O nome do preço de listagem em [!DNL Commerce] pode se chamar `Price`, enquanto o preço de listagem do Amazon pode se chamar `ListingPrice`. Você deve instruir [!DNL Commerce] que, ao se comunicar com o Amazon, o atributo [!DNL Commerce] chamado `Price` é o mesmo que o atributo Amazon chamado `ListingPrice`. Este processo é chamado de _gerenciamento de atributos_, e inclui a criação e edição de atributos novos e existentes. A verificação da correspondência adequada dos atributos garante a comunicação correta entre o [!DNL Commerce] e a Amazon.
 
-Quando o mapeamento de atributos é configurado, [!DNL Commerce] O pode comunicar informações sobre produtos com a Amazon. Se você tiver listagens de produtos Amazon, [!DNL Commerce] pode importar seus produtos e detalhes do Amazon para o [!DNL Commerce] catálogo, permitindo gerenciar suas listagens do Amazon a partir de um único catálogo central de produtos.
+Quando o mapeamento de atributos é configurado, o [!DNL Commerce] pode comunicar informações sobre o produto com a Amazon. Se você tiver listas de produtos da Amazon, o [!DNL Commerce] poderá importar seus produtos e detalhes da Amazon para o catálogo do [!DNL Commerce], permitindo que você gerencie suas listas do Amazon a partir de um único catálogo central de produtos.
 
-O canal de vendas da Amazon permite acessar, revisar, criar e gerenciar atributos, conforme necessário, na [_[!UICONTROL Attributes]_exibir](./attributes-view.md) na página inicial do canal de vendas do Amazon. Se você adicionar um atributo ao seu [!DNL Commerce] catálogo, pode exigir uma atualização desses valores em todos os produtos.
+O canal de vendas da Amazon permite acessar, revisar, criar e gerenciar atributos, conforme necessário, na [_[!UICONTROL Attributes]_exibição](./attributes-view.md) da home page do canal de vendas da Amazon. Se você adicionar um atributo ao catálogo [!DNL Commerce], poderá exigir uma atualização desses valores em todos os produtos.
 
-Para obter mais informações sobre [!DNL Commerce] e Amazon conjuntos de atributos e valores, consulte:
+Para obter mais informações sobre [!DNL Commerce] e conjuntos e valores de atributos do Amazon, consulte:
 
 - [Gerenciar noções básicas de atributos](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Criar um atributo](./creating-attributes.md#create-an-attribute)

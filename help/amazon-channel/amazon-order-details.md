@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Detalhes do pedido Amazon
 
-![Detalhes do pedido Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
+![detalhes do pedido Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Exibir detalhes do pedido Amazon
 
-1. Clique em **[!UICONTROL View Store]** no cartão de loja.
+1. Clique em **[!UICONTROL View Store]** no cartão de armazenamento.
 
-1. No _[!UICONTROL Recent Orders]_clique em um número de pedido.
+1. Na seção _[!UICONTROL Recent Orders]_, clique em um número de pedido.
 
-   A variável _[!UICONTROL Amazon Order Details]_é aberta.
+   A página _[!UICONTROL Amazon Order Details]_é aberta.
 
 >[!NOTE]
 >
->Se você tiver a importação de pedidos ativada no seu [Configurações do pedido](./order-settings.md) e a ordem for [cumprido pela Amazon (FBA)](./fulfilled-by.md), você pode ver dados de teste para alguns campos nos detalhes do pedido. A Amazon não envia os dados a seguir para pedidos FBA.
+>Se a importação de pedidos estiver habilitada nas [Configurações do Pedido](./order-settings.md) e o pedido for [preenchido pelo Amazon (FBA)](./fulfilled-by.md), você poderá ver dados fictícios para alguns campos nos detalhes do pedido. A Amazon não envia os dados a seguir para pedidos FBA.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Guia Detalhes da Ordem e da Entrega
 
-A variável _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pedido, conforme recebidas do Amazon.
+A guia _[!UICONTROL Order and Shipping Details]_mostra informações detalhadas do pedido, conforme recebidas da Amazon.
 
 >[!IMPORTANT]
 >
@@ -53,18 +53,18 @@ A variável _[!UICONTROL Order and Shipping Details]_mostra informações detalh
 >- `Shipping postal code`
 >- `Shipping country`
 >
->Não se esqueça de clicar **Salvar pedido** depois de fazer edições.
+>Não se esqueça de clicar em **Salvar Pedido** depois de fazer edições.
 
 ![Detalhes do pedido e do envio](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Guia Itens de pedido
 
-A variável _[!UICONTROL Order Items]_A guia mostra todos os itens associados ao pedido do Amazon, conforme recebido do Amazon.
+A guia _[!UICONTROL Order Items]_mostra todos os itens associados ao pedido do Amazon, conforme recebidos do Amazon.
 
 ![Detalhes do item do pedido](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Guia Tracking
 
-A variável _[!UICONTROL Tracking]_mostra as informações de rastreamento associadas ao pedido do Amazon.
+A guia _[!UICONTROL Tracking]_mostra informações de rastreamento associadas à ordem do Amazon.
 
-![Detalhes de rastreamento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}
+![Detalhes do rastreamento](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

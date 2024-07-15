@@ -1,37 +1,37 @@
 ---
-title: '''Conectar a [!DNL Commerce] ''Serviços'''
-description: '''Conectar o Gerenciador de canal ao [!DNL Commerce] serviços para permitir a sincronização de dados e a comunicação entre os [!DNL Commerce] Channel Manager e outros serviços de apoio."'
+title: 'Conectar-se a  [!DNL Commerce] Serviços'
+description: 'Conecte o Gerenciador de Canais a  [!DNL Commerce] serviços para habilitar a sincronização de dados e a comunicação entre a instância  [!DNL Commerce] , o Gerenciador de Canais e outros serviços de suporte.'
 role: Admin, Developer
 level: Intermediate
 feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
 
-# Conectar a [!DNL Commerce] Serviços
+# Conectar-se aos Serviços do [!DNL Commerce]
 
-A variável [!DNL Commerce Services Connector] integra o serviço do Gerenciador de canais às instâncias do Adobe Commerce e do Magento Open Source. O conector permite a sincronização de dados e a comunicação entre a [!DNL Commerce] instância, [!DNL Channel Manager]e outros serviços de suporte.
+O [!DNL Commerce Services Connector] integra o serviço Gerenciador de Canais às instâncias Adobe Commerce e Magento Open Source. O conector habilita a sincronização de dados e a comunicação entre a instância [!DNL Commerce], [!DNL Channel Manager] e outros serviços de suporte.
 
-[!DNL Commerce Services Connector] a configuração é um processo único necessário [Serviços SaaS da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) como [!DNL Channel Manager], [!DNL Live Search], e [!DNL Product Recommendations]. Se você já tiver configurado o conector para outro serviço, ignore esta etapa.
+A instalação do [!DNL Commerce Services Connector] é um processo único necessário para usar os [serviços SaaS do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html), como [!DNL Channel Manager], [!DNL Live Search] e [!DNL Product Recommendations]. Se você já tiver configurado o conector para outro serviço, ignore esta etapa.
 
 ## Requisitos
 
-- **Conta do Commerce**-Para instalar o software em [!DNL Commerce] instâncias, você deve ter uma conta com acesso de Proprietário ou Administrador à [!DNL Commerce] plataforma.
+- **Conta do Commerce** - Para instalar o software em [!DNL Commerce] instâncias, é necessário ter uma conta com acesso de Proprietário ou de Administrador à plataforma [!DNL Commerce].
 
-  Os proprietários e superusuários de contas podem criar contas de administrador no [!DNL Commerce] instância ou da linha de comando usando o [!DNL Commerce] comando CLI `admin:user:create`.
+  Os proprietários de contas e Superusuários podem criar contas de Administrador na instância [!DNL Commerce] ou na linha de comando usando o comando `admin:user:create` da CLI [!DNL Commerce].
 
-- **Chave da API de produção do Adobe Commerce**-Este [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) permite o acesso da API aos serviços exigidos pelo Gerenciador de canais. Você precisa das credenciais públicas e privadas para esta chave.
+- **Chave da API de Produção do Adobe Commerce**-Esta [chave](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) habilita o acesso da API aos serviços exigidos pelo Gerenciador de Canais. Você precisa das credenciais públicas e privadas para esta chave.
 
 >[!TIP]
 >
->Para fornecer as credenciais, uma [!DNL Commerce] o titular da licença ou o proprietário da conta tem opções para [compartilhar acesso](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html), ou dê a [Chave de API](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) para um desenvolvedor confiável.
+>Para fornecer as credenciais, um titular de licença ou proprietário de conta [!DNL Commerce] tem opções para [compartilhar acesso](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) ou fornecer as credenciais da [Chave de API](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) a um desenvolvedor confiável.
 
-## Configure o [!DNL Commerce Services Connector]
+## Configurar o [!DNL Commerce Services Connector]
 
 1. Abra a Configuração dos serviços de armazenamento.
 
@@ -39,18 +39,18 @@ A variável [!DNL Commerce Services Connector] integra o serviço do Gerenciador
 
    - Em *[!UICONTROL Settings]*, selecione **[!UICONTROL Configuration]**.
 
-   - Expandir **[!UICONTROL Services]** e selecione **[!UICONTROL Commerce Services Connector]**.
+   - Expanda **[!UICONTROL Services]** e selecione **[!UICONTROL Commerce Services Connector]**.
 
 1. Adicione as credenciais da chave da API de produção da sua conta do Adobe Commerce.
 
-   ![[!DNL Commerce Services Connector] serviço no [!DNL Admin] exibir](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
+   Serviço ![[!DNL Commerce Services Connector] no modo de exibição [!DNL Admin]](assets/commerce-services-connector-admin-service-view.png){width="600" zoomable="yes"}
 
 
    >[!NOTE]
    >
-   > Se o seu [!DNL Commerce] a instância tem outros [!DNL Adobe Commerce] serviços como [!DNL Live Search] ou [!DNL Product Recommendations] instaladas, as informações de credencial são exibidas na interface e nenhuma configuração adicional é necessária.
+   > Se sua instância do [!DNL Commerce] tiver outros serviços do [!DNL Adobe Commerce], como o [!DNL Live Search] ou o [!DNL Product Recommendations] instalados, as informações de credencial serão exibidas na interface, e nenhuma configuração adicional será necessária.
 
-1. Configure o projeto SaaS e o espaço de dados para que o Commerce Services possa enviar dados para o serviço do Gerenciador de canais.
+1. Configure o projeto SaaS e o espaço de dados para que os Serviços da Commerce possam enviar dados para o serviço Gerenciador de canais.
 
-   ![[!DNL Commerce Services Connector] Configuração do identificador SaaS no [!DNL Admin] exibir](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
+   ![[!DNL Commerce Services Connector] Configuração do identificador SaaS na [!DNL Admin] visualização](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

@@ -5,14 +5,14 @@ feature: Sales Channels, Products
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Listing Improvements]
 
-A variável [!UICONTROL Listing Improvements] O relatório de mostra produtos com sugestões do Amazon para melhorar a qualidade da lista. Você pode analisar essas sugestões, que podem ajudar no desempenho dos produtos na lista do Amazon. Nenhuma ação está disponível para o log. É um recurso somente de revisão.
+O relatório [!UICONTROL Listing Improvements] mostra produtos com sugestões do Amazon para melhorar a qualidade da lista. Você pode analisar essas sugestões, que podem ajudar no desempenho dos produtos na lista do Amazon. Nenhuma ação está disponível para o log. É um recurso somente de revisão.
 
 Uma melhoria na lista recebida do Amazon não impede que seu produto seja listado com o Amazon.
 

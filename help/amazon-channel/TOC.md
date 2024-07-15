@@ -1,19 +1,19 @@
 ---
 user-guide-title: Guia do usuário do Amazon Sales Channel
-user-guide-description: Gere vendas por meio da Amazon, integrando o Adobe Commerce ou o Magento Open Source ao seu [!DNL Amazon Seller Central] conta.
+user-guide-description: Gere vendas por meio do Amazon integrando o Adobe Commerce ou o Magento Open Source à sua conta  [!DNL Amazon Seller Central] .
 breadcrumb-title: Canal de vendas da Amazon
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
 
 
-# Canal de vendas do Amazon - [!DNL channel manager] para Adobe Commerce {#amazon}
+# Canal de vendas da Amazon - [!DNL channel manager] para Adobe Commerce {#amazon}
 
 - [Guia do usuário do Amazon Sales Channel](guide-overview.md)
 - [Introdução ao canal de vendas do Amazon](overview.md)
@@ -22,10 +22,10 @@ ht-degree: 4%
    - [Amazon e o catálogo do Commerce](about-listings-and-catalog.md)
    - [Práticas recomendadas e limitações](amazon-best-practices.md)
    - [Instalar a extensão](install.md)
-- Integração {#onboarding}
+- Integração de {#onboarding}
    - [Canal de vendas integrado do Amazon](amazon-onboarding-home.md)
    - [Tarefas de pré-configuração](amazon-pre-setup-tasks.md)
-   - [Criar [!DNL Commerce] atributos para o Amazon](ob-creating-magento-attributes.md)
+   - [Criar  [!DNL Commerce] atributos para o Amazon](ob-creating-magento-attributes.md)
    - [Verifique a chave da API do Amazon](amazon-verify-api-key.md)
    - [Integração da loja](store-integration.md)
    - [Criar regra de listagem](ob-create-listing-rule.md)
@@ -56,7 +56,7 @@ ht-degree: 4%
    - [Produtos renovados](renewed-products.md)
 - [Configurações do pedido](order-settings.md)
 - [Configurações de integração de loja](store-integration-settings.md)
-- Listagem e regras de precificação {#rules}
+- Listagem e regras de preço {#rules}
    - [Regras de listagem](listing-rules.md)
    - Regras de preços {#pricing-rules}
       - [Gerenciar preços](pricing-products.md)
@@ -85,7 +85,7 @@ ht-degree: 4%
    - Logs {#logs}
       - [Log de alterações de listagem](listing-changes-log.md)
       - [Log de erros de comunicação](communication-errors-log.md)
-- Gerenciar listagens {#admin-listings}
+- Gerenciar listas {#admin-listings}
    - [Gerenciar listagens do Amazon](managing-product-listings.md)
    - Por status/guia {#status-tab}
       - [Gerenciar por status/guia](managing-listings-by-tab.md)
@@ -104,7 +104,7 @@ ht-degree: 4%
       - [Criar um SKU de Vendedor Alias](create-alias-seller-sku.md)
       - [Editar uma ASIN atribuída](edit-assigned-asin.md)
       - [Encerrar uma lista do Amazon](end-listings-manually.md)
-      - [Publicar uma lista do Amazon](publish-listings-manually.md)
+      - [PUBLISH e AMAZON](publish-listings-manually.md)
       - [Atualização das informações necessárias](amazon-manually-update-incomplete-listing.md)
       - [Exibir detalhes](product-listing-details.md)
 - Gerenciar pedidos {#admin-orders}

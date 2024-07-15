@@ -1,6 +1,6 @@
 ---
-user-guide-title: '[!DNL Channel Manager] Guia'
-user-guide-description: '"Aumente as vendas e expanda sua base de clientes integrando o Adobe Commerce ou o Magento Open Source com sua [!DNL Walmart Marketplace] Conta da Central de Vendas.'''
+user-guide-title: Guia '[!DNL Channel Manager]'
+user-guide-description: 'Aumente as vendas e expanda sua base de clientes integrando o Adobe Commerce ou o Magento Open Source com sua [!DNL Walmart Marketplace] conta da Central de Vendas.'
 breadcrumb-title: '[!DNL Channel Manager Guide]'
 role: Admin, User
 feature: Sales Channels
@@ -8,7 +8,7 @@ recommendations: noDisplay
 source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 0%
 # Gerenciador de canais - [!DNL Channel Manager] para Adobe Commerce {#channel-manager}
 
 - [Visão geral do guia](guide-overview.md)
-- [Introdução ao [!DNL Channel Manager]](overview.md)
+- [Introdução a  [!DNL Channel Manager]](overview.md)
 - [Notas de versão](release-notes.md)
 - [Requisitos do Walmart](walmart-requirements.md)
-- Integrado [!DNL Channel Manager] {#on-boarding}
+- Integrar [!DNL Channel Manager] {#on-boarding}
    - [Integração](onboard.md)
-   - [Instale o [!DNL Channel Manager] extensão](install.md)
-   - [Conectar-se a Commerce Services](connect.md)
-   - [Conectar a [!DNL Walmart Marketplace]](connect-marketplace.md)
+   - [Instalar a extensão  [!DNL Channel Manager] ](install.md)
+   - [Conectar-se aos serviços da Commerce](connect.md)
+   - [Conectar a  [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Concluir configuração do canal](complete-sales-channel-store-setup.md)
 - Definir configurações {#configure-settings}
    - [Visão geral das configurações de canal](settings-overview.md)

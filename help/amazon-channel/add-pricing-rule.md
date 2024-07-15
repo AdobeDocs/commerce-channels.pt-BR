@@ -7,17 +7,17 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Adicionar regras de preços do Amazon
 
-As regras de preços podem ser configuradas ou modificadas a qualquer momento após a integração da loja. As regras de preços fazem parte do [Configurações de listagem](./listing-settings.md) e podem ser acessados no [painel de armazenamento](./amazon-store-dashboard.md).
+As regras de preços podem ser configuradas ou modificadas a qualquer momento após a integração da loja. As regras de preços fazem parte das [Configurações de Listagem](./listing-settings.md) e podem ser acessadas no [painel de loja](./amazon-store-dashboard.md).
 
 ## Regra de preço padrão
 
-Uma ação de regra de preço padrão permite aumentar ou diminuir um preço de listagem do Amazon por uma porcentagem específica ou valor fixo em dólar em relação ao **[!UICONTROL Magento Price Source*]* definido em seu [Preço de Listagem](./listing-price.md).
+Uma ação de regra de preço padrão permite aumentar ou diminuir um preço de listagem do Amazon por uma porcentagem específica ou um valor fixo em dólar em relação ao **[!UICONTROL Magento Price Source*]* definido no seu [Preço de Listagem](./listing-price.md).
 
 ### Adicionar uma regra de preço padrão
 
